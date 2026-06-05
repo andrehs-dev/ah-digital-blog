@@ -1,5 +1,6 @@
 import Link from "next/link";
 import PostCard from "@/components/PostCard";
+import NewsletterForm from "@/components/NewsletterForm";
 import { getAllPosts, getAllTags } from "@/lib/posts";
 
 export default function Home() {
@@ -36,6 +37,11 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      {/* Newsletter */}
+      <section className="mb-16">
+        <NewsletterForm />
+      </section>
 
       {/* Posts Grid */}
       {posts.length === 0 ? (
