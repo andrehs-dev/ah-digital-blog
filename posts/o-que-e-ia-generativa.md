@@ -161,6 +161,6 @@ A **IA Generativa** não é uma moda passageira — é uma mudança de paradigma
 
 A diferença entre quem vai se beneficiar dessa revolução e quem vai ficar para trás não é talento ou formação — é **curiosidade**. Quem testa, experimenta e aprende a usar essas ferramentas naturalmente sai na frente.
 
-Quer saber como transformar esse conhecimento em renda? Dá uma olhada no post [**Como ganhar dinheiro com IA Generativa em 2026**](/como-ganhar-dinheiro-com-ia-generativa) — tem um guia prático com ferramentas, estratégias e cases reais.
+Quer saber como transformar esse conhecimento em renda? Dá uma olhada no post [**Como ganhar dinheiro com IA Generativa em 2026**](/post/como-ganhar-dinheiro-com-ia-generativa) — tem um guia prático com ferramentas, estratégias e cases reais.
 
 E se você já usa IA no dia a dia, me conta nos comentários: qual ferramenta mais te surpreendeu até hoje?

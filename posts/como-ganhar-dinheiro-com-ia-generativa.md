@@ -206,8 +206,10 @@ A maioria dos métodos pode começar com menos de R$ 200/mês (ChatGPT Plus + Ca
 
 O segredo não está na ferramenta, mas em como você a aplica. Um profissional que entende de estratégia e usa IA como acelerador vale muito mais que um que apenas aperta botões.
 
+Não entendeu ainda o que é IA Generativa? Volta e lê o [guia completo](/post/o-que-e-ia-generativa) — lá explico como essa tecnologia funciona por baixo dos panos.
+
 Meu conselho? Escolha **um** dos métodos acima, comece hoje, erre rápido, aprenda e repita. Em 3 meses, você pode estar vivendo de IA.
 
-Quer se aprofundar em como usar **ferramentas específicas de IA** pra criar conteúdo e faturar online? Dá uma olhada no guia completo de [ferramentas de IA para conteúdo](/melhores-ferramentas-de-ia-para-conteudo).
+Quer se aprofundar em como usar **ferramentas específicas de IA** pra criar conteúdo e faturar online? Dá uma olhada no guia completo de [ferramentas de IA para conteúdo](/post/melhores-ferramentas-de-ia-para-conteudo).
 
 E se você já começou a usar IA pra ganhar dinheiro, conta aqui nos comentários: qual método funcionou melhor pra você?
