@@ -1,0 +1,26 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="800" cy="200" r="250" fill="#3b82f6" opacity="0.04"/>
+  <circle cx="200" cy="800" r="200" fill="#8b5cf6" opacity="0.04"/>
+
+  <text x="140" y="220" font-family="system-ui, sans-serif" font-size="28" fill="#3b82f6" font-weight="600">IA Generativa não é só ChatGPT ✨</text>
+
+  <text x="140" y="340" font-family="system-ui, sans-serif" font-size="24" fill="#ffffff" font-weight="400">É um ramo da IA que <tspan fill="#60a5fa" font-weight="700">CRIA</tspan> conteúdo novo:</text>
+
+  <text x="140" y="440" font-family="system-ui, sans-serif" font-size="48" fill="#ffffff">📝 Textos</text>
+  <text x="140" y="520" font-family="system-ui, sans-serif" font-size="48" fill="#ffffff">🎨 Imagens</text>
+  <text x="140" y="600" font-family="system-ui, sans-serif" font-size="48" fill="#ffffff">🎵 Músicas</text>
+  <text x="140" y="680" font-family="system-ui, sans-serif" font-size="48" fill="#ffffff">💻 Código</text>
+  <text x="140" y="760" font-family="system-ui, sans-serif" font-size="48" fill="#ffffff">🎬 Vídeos</text>
+
+  <line x1="140" y1="810" x2="700" y2="810" stroke="#8b5cf6" stroke-width="2" opacity="0.3"/>
+
+  <text x="140" y="880" font-family="system-ui, sans-serif" font-size="22" fill="#94a3b8" font-weight="400">Diferente da IA tradicional que só classifica,</text>
+  <text x="140" y="920" font-family="system-ui, sans-serif" font-size="22" fill="#94a3b8" font-weight="400">a Generativa <tspan fill="#f59e0b" font-weight="600">PRODUZ</tspan> coisas que não existiam.</text>
+</svg>

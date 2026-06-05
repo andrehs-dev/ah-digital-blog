@@ -1,0 +1,33 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="900" cy="900" r="350" fill="#10b981" opacity="0.03"/>
+  <circle cx="200" cy="200" r="200" fill="#3b82f6" opacity="0.04"/>
+
+  <text x="140" y="220" font-family="system-ui, sans-serif" font-size="28" fill="#10b981" font-weight="600">Onde ela já está mudando o jogo:</text>
+
+  <!-- Cards -->
+  <rect x="140" y="290" width="800" height="75" rx="12" fill="#1e293b" opacity="0.4"/>
+  <text x="180" y="335" font-family="system-ui, sans-serif" font-size="20" fill="#ffffff">📱 <tspan fill="#3b82f6" font-weight="600">Google</tspan> — respostas IA no topo das buscas</text>
+
+  <rect x="140" y="385" width="800" height="75" rx="12" fill="#1e293b" opacity="0.4"/>
+  <text x="180" y="430" font-family="system-ui, sans-serif" font-size="20" fill="#ffffff">💼 <tspan fill="#8b5cf6" font-weight="600">Microsoft Office</tspan> — Copilot escreve documentos</text>
+
+  <rect x="140" y="480" width="800" height="75" rx="12" fill="#1e293b" opacity="0.4"/>
+  <text x="180" y="525" font-family="system-ui, sans-serif" font-size="20" fill="#ffffff">🎨 <tspan fill="#06b6d4" font-weight="600">Photoshop</tspan> — edição por comando de texto</text>
+
+  <rect x="140" y="575" width="800" height="75" rx="12" fill="#1e293b" opacity="0.4"/>
+  <text x="180" y="620" font-family="system-ui, sans-serif" font-size="20" fill="#ffffff">👨‍💻 <tspan fill="#10b981" font-weight="600">VS Code</tspan> — programação 2x mais rápida</text>
+
+  <rect x="140" y="670" width="800" height="75" rx="12" fill="#1e293b" opacity="0.4"/>
+  <text x="180" y="715" font-family="system-ui, sans-serif" font-size="20" fill="#ffffff">🏥 <tspan fill="#f59e0b" font-weight="600">Hospitais</tspan> — laudos médicos com IA</text>
+
+  <line x1="140" y1="810" x2="700" y2="810" stroke="#10b981" stroke-width="2" opacity="0.3"/>
+
+  <text x="140" y="880" font-family="system-ui, sans-serif" font-size="22" fill="#94a3b8">E isso é só o começo 🚀</text>
+</svg>

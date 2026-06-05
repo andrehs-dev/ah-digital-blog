@@ -1,0 +1,30 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="540" cy="300" r="200" fill="#3b82f6" opacity="0.06"/>
+  <circle cx="540" cy="700" r="200" fill="#8b5cf6" opacity="0.06"/>
+
+  <text x="540" y="350" font-family="system-ui, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" font-weight="400">A diferença entre quem vai se beneficiar</text>
+  <text x="540" y="410" font-family="system-ui, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" font-weight="400">e quem vai ficar pra trás?</text>
+
+  <text x="540" y="550" font-family="system-ui, sans-serif" font-size="60" fill="url(#title)" text-anchor="middle" font-weight="800">NÃO É TALENTO</text>
+
+  <text x="540" y="660" font-family="system-ui, sans-serif" font-size="28" fill="#60a5fa" text-anchor="middle" opacity="0.6">É CURIOSIDADE.</text>
+
+  <text x="540" y="780" font-family="system-ui, sans-serif" font-size="24" fill="#94a3b8" text-anchor="middle">Quem testa, experimenta e aprende</text>
+  <text x="540" y="820" font-family="system-ui, sans-serif" font-size="24" fill="#94a3b8" text-anchor="middle">sai na frente 🚀</text>
+
+  <rect x="340" y="900" width="400" height="56" rx="28" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.4"/>
+  <text x="540" y="935" font-family="system-ui, sans-serif" font-size="18" fill="#3b82f6" text-anchor="middle" font-weight="600">👉 LINK NA BIO</text>
+
+  <text x="540" y="1020" font-family="system-ui, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" opacity="0.12" letter-spacing="3">AH DIGITAL BLOG</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="200" cy="800" r="300" fill="#06b6d4" opacity="0.04"/>
+  <circle cx="900" cy="300" r="200" fill="#3b82f6" opacity="0.04"/>
+
+  <text x="140" y="220" font-family="system-ui, sans-serif" font-size="28" fill="#06b6d4" font-weight="600">Como ela faz isso? 🤔</text>
+
+  <!-- LLM Box -->
+  <rect x="140" y="320" width="800" height="170" rx="16" fill="#1e293b" opacity="0.5"/>
+  <text x="180" y="380" font-family="system-ui, sans-serif" font-size="20" fill="#3b82f6" font-weight="600">🧠 LLMs (Large Language Models)</text>
+  <text x="180" y="420" font-family="system-ui, sans-serif" font-size="18" fill="#cbd5e1">Treinados com GRANDE PARTE DA INTERNET</text>
+  <text x="180" y="455" font-family="system-ui, sans-serif" font-size="18" fill="#94a3b8">Pra aprender padrões de linguagem</text>
+
+  <!-- Diffusion Box -->
+  <rect x="140" y="530" width="800" height="170" rx="16" fill="#1e293b" opacity="0.5"/>
+  <text x="180" y="590" font-family="system-ui, sans-serif" font-size="20" fill="#06b6d4" font-weight="600">🎨 Modelos de Difusão</text>
+  <text x="180" y="630" font-family="system-ui, sans-serif" font-size="18" fill="#cbd5e1">Começam com um borrão e vão "limpando"</text>
+  <text x="180" y="665" font-family="system-ui, sans-serif" font-size="18" fill="#94a3b8">Até formar a imagem que você pediu</text>
+
+  <line x1="140" y1="750" x2="700" y2="750" stroke="#06b6d4" stroke-width="2" opacity="0.3"/>
+
+  <text x="140" y="820" font-family="system-ui, sans-serif" font-size="22" fill="#94a3b8">Tipo um artista que pratica até ficar bom 🎯</text>
+</svg>
