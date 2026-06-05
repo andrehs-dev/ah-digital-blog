@@ -1,0 +1,55 @@
+import Link from "next/link";
+import type { PostMeta } from "@/lib/types";
+
+function formatDate(dateStr: string) {
+  if (!dateStr) return "";
+  const date = new Date(dateStr);
+  return date.toLocaleDateString("pt-BR", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+export default function PostCard({ post }: { post: PostMeta }) {
+  return (
+    <Link href={`/post/${post.slug}`} className="group block">
+      <article className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-blue-500/50 hover:bg-white/10">
+        {post.image && (
+          <div className="mb-4 overflow-hidden rounded-xl">
+            <img
+              src={post.image}
+              alt={post.title}
+              className="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
+        )}
+
+        <div className="mb-3 flex flex-wrap gap-2">
+          {post.tags?.map((tag) => (
+            <span
+              key={tag}
+              className="rounded-full bg-blue-500/10 px-3 py-1 text-xs text-blue-400"
+            >
+              #{tag}
+            </span>
+          ))}
+        </div>
+
+        <h2 className="mb-2 text-xl font-semibold text-white transition group-hover:text-blue-400">
+          {post.title}
+        </h2>
+
+        <p className="mb-4 line-clamp-2 text-sm leading-relaxed text-white/60">
+          {post.description}
+        </p>
+
+        <div className="flex items-center gap-3 text-xs text-white/40">
+          <time>{formatDate(post.date)}</time>
+          <span>·</span>
+          <span>{post.readingTime} min de leitura</span>
+        </div>
+      </article>
+    </Link>
+  );
+}
