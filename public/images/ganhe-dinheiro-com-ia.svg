@@ -1,0 +1,110 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="100%" stop-color="#1a0f0a"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="moneyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Ambient glow circles -->
+  <circle cx="200" cy="315" r="260" fill="url(#glow1)"/>
+  <circle cx="950" cy="220" r="200" fill="url(#glow2)"/>
+
+  <!-- Grid pattern subtle -->
+  <g opacity="0.04" stroke="#f59e0b" stroke-width="0.5">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="150" y1="0" x2="150" y2="630"/>
+    <line x1="350" y1="0" x2="350" y2="630"/>
+    <line x1="550" y1="0" x2="550" y2="630"/>
+    <line x1="750" y1="0" x2="750" y2="630"/>
+    <line x1="950" y1="0" x2="950" y2="630"/>
+  </g>
+
+  <!-- Left side: Growth chart / arrow -->
+  <g transform="translate(80, 180)" opacity="0.7">
+    <!-- Chart bars -->
+    <rect x="0" y="80" width="50" height="40" rx="4" fill="#f59e0b" opacity="0.4"/>
+    <rect x="70" y="50" width="50" height="70" rx="4" fill="#f59e0b" opacity="0.5"/>
+    <rect x="140" y="30" width="50" height="90" rx="4" fill="#f97316" opacity="0.6"/>
+    <rect x="210" y="10" width="50" height="110" rx="4" fill="#10b981" opacity="0.7"/>
+
+    <!-- Trendline -->
+    <polyline points="25,100 95,80 165,55 235,25" fill="none" stroke="#10b981" stroke-width="2.5" opacity="0.8"/>
+    <circle cx="235" cy="25" r="5" fill="#10b981" opacity="0.8">
+      <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Center: Dollar sign icon -->
+  <g transform="translate(320, 200)" opacity="0.6">
+    <text x="0" y="100" font-family="system-ui, sans-serif" font-size="120" font-weight="700" fill="#f59e0b" opacity="0.3">$</text>
+    <text x="60" y="150" font-family="system-ui, sans-serif" font-size="90" font-weight="700" fill="#f59e0b" opacity="0.2">$</text>
+    <text x="-40" y="180" font-family="system-ui, sans-serif" font-size="70" font-weight="700" fill="#f59e0b" opacity="0.15">$</text>
+
+    <!-- Rotating coins -->
+    <circle cx="20" cy="60" r="16" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.2;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="10" y="67" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#f59e0b" opacity="0.6">$</text>
+  </g>
+
+  <!-- Right side: AI / Circuit elements -->
+  <g transform="translate(600, 160)" opacity="0.6">
+    <!-- Abstract AI chip -->
+    <rect x="0" y="20" width="180" height="120" rx="12" fill="none" stroke="url(#moneyGrad)" stroke-width="1.5" opacity="0.4"/>
+    <rect x="15" y="35" width="60" height="40" rx="6" fill="#f59e0b" opacity="0.1"/>
+    <rect x="85" y="35" width="80" height="40" rx="6" fill="#f97316" opacity="0.1"/>
+    <rect x="15" y="85" width="150" height="40" rx="6" fill="#10b981" opacity="0.1"/>
+
+    <!-- Circuit lines -->
+    <line x1="90" y1="55" x2="180" y2="55" stroke="#f59e0b" stroke-width="1" opacity="0.3"/>
+    <line x1="45" y1="75" x2="45" y2="130" stroke="#f59e0b" stroke-width="1" opacity="0.3"/>
+    <line x1="125" y1="75" x2="125" y2="130" stroke="#f97316" stroke-width="1" opacity="0.3"/>
+
+    <!-- Nodes -->
+    <circle cx="180" cy="55" r="4" fill="#f59e0b" opacity="0.6">
+      <animate attributeName="r" values="4;7;4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="45" cy="130" r="3" fill="#10b981" opacity="0.5">
+      <animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Connection line from AI chip to money -->
+  <g opacity="0.12" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="8,6">
+    <line x1="500" y1="280" x2="600" y2="220"/>
+    <line x1="500" y1="320" x2="600" y2="260"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="80" y="480" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-1">
+    Ganhe Dinheiro com IA
+  </text>
+  <text x="80" y="530" font-family="system-ui, sans-serif" font-size="22" font-weight="400" fill="#f59e0b" letter-spacing="0" opacity="0.85">
+    Guia prático para faturar usando inteligência artificial
+  </text>
+
+  <!-- Logo/watermark -->
+  <text x="80" y="580" font-family="system-ui, sans-serif" font-size="14" fill="#ffffff" opacity="0.2" letter-spacing="3">AH DIGITAL BLOG</text>
+</svg>
