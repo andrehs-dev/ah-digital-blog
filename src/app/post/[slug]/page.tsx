@@ -67,6 +67,17 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         </div>
       </header>
 
+      {/* Featured Image */}
+      {post.meta.image && (
+        <div className="mb-8 overflow-hidden rounded-2xl">
+          <img
+            src={post.meta.image}
+            alt={post.meta.title}
+            className="w-full object-cover"
+          />
+        </div>
+      )}
+
       {/* Content */}
       <div className="prose">
         <Markdown remarkPlugins={[remarkGfm]}>{post.content}</Markdown>

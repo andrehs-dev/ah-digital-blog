@@ -3,7 +3,7 @@ title: "O que é IA Generativa? Guia completo para 2026"
 description: "Descubra o que é IA Generativa, como funciona, aplicações reais e como ela está transformando o mundo em 2026. Guia completo e didático."
 date: "2026-06-05"
 tags: [ia, inteligencia-artificial, tecnologia, tendencias]
-image: "/images/ia-generativa.jpg"
+image: "/images/ia-generativa.svg"
 ---
 
 # O Que é IA Generativa e Como Está Mudando o Mundo em 2026

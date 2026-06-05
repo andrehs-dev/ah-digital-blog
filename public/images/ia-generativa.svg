@@ -1,0 +1,124 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#1a0a2e"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="neuralGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Ambient glow circles -->
+  <circle cx="200" cy="315" r="250" fill="url(#glow1)"/>
+  <circle cx="900" cy="200" r="200" fill="url(#glow2)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.05" stroke="#3b82f6" stroke-width="0.5">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+  </g>
+
+  <!-- Neural network nodes -->
+  <g opacity="0.6">
+    <!-- Central brain shape -->
+    <ellipse cx="350" cy="315" rx="120" ry="140" fill="none" stroke="url(#neuralGrad)" stroke-width="1.5" opacity="0.3"/>
+
+    <!-- Nodes -->
+    <circle cx="350" cy="200" r="6" fill="#3b82f6" opacity="0.8"/>
+    <circle cx="280" cy="260" r="5" fill="#8b5cf6" opacity="0.7"/>
+    <circle cx="420" cy="260" r="5" fill="#8b5cf6" opacity="0.7"/>
+    <circle cx="250" cy="340" r="4" fill="#06b6d4" opacity="0.6"/>
+    <circle cx="450" cy="340" r="4" fill="#06b6d4" opacity="0.6"/>
+    <circle cx="350" cy="400" r="5" fill="#3b82f6" opacity="0.7"/>
+    <circle cx="300" cy="310" r="4" fill="#60a5fa" opacity="0.5"/>
+    <circle cx="400" cy="310" r="4" fill="#60a5fa" opacity="0.5"/>
+
+    <!-- Connections -->
+    <line x1="350" y1="200" x2="280" y2="260" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
+    <line x1="350" y1="200" x2="420" y2="260" stroke="#3b82f6" stroke-width="1" opacity="0.3"/>
+    <line x1="280" y1="260" x2="250" y2="340" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+    <line x1="420" y1="260" x2="450" y2="340" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+    <line x1="250" y1="340" x2="350" y2="400" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+    <line x1="450" y1="340" x2="350" y2="400" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+    <line x1="280" y1="260" x2="300" y2="310" stroke="#60a5fa" stroke-width="0.8" opacity="0.2"/>
+    <line x1="420" y1="260" x2="400" y2="310" stroke="#60a5fa" stroke-width="0.8" opacity="0.2"/>
+    <line x1="300" y1="310" x2="400" y2="310" stroke="#60a5fa" stroke-width="0.8" opacity="0.2"/>
+
+    <!-- Animated pulse dots -->
+    <circle cx="350" cy="200" r="3" fill="#3b82f6">
+      <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="260" r="3" fill="#8b5cf6">
+      <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" y1="340" r="3" fill="#06b6d4">
+      <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Right side: icons representing outputs -->
+  <g transform="translate(580, 180)" opacity="0.7">
+    <!-- Text icon -->
+    <rect x="0" y="0" width="40" height="50" rx="4" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+    <line x1="8" y1="14" x2="32" y2="14" stroke="#3b82f6" stroke-width="1.5"/>
+    <line x1="8" y1="22" x2="28" y2="22" stroke="#3b82f6" stroke-width="1.5"/>
+    <line x1="8" y1="30" x2="24" y2="30" stroke="#3b82f6" stroke-width="1.5"/>
+    <line x1="8" y1="38" x2="30" y2="38" stroke="#3b82f6" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(580, 270)" opacity="0.7">
+    <!-- Image icon -->
+    <rect x="0" y="0" width="50" height="40" rx="4" fill="none" stroke="#8b5cf6" stroke-width="1.5"/>
+    <circle cx="15" cy="15" r="5" fill="none" stroke="#8b5cf6" stroke-width="1.5"/>
+    <polyline points="0,40 18,25 30,40" fill="none" stroke="#8b5cf6" stroke-width="1.5"/>
+    <line x1="30" y1="40" x2="50" y2="20" stroke="#8b5cf6" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(580, 350)" opacity="0.7">
+    <!-- Code icon -->
+    <rect x="0" y="0" width="50" height="50" rx="4" fill="none" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="8" y="32" font-family="monospace" font-size="14" fill="#06b6d4" opacity="0.5">&lt;/&gt;</text>
+  </g>
+
+  <!-- Connecting lines from brain to icons -->
+  <g opacity="0.15" stroke="#3b82f6" stroke-width="1">
+    <line x1="470" y1="250" x2="580" y2="205"/>
+    <line x1="470" y1="315" x2="580" y2="290"/>
+    <line x1="470" y1="360" x2="580" y2="375"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="650" y="480" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="-1">
+    IA Generativa
+  </text>
+  <text x="650" y="530" font-family="system-ui, sans-serif" font-size="22" font-weight="400" fill="#60a5fa" letter-spacing="0" opacity="0.8">
+    O que é e como está mudando o mundo
+  </text>
+
+  <!-- Logo/watermark -->
+  <text x="50" y="580" font-family="system-ui, sans-serif" font-size="14" fill="#ffffff" opacity="0.2" letter-spacing="3">AH DIGITAL BLOG</text>
+</svg>
