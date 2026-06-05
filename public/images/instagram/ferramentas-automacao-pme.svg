@@ -1,0 +1,52 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="350" fill="url(#glow1)"/>
+  <g opacity="0.03" stroke="#ffffff">
+    <line x1="0" y1="180" x2="1080" y2="180"/>
+    <line x1="0" y1="360" x2="1080" y2="360"/>
+    <line x1="0" y1="540" x2="1080" y2="540"/>
+    <line x1="0" y1="720" x2="1080" y2="720"/>
+    <line x1="0" y1="900" x2="1080" y2="900"/>
+  </g>
+  <!-- Lista com check -->
+  <g transform="translate(540, 300)">
+    <rect x="-80" y="-60" width="160" height="120" rx="15" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.4"/>
+    <g fill="#a0a0c0">
+      <rect x="-50" y="-35" width="90" height="7" rx="3.5" opacity="0.6"/>
+      <rect x="-50" y="-10" width="90" height="7" rx="3.5" opacity="0.6"/>
+      <rect x="-50" y="15" width="70" height="7" rx="3.5" opacity="0.6"/>
+      <rect x="-50" y="40" width="80" height="7" rx="3.5" opacity="0.6"/>
+    </g>
+    <g stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="-62" y1="-32" x2="-56" y2="-26"/>
+      <line x1="-56" y1="-26" x2="-45" y2="-38"/>
+      <line x1="-62" y1="-7" x2="-56" y2="-1"/>
+      <line x1="-56" y1="-1" x2="-45" y2="-13"/>
+    </g>
+  </g>
+  <text x="60" y="650" font-family="Montserrat, system-ui, sans-serif" font-size="54" font-weight="700" fill="#ffffff">
+    7 ferramentas de
+  </text>
+  <text x="60" y="720" font-family="Montserrat, system-ui, sans-serif" font-size="54" font-weight="700" fill="#ffffff">
+    automação para PME
+  </text>
+  <text x="60" y="790" font-family="Montserrat, system-ui, sans-serif" font-size="22" font-weight="400" fill="#a0a0c0">
+    Testadas — de R$ 0 a acessível
+  </text>
+  <rect x="60" y="830" width="60" height="4" rx="2" fill="url(#accent)"/>
+  <text x="60" y="1020" font-family="Montserrat, system-ui, sans-serif" font-size="14" fill="#404070" letter-spacing="3">@ANDREHS.DEV</text>
+</svg>

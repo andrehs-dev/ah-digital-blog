@@ -1,0 +1,87 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Glows -->
+  <circle cx="200" cy="200" r="300" fill="url(#glow1)"/>
+  <circle cx="1000" cy="400" r="300" fill="url(#glow2)"/>
+
+  <!-- Grid sutil -->
+  <g opacity="0.03" stroke="#ffffff">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Círculos decorativos -->
+  <circle cx="150" cy="150" r="8" fill="#00d4ff" opacity="0.3"/>
+  <circle cx="1050" cy="120" r="12" fill="#7b2ff7" opacity="0.2"/>
+  <circle cx="350" cy="500" r="6" fill="#00d4ff" opacity="0.2"/>
+
+  <!-- Engrenagem estilizada (ícone de automação) -->
+  <g transform="translate(600, 230)">
+    <!-- Círculo externo dentado -->
+    <circle cx="0" cy="0" r="65" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.6"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.8"/>
+    <!-- Dentes -->
+    <g stroke="#00d4ff" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-75" x2="0" y2="-90" opacity="0.7"/>
+      <line x1="53" y1="-53" x2="64" y2="-64" opacity="0.5"/>
+      <line x1="75" y1="0" x2="90" y2="0" opacity="0.7"/>
+      <line x1="53" y1="53" x2="64" y2="64" opacity="0.5"/>
+      <line x1="0" y1="75" x2="0" y2="90" opacity="0.7"/>
+      <line x1="-53" y1="53" x2="-64" y2="64" opacity="0.5"/>
+      <line x1="-75" y1="0" x2="-90" y2="0" opacity="0.7"/>
+      <line x1="-53" y1="-53" x2="-64" y2="-64" opacity="0.5"/>
+    </g>
+    <!-- Centro AH -->
+    <text x="0" y="4" font-family="Montserrat, system-ui, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="url(#accent)">AH</text>
+  </g>
+
+  <!-- Título -->
+  <text x="80" y="400" font-family="Montserrat, system-ui, sans-serif" font-size="48" font-weight="700" fill="#ffffff">
+    Automação para
+  </text>
+  <text x="80" y="460" font-family="Montserrat, system-ui, sans-serif" font-size="48" font-weight="700" fill="#ffffff">
+    pequenas empresas
+  </text>
+
+  <!-- Subtítulo -->
+  <text x="80" y="510" font-family="Montserrat, system-ui, sans-serif" font-size="20" font-weight="400" fill="#a0a0c0">
+    O que dá pra fazer — e o que não é bicho de 7 cabeças
+  </text>
+
+  <!-- Linha divisória -->
+  <rect x="80" y="540" width="60" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Footer -->
+  <text x="80" y="585" font-family="Montserrat, system-ui, sans-serif" font-size="12" fill="#404070" letter-spacing="3">
+    AH DIGITAL BLOG
+  </text>
+</svg>
