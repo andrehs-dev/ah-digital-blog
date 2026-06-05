@@ -35,9 +35,9 @@ export async function POST(request: Request) {
       const errorData = await response.json().catch(() => ({}));
 
       // Email já cadastrado não é erro de verdade
-      if (response.status === 400 && errorData?.email?.includes("already")) {
+      if (errorData?.code === "email_already_exists") {
         return NextResponse.json(
-          { message: "Esse email já está na lista!" },
+          { message: "Esse email já está na lista! 🎉" },
           { status: 200 }
         );
       }
