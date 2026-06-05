@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className="dark">
-      <body className="min-h-screen bg-black text-white antialiased">
+    <html lang="pt-BR" className="dark" suppressHydrationWarning>
+      <body className="min-h-screen antialiased">
         <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.08),transparent_50%)] pointer-events-none" />
         <Header />
         <main className="relative min-h-screen">{children}</main>

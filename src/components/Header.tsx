@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,13 +26,16 @@ export default function Header() {
           </Link>
         </nav>
 
-        <button
+        <div className="flex items-center gap-3">
+          <ThemeToggle />
+          <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="text-white md:hidden"
           aria-label="Menu"
         >
           {menuOpen ? "✕" : "☰"}
         </button>
+        </div>
       </div>
 
       {menuOpen && (
