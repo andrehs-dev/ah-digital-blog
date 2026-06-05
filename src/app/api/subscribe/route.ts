@@ -28,7 +28,7 @@ export async function POST(request: Request) {
         Authorization: `Token ${BUTTONDOWN_API_KEY}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ email }),
+      body: JSON.stringify({ email_address: email }),
     });
 
     if (!response.ok) {
