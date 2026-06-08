@@ -3,7 +3,7 @@ title: "Conheça a AH Digital Solutions — Sites, Sistemas e Automação"
 description: "Precisa de um site profissional, mas não quer pagar uma fortuna? Conheça a AH Digital Solutions, criada por quem entende de tecnologia e de negócio."
 date: "2026-06-08"
 tags: [ah-digital, servicos, sites, automacao, tecnologia]
-image: "/images/ah-digital-solutions.svg"
+image: "/images/ah-digital-solutions.png"
 ---
 
 Se você está lendo este blog, provavelmente se interessa por tecnologia, produtividade e como usar ferramentas digitais pra melhorar seus resultados.
