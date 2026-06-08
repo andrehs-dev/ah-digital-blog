@@ -12,18 +12,28 @@ export default function TagsPage() {
   const tags = getAllTags();
   const posts = getAllPosts();
 
+  // Contar quantos posts por tag e filtrar só as com 2+ posts
+  const tagCounts = tags
+    .map((tag: string) => ({
+      tag,
+      count: posts.filter((p: any) => p.tags?.includes(tag)).length,
+    }))
+    .filter((t) => t.count >= 2)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 15);
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-16">
-      <h1 className="mb-8 text-3xl font-bold text-white">Todas as Tags</h1>
+      <h1 className="mb-8 text-3xl font-bold text-white">Tags</h1>
 
       <div className="mb-12 flex flex-wrap gap-3">
-        {tags.map((tag: string) => (
+        {tagCounts.map(({ tag, count }) => (
           <Link
             key={tag}
             href={`/tags/${tag}`}
             className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/60 transition hover:border-blue-500/50 hover:text-white"
           >
-            #{tag} ({posts.filter((p: any) => p.tags?.includes(tag)).length})
+            #{tag} ({count})
           </Link>
         ))}
       </div>

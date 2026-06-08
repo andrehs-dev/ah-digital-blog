@@ -25,7 +25,15 @@ export default function Home() {
       {tags.length > 0 && (
         <section className="mb-12">
           <div className="flex flex-wrap justify-center gap-2">
-            {tags.map((tag) => (
+            {tags
+              .map((tag) => ({
+                tag,
+                count: posts.filter((p) => p.tags?.includes(tag)).length,
+              }))
+              .filter((t) => t.count >= 2)
+              .sort((a, b) => b.count - a.count)
+              .slice(0, 8)
+              .map(({ tag }) => (
               <Link
                 key={tag}
                 href={`/tags/${tag}`}
