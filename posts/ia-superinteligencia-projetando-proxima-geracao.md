@@ -96,7 +96,7 @@ O ponto aqui não é alarmismo. É reconhecer que oportunidade e risco andam jun
 
 Este post se conecta diretamente com um tema que já exploramos antes: o **ChatGPT com memória melhorada**. Há algumas semanas, mostramos como a OpenAI aprimorou a capacidade do ChatGPT de reter informações entre conversas, eliminando a necessidade de repetir contexto. Essa evolução, que parece pequena isoladamente, é na verdade um passo importante na direção que Masayoshi Son descreve: sistemas que aprendem continuamente e se tornam mais inteligentes sem intervenção humana.
 
-Se você ainda não leu, vale a pena conferir: [OpenAI melhorou a memória do ChatGPT — e o que isso quer dizer](./openai-melhorou-a-memoria-do-chatgpt.md).
+Se você ainda não leu, vale a pena conferir: [OpenAI melhorou a memória do ChatGPT — e o que isso quer dizer](./openai-melhorou-a-memoria-do-chatgpt).
 
 ## O que esperar dos próximos meses
 
