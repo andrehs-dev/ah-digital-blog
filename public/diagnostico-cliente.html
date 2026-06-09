@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagnóstico Digital — Cliente</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:16px}
+  .container{max-width:600px;margin:0 auto}
+  h1{font-size:22px;color:#a78bfa;margin-bottom:4px;text-align:center}
+  .sub{font-size:13px;color:#64748b;text-align:center;margin-bottom:24px}
+  .card{background:#1e293b;border-radius:12px;padding:16px;margin-bottom:16px;border:1px solid #334155}
+  .card-title{font-size:14px;font-weight:600;color:#a78bfa;margin-bottom:12px;display:flex;align-items:center;gap:6px}
+  label{display:block;font-size:13px;color:#94a3b8;margin-bottom:4px;margin-top:10px}
+  label:first-child{margin-top:0}
+  input,select,textarea{width:100%;padding:10px 12px;border-radius:8px;border:1px solid #334155;background:#0f172a;color:#e2e8f0;font-size:14px;outline:none;transition:border-color .2s}
+  input:focus,select:focus,textarea:focus{border-color:#7c3aed}
+  textarea{resize:vertical;min-height:60px;font-family:inherit}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .full{grid-column:1/-1}
+  .checklist{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+  .check-item{display:flex;align-items:center;gap:6px;background:#0f172a;padding:6px 10px;border-radius:6px;border:1px solid #334155;font-size:12px;cursor:pointer}
+  .check-item input{width:16px;height:16px;accent-color:#7c3aed}
+  .check-item.active{border-color:#7c3aed;background:#1a0a3e}
+  .btn-save{width:100%;padding:14px;background:#7c3aed;color:#fff;border:none;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;margin-top:8px}
+  .btn-save:hover{background:#6d28d9}
+  .status{text-align:center;padding:10px;border-radius:8px;margin-top:12px;display:none;font-size:13px}
+  .status.ok{display:block;background:#064e3b;color:#6ee7b7}
+  .status.erro{display:block;background:#450a0a;color:#fca5a5}
+  hr{border:none;border-top:1px solid #334155;margin:16px 0}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📋 Diagnóstico Digital</h1>
+  <p class="sub">Preenche que eu processo e monto o site 🚀</p>
+
+  <!-- 1. INFO BÁSICA -->
+  <div class="card">
+    <div class="card-title">📍 Informações básicas</div>
+    <label>Nome da empresa / profissional</label>
+    <input id="nome" placeholder="Ex: Cebola Moto Peças" />
+    <div class="row">
+      <div><label>Responsável</label><input id="responsavel" placeholder="Duda" /></div>
+      <div><label>Segmento</label><input id="segmento" placeholder="Moto peças" /></div>
+    </div>
+    <div class="row">
+      <div><label>Cidade</label><input id="cidade" placeholder="Santa Bárbara d'Oeste" /></div>
+      <div><label>WhatsApp</label><input id="whatsapp" placeholder="(19) 99151-7629" /></div>
+    </div>
+    <label>Instagram</label>
+    <input id="instagram" placeholder="@cebolamotopecassbo" />
+    <label>Site atual (se tiver)</label>
+    <input id="site_atual" placeholder="cebolamotopecas.com.br" />
+  </div>
+
+  <!-- 2. GMN -->
+  <div class="card">
+    <div class="card-title">🗺️ Google Meu Negócio</div>
+    <div class="row">
+      <div><label>Tem GMN?</label>
+        <select id="gmn_tem"><option value="">Selecione</option><option>Sim</option><option>Não</option></select>
+      </div>
+      <div><label>Nota</label><input id="gmn_nota" placeholder="4.5" /></div>
+    </div>
+    <div class="row">
+      <div><label>Avaliações</label><input id="gmn_avaliacoes" placeholder="23" /></div>
+      <div><label>Fotos</label><input id="gmn_fotos" placeholder="3" /></div>
+    </div>
+    <label class="full" style="margin-top:10px">Problemas encontrados:</label>
+    <div class="checklist" id="gmn-problemas">
+      <label class="check-item"><input type="checkbox" value="info-desatualizada" /> Info desatualizada</label>
+      <label class="check-item"><input type="checkbox" value="contato-errado" /> Contato errado</label>
+      <label class="check-item"><input type="checkbox" value="poucas-fotos" /> Poucas fotos</label>
+      <label class="check-item"><input type="checkbox" value="sem-site" /> Sem link de site</label>
+      <label class="check-item"><input type="checkbox" value="sem-whats" /> Sem WhatsApp</label>
+      <label class="check-item"><input type="checkbox" value="sem-posts" /> Sem postagens</label>
+    </div>
+  </div>
+
+  <!-- 3. SITE -->
+  <div class="card">
+    <div class="card-title">🌐 Site / Landing Page</div>
+    <label>Tem site hoje?</label>
+    <select id="site_tem"><option value="">Selecione</option><option>Sim</option><option>Não</option></select>
+    <label>O que PRECISA ter no site novo:</label>
+    <div class="checklist" id="site-precisa">
+      <label class="check-item"><input type="checkbox" value="hero" /> Hero forte</label>
+      <label class="check-item"><input type="checkbox" value="servicos" /> Serviços</label>
+      <label class="check-item"><input type="checkbox" value="sobre" /> Sobre</label>
+      <label class="check-item"><input type="checkbox" value="depoimentos" /> Depoimentos</label>
+      <label class="check-item"><input type="checkbox" value="galeria" /> Galeria de fotos</label>
+      <label class="check-item"><input type="checkbox" value="whatsapp" /> WhatsApp direto</label>
+      <label class="check-item"><input type="checkbox" value="mapa" /> Mapa</label>
+      <label class="check-item"><input type="checkbox" value="blog" /> Blog</label>
+    </div>
+  </div>
+
+  <!-- 4. FOTOS -->
+  <div class="card">
+    <div class="card-title">📸 Fotos e Conteúdo</div>
+    <label>O que tem disponível:</label>
+    <div class="checklist" id="fotos">
+      <label class="check-item"><input type="checkbox" value="fachada" /> Fachada</label>
+      <label class="check-item"><input type="checkbox" value="interno" /> Ambiente interno</label>
+      <label class="check-item"><input type="checkbox" value="equipe" /> Equipe</label>
+      <label class="check-item"><input type="checkbox" value="produtos" /> Produtos</label>
+      <label class="check-item"><input type="checkbox" value="antes-depois" /> Antes/Depois</label>
+      <label class="check-item"><input type="checkbox" value="logo" /> Logo</label>
+      <label class="check-item"><input type="checkbox" value="video" /> Vídeo</label>
+    </div>
+    <label>Qualidade das fotos</label>
+    <select id="foto_qualidade"><option value="">Selecione</option><option>Amadoras</option><option>Profissionais</option><option>Mistas</option></select>
+  </div>
+
+  <!-- 5. REDES -->
+  <div class="card">
+    <div class="card-title">📱 Redes Sociais</div>
+    <div class="row">
+      <div><label>Instagram seguidores</label><input id="ig_seg" placeholder="2144" /></div>
+      <div><label>Instagram ativo?</label>
+        <select id="ig_ativo"><option>Sim</option><option>Não</option></select>
+      </div>
+    </div>
+    <div class="row">
+      <div><label>Facebook</label><input id="fb_link" placeholder="@..." /></div>
+      <div><label>YouTube</label><input id="yt_link" placeholder="..." /></div>
+    </div>
+  </div>
+
+  <!-- 6. DIFERENCIAL -->
+  <div class="card">
+    <div class="card-title">💎 Diferencial e Público</div>
+    <label>Qual o diferencial?</label>
+    <textarea id="diferencial" placeholder="Ex: Mais de 10 anos de mercado, peças originais, entrega rápida"></textarea>
+    <label>Público-alvo</label>
+    <input id="publico" placeholder="Ex: Motociclistas, oficinas mecânicas" />
+    <label>Frase / lema</label>
+    <input id="frase" placeholder="Ex: Sua moto merece o melhor" />
+    <label>Depoimento de cliente</label>
+    <textarea id="depoimento" placeholder="Melhor depoimento que tem..."></textarea>
+  </div>
+
+  <!-- 7. SERVIÇOS -->
+  <div class="card">
+    <div class="card-title">💰 Serviços / Produtos</div>
+    <div id="servicos-lista">
+      <div class="row" style="margin-bottom:8px">
+        <input style="grid-column:1" placeholder="Nome do serviço" id="serv-nome-1" />
+        <input style="grid-column:2" placeholder="Preço" id="serv-preco-1" />
+      </div>
+      <div class="row" style="margin-bottom:8px">
+        <input style="grid-column:1" placeholder="Nome do serviço" id="serv-nome-2" />
+        <input style="grid-column:2" placeholder="Preço" id="serv-preco-2" />
+      </div>
+      <div class="row" style="margin-bottom:8px">
+        <input style="grid-column:1" placeholder="Nome do serviço" id="serv-nome-3" />
+        <input style="grid-column:2" placeholder="Preço" id="serv-preco-3" />
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. DIAGNÓSTICO -->
+  <div class="card">
+    <div class="card-title">📊 Diagnóstico Rápido</div>
+    <div class="row">
+      <div><label>Nota geral (0-10)</label>
+        <select id="nota_geral">
+          <option>0</option><option>1</option><option>2</option><option>3</option><option>4</option>
+          <option>5</option><option>6</option><option selected>7</option><option>8</option><option>9</option><option>10</option>
+        </select>
+      </div>
+    </div>
+    <label>Pontos críticos (resolver primeiro)</label>
+    <textarea id="pontos_criticos" placeholder="1. Não tem site&#10;2. GMN desatualizado&#10;3. Poucas fotos"></textarea>
+    <label>Pontos positivos (já está bom)</label>
+    <textarea id="pontos_positivos" placeholder="1. Instagram ativo&#10;2. WhatsApp configurado"></textarea>
+    <label>Observações</label>
+    <textarea id="observacoes" placeholder="Qualquer info extra..."></textarea>
+  </div>
+
+  <button class="btn-save" onclick="gerar()">📋 Gerar diagnóstico</button>
+  <div class="status" id="status"></div>
+
+  <div id="resultado" style="display:none;margin-top:16px">
+    <div class="card" style="background:#0f172a;border-color:#7c3aed">
+      <div class="card-title">📄 Resultado</div>
+      <pre id="resultado-texto" style="white-space:pre-wrap;font-size:12px;color:#cbd5e1;line-height:1.6;font-family:monospace"></pre>
+      <button class="btn-save" style="background:#1d4ed8;margin-top:8px" onclick="copiar()">📋 Copiar resultado</button>
+    </div>
+  </div>
+</div>
+
+<script>
+function getCheckboxValues(containerId){
+  const checks=document.getElementById(containerId).querySelectorAll('input:checked');
+  return Array.from(checks).map(c=>c.value);
+}
+function servicos(){
+  const s=[];
+  for(let i=1;i<=3;i++){
+    const n=document.getElementById('serv-nome-'+i).value;
+    const p=document.getElementById('serv-preco-'+i).value;
+    if(n||p)s.push({nome:n||'(sem nome)',preco:p||'(sem preço)'});
+  }
+  return s;
+}
+function gerar(){
+  const nome=document.getElementById('nome').value||'(sem nome)';
+  const responsavel=document.getElementById('responsavel').value||'-';
+  const segmento=document.getElementById('segmento').value||'-';
+  const cidade=document.getElementById('cidade').value||'-';
+  const whatsapp=document.getElementById('whatsapp').value||'-';
+  const instagram=document.getElementById('instagram').value||'-';
+  const site_atual=document.getElementById('site_atual').value||'-';
+  const gmn_tem=document.getElementById('gmn_tem').value||'-';
+  const gmn_nota=document.getElementById('gmn_nota').value||'-';
+  const gmn_avaliacoes=document.getElementById('gmn_avaliacoes').value||'-';
+  const gmn_fotos=document.getElementById('gmn_fotos').value||'-';
+  const gmn_problemas=getCheckboxValues('gmn-problemas');
+  const site_tem=document.getElementById('site_tem').value||'-';
+  const site_precisa=getCheckboxValues('site-precisa');
+  const fotos_disp=getCheckboxValues('fotos');
+  const foto_qualidade=document.getElementById('foto_qualidade').value||'-';
+  const ig_seg=document.getElementById('ig_seg').value||'-';
+  const ig_ativo=document.getElementById('ig_ativo').value||'-';
+  const fb_link=document.getElementById('fb_link').value||'-';
+  const yt_link=document.getElementById('yt_link').value||'-';
+  const diferencial=document.getElementById('diferencial').value||'-';
+  const publico=document.getElementById('publico').value||'-';
+  const frase=document.getElementById('frase').value||'-';
+  const depoimento=document.getElementById('depoimento').value||'-';
+  const servicosLista=servicos();
+  const nota_geral=document.getElementById('nota_geral').value||'-';
+  const pontos_criticos=document.getElementById('pontos_criticos').value||'-';
+  const pontos_positivos=document.getElementById('pontos_positivos').value||'-';
+  const observacoes=document.getElementById('observacoes').value||'-';
+
+  const data=new Date().toLocaleDateString('pt-BR');
+
+  let txt='';
+  txt+='📋 DIAGNÓSTICO DIGITAL\n';
+  txt+='─'.repeat(40)+'\n';
+  txt+='Data: '+data+'\n\n';
+
+  txt+='📍 INFORMAÇÕES BÁSICAS\n';
+  txt+='Empresa: '+nome+'\n';
+  txt+='Responsável: '+responsavel+'\n';
+  txt+='Segmento: '+segmento+'\n';
+  txt+='Cidade: '+cidade+'\n';
+  txt+='WhatsApp: '+whatsapp+'\n';
+  txt+='Instagram: '+instagram+'\n';
+  txt+='Site atual: '+site_atual+'\n\n';
+
+  txt+='🗺️ GOOGLE MEU NEGÓCIO\n';
+  txt+='Tem GMN: '+gmn_tem+'\n';
+  txt+='Nota: '+gmn_nota+' ★\n';
+  txt+='Avaliações: '+gmn_avaliacoies+'\n';
+  txt+='Fotos: '+gmn_fotos+'\n';
+  if(gmn_problemas.length)txt+='Problemas: '+gmn_problemas.join(', ')+'\n';
+  txt+='\n';
+
+  txt+='🌐 SITE\n';
+  txt+='Tem site: '+site_tem+'\n';
+  if(site_precisa.length)txt+='Precisa ter: '+site_precisa.join(', ')+'\n';
+  txt+='\n';
+
+  txt+='📸 FOTOS\n';
+  if(fotos_disp.length)txt+='Disponíveis: '+fotos_disp.join(', ')+'\n';
+  txt+='Qualidade: '+foto_qualidade+'\n\n';
+
+  txt+='📱 REDES\n';
+  txt+='Instagram: '+ig_seg+' seguidores ('+ig_ativo+')\n';
+  if(fb_link!='-')txt+='Facebook: '+fb_link+'\n';
+  if(yt_link!='-')txt+='YouTube: '+yt_link+'\n';
+  txt+='\n';
+
+  txt+='💎 DIFERENCIAL\n';
+  txt+='Diferencial: '+diferencial+'\n';
+  txt+='Público: '+publico+'\n';
+  if(frase!='-')txt+='Frase: "'+ frase+'"\n';
+  if(depoimento!='-')txt+='Depoimento: '+depoimento+'\n';
+  txt+='\n';
+
+  txt+='💰 SERVIÇOS\n';
+  servicosLista.forEach((s,i)=>{
+    txt+='  '+(i+1)+'. '+s.nome+' — R$ '+s.preco+'\n';
+  });
+  txt+='\n';
+
+  txt+='📊 DIAGNÓSTICO\n';
+  txt+='Nota geral: '+nota_geral+'/10\n';
+  txt+='Pontos críticos:\n'+pontos_criticos+'\n';
+  if(pontos_positivos!='-')txt+='Pontos positivos:\n'+pontos_positivos+'\n';
+  if(observacoes!='-')txt+='Observações:\n'+observacoes+'\n';
+  txt+='\n'+'─'.repeat(40)+'\n';
+  txt+='Gerado por Marxis 🤖\n';
+
+  document.getElementById('resultado-texto').textContent=txt;
+  document.getElementById('resultado').style.display='block';
+  document.getElementById('status').className='status ok';
+  document.getElementById('status').textContent='✅ Diagnóstico gerado! Copia e cola no Obsidian pra mim.';
+}
+
+function copiar(){
+  const t=document.getElementById('resultado-texto').textContent;
+  navigator.clipboard.writeText(t).then(()=>{
+    document.getElementById('status').className='status ok';
+    document.getElementById('status').textContent='✅ Copiado! Cola no Obsidian pra mim.';
+  });
+}
+</script>
+</body>
+</html>
