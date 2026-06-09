@@ -10,7 +10,9 @@ image: "/images/notebooklm-gemini-35-antigravity.svg"
 
 Dá pra chamar o NotebookLM de "bloco de notas com IA" ainda? Depois da atualização que o Google soltou no dia 8 de junho de 2026, o nome mais correto seria "assistente completo de pesquisa, análise e criação". A ferramenta que começou como um experimento do Google Labs em 2023 virou uma plataforma que vai de planilhas a apresentações de slides, passando por relatórios em PDF, gráficos, imagens e até código executável.
 
-O Google divulgou números concretos da atualização: NotebookLM alcançou 78,2% de taxa de vitória em pesquisa web avançada e 69,9% na análise de documentos extensos em comparações lado a lado com a versão anterior. Não foi só um retoque na interface.
+O Google divulgou números concretos da atualização: NotebookLM alcançou 78,2% de taxa de vitória em pesquisa web avançada e 69,9% na análise de documentos extensos em comparações lado a lado com a versão anterior. A média geral nas cinco categorias principais de avaliação ficou em 65% — quinze pontos percentuais acima do empate técnico, o que é um salto considerável para uma ferramenta que já era referência no nicho de pesquisa assistida.
+
+Não foi só um retoque na interface. O que mudou foi a arquitetura inteira da ferramenta.
 
 ## O que muda de verdade?
 
@@ -18,7 +20,11 @@ O Google divulgou números concretos da atualização: NotebookLM alcançou 78,2
 
 O NotebookLM agora roda dois motores de IA. O **Gemini 3.5** cuida do raciocínio e da compreensão de linguagem. O **Antigravity** — ferramenta de programação com IA do Google — executa código em tempo real dentro de cada notebook.
 
-Cada notebook ganhou um "computador na nuvem seguro" que escreve e roda código Python para fazer análise de dados, cruzar informações e gerar resultados. São mais de 100 habilidades de software pré-carregadas. Na prática, NotebookLM não só entende o que você pergunta, como executa tarefas que antes exigiam abrir Excel e fazer fórmula manual, gerar gráfico e exportar.
+Cada notebook ganhou um "computador na nuvem seguro" que escreve e roda código Python para fazer análise de dados, cruzar informações e gerar resultados. São mais de 100 habilidades de software pré-carregadas, o que inclui bibliotecas de análise estatística, processamento de linguagem natural e visualização de dados.
+
+A diferença prática é grande. Antes, NotebookLM era essencialmente um chat com fontes: você subia seus documentos e fazia perguntas. A IA lia, resumia, conectava ideias. Agora ela também executa. Se você sobe duas planilhas com formatos diferentes, ela escreve o código pra normalizar os dados, faz o merge, calcula as métricas e gera o gráfico. O usuário não precisa saber Python nem Excel avançado — só precisa descrever o que quer.
+
+Na prática, NotebookLM não só entende o que você pergunta, como executa tarefas que antes exigiam abrir Excel e fazer fórmula manual, gerar gráfico e exportar.
 
 ### Exportação em formato de gente grande
 
@@ -63,14 +69,21 @@ Com essa atualização, ele vira quase uma central de produtividade. A adição 
 - ChatGPT tem plugins e code interpreter, mas a organização de fontes é mais solta — você joga um PDF, mas não constrói uma base estruturada de conhecimento.
 - Claude tem projetos com documentos, mas não gera apresentações ou planilhas exportáveis.
 - Perplexity é bom pra pesquisa rápida, mas não aprofunda análise nem gera artefatos.
+- O Microsoft Copilot está integrado ao Office, mas a base de conhecimento dele é o que está na web e nos seus arquivos do Microsoft 365 — não uma curadoria própria de fontes que você controla.
 
-A vantagem do Google é conectar NotebookLM com Google Search, Google Docs, Google Slides e a suíte de escritório inteira.
+A vantagem do Google é conectar NotebookLM com Google Search, Google Docs, Google Slides e a suíte de escritório inteira. O fluxo fica natural: você pesquisa no NotebookLM, ele encontra fontes, analisa, e o resultado já sai no formato que você vai usar — uma planilha, uma apresentação, um documento. Não precisa ficar copiando e colando entre ferramentas.
+
+A pergunta que fica é se Google vai conseguir manter a qualidade do NotebookLM a medida que o acesso for ampliado. A versão gratuita atual é rápida e competente. A versão paga, com Gemini 3.5 e Antigravity, entrega um nível de profundidade que poucas ferramentas individuais conseguem.
 
 ## Uma ressalva
 
 A atualização está disponível inicialmente para assinantes do **Google AI Ultra** e clientes corporativos do Google Workspace com complementos de IA. O AI Ultra custa US$ 99,99 por mês — cerca de R$ 550 na cotação atual. Não é barato.
 
 A versão gratuita do NotebookLM continua funcionando. O Google promete ampliar o acesso aos novos recursos com o tempo. Pra quem já assina o Workspace, vale verificar se o plano inclui acesso expandido de IA.
+
+Se você é profissional liberal ou microempreendedor individual, a versão gratuita do NotebookLM já oferece bastante: você pode subir PDFs, sites, vídeos do YouTube, áudios, Google Docs e Google Slides como fontes, e fazer perguntas sobre o material. A diferença da versão paga está na capacidade de gerar artefatos prontos (planilhas, apresentações) e no uso do Antigravity para análise de dados com código.
+
+Pra quem está começando, o recomendável é testar a versão gratuita primeiro. Descubra se o fluxo de trabalho com NotebookLM faz sentido pro seu dia a dia. Se sentir falta de gerar relatórios em PDF com gráficos ou cruzar dados de fontes diferentes, aí sim considerar o upgrade.
 
 ## O que esperar daqui pra frente
 
