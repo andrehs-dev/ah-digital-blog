@@ -97,6 +97,8 @@ O NotebookLM que mal saía dos Estados Unidos em 2024 agora roda análise de dad
 
 Se você quer entender como a IA generativa funciona na prática, vale ler [O Que É IA Generativa e Como Ela Pode Ajudar Seu Negócio](./o-que-e-ia-generativa). Ou, se prefere ferramentas práticas, veja [Ferramentas de Automação para PME](./ferramentas-automacao-pme).
 
+📚 **Recomendação:** Quer se aprofundar em IA? O livro *Inteligência Artificial — uma abordagem moderna* (Russell & Norvig) é a referência mais completa. 👉 [Ver na Amazon](https://www.amazon.com.br/dp/8595158078?tag=ahdigitalblog-20)
+
 **Fonte:** [Canaltech](https://canaltech.com.br/inteligencia-artificial/de-planilhas-a-slides-google-transforma-notebooklm-no-assistente-definitivo/) | [9to5Google](https://9to5google.com/2026/06/08/notebooklm-gemini-3-5-antigravity/) | [Thurrott](https://www.thurrott.com/a-i/google-gemini-a-i/337116/google-is-rolling-out-a-major-update-to-notebooklm)
 
 ---
