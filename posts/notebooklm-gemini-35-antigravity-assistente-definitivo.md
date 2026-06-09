@@ -101,20 +101,3 @@ Se você quer entender como a IA generativa funciona na prática, vale ler [O Qu
 
 **Fonte:** [Canaltech](https://canaltech.com.br/inteligencia-artificial/de-planilhas-a-slides-google-transforma-notebooklm-no-assistente-definitivo/) | [9to5Google](https://9to5google.com/2026/06/08/notebooklm-gemini-3-5-antigravity/) | [Thurrott](https://www.thurrott.com/a-i/google-gemini-a-i/337116/google-is-rolling-out-a-major-update-to-notebooklm)
 
----
-
-📸 Instagram Caption
-
-Você sabia que o Google gastou mais em P&D em IA no último ano do que a receita total de muitas empresas de tecnologia de pequeno e médio porte? Pois o resultado dessa aposta chegou: o NotebookLM deixou de ser um "bloco de notas com IA" e virou uma máquina de fazer tudo.
-
-A atualização que saiu agora, em junho de 2026, coloca Gemini 3.5 e Antigravity dentro de cada notebook — dois motores de IA trabalhando juntos. Você pega uma planilha de vendas, um PDF de relatório e alguns links de pesquisa, e pede: "cruza esses dados, monta um gráfico, gera um relatório em PDF e uma apresentação em PowerPoint". E ele entrega tudo, editável, em minutos.
-
-Pra pequenas empresas, isso é um avanço. Não precisa mais de analista de dados ou designer pra gerar relatórios profissionais. Não precisa passar a tarde inteira no Excel formatando tabela. Você conversa com a ferramenta, ela faz o trabalho braçal, e você decide o que fazer com a informação.
-
-Claro que o acesso completo custa caro. O Google AI Ultra sai por US$ 99/mês, e por enquanto só quem assina o plano top tem acesso total aos novos recursos. A versão gratuita continua funcionando, e a tendência é que esses recursos cheguem pra mais gente com o tempo.
-
-A ferramenta que começou como experimento em 2023 com acesso só pros Estados Unidos agora está em mais de 200 países. Se você ainda não testou, vale dar uma chance — especialmente se passa tempo demais organizando informação em vez de agir sobre ela.
-
-Leia o post completo no blog → https://ahdigital.com.br/blog/notebooklm-gemini-35-antigravity-assistente-definitivo
-
-**Sugestão de imagem de fundo:** Print da interface do NotebookLM mostrando um dashboard com gráficos coloridos + seção de exportação mostrando formatos PDF, XLSX, PPTX.
