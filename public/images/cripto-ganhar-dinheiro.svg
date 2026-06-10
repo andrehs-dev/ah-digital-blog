@@ -1,0 +1,48 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Bitcoin symbol large -->
+  <g transform="translate(600, 280)" opacity="0.06">
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#f59e0b" stroke-width="4"/>
+    <text text-anchor="middle" y="40" font-family="sans-serif" font-size="160" fill="#f59e0b" font-weight="bold">₿</text>
+  </g>
+  
+  <!-- Growth chart line -->
+  <polyline points="200,450 350,420 500,350 650,300 800,180" stroke="url(#gold)" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <polyline points="200,450 350,420 500,350 650,300 800,180" stroke="url(#gold)" stroke-width="6" fill="none" opacity="0.15"/>
+  
+  <!-- Candles -->
+  <rect x="320" y="410" width="8" height="30" fill="#00d4ff" opacity="0.6" rx="1"/>
+  <rect x="360" y="380" width="8" height="60" fill="#7b2ff7" opacity="0.6" rx="1"/>
+  <rect x="470" y="340" width="8" height="40" fill="#00d4ff" opacity="0.6" rx="1"/>
+  <rect x="620" y="260" width="8" height="100" fill="#f59e0b" opacity="0.6" rx="1"/>
+  <rect x="680" y="220" width="8" height="50" fill="#00d4ff" opacity="0.6" rx="1"/>
+  <rect x="750" y="160" width="8" height="80" fill="#f59e0b" opacity="0.6" rx="1"/>
+  
+  <text x="600" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#f59e0b" opacity="0.5" letter-spacing="6">FINANÇAS</text>
+  <text x="600" y="540" text-anchor="middle" font-family="'Impact', sans-serif" font-size="50" fill="url(#accent)" letter-spacing="2">COMO GANHAR DINHEIRO</text>
+  <text x="600" y="580" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#888" letter-spacing="4">COM CRIPTO EM 2026</text>
+  
+  <!-- Corner BTC marks -->
+  <text x="80" y="100" font-family="monospace" font-size="12" fill="#f59e0b" opacity="0.2">BTC</text>
+  <text x="1050" y="100" font-family="monospace" font-size="12" fill="#7b2ff7" opacity="0.2">ETH</text>
+  <text x="80" y="580" font-family="monospace" font-size="12" fill="#00d4ff" opacity="0.2">SOL</text>
+</svg>
