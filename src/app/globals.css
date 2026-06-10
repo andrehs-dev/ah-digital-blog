@@ -6,7 +6,21 @@
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
-/* Dark theme (default) */
+/* Light theme (default) — cinza + azul (igual ao site) */
+:root:not(.dark) {
+  --theme-bg: oklch(0.97 0 0);
+  --theme-fg: oklch(0.13 0.01 260);
+  --theme-muted: oklch(0.53 0 0);
+  --theme-border: oklch(0.87 0 0);
+  --theme-card: oklch(0.99 0 0);
+  --theme-card-hover: oklch(0.93 0 0);
+  --theme-code-bg: oklch(0.93 0 0);
+  --theme-pre-bg: oklch(0.95 0 0);
+  --theme-primary: oklch(0.55 0.18 250);
+  color-scheme: light;
+}
+
+/* Dark theme */
 .dark {
   --theme-bg: #000;
   --theme-fg: #fff;
@@ -16,20 +30,8 @@
   --theme-card-hover: rgba(255,255,255,0.1);
   --theme-code-bg: rgba(255,255,255,0.1);
   --theme-pre-bg: rgba(255,255,255,0.05);
+  --theme-primary: #3b82f6;
   color-scheme: dark;
-}
-
-/* Light theme */
-:root:not(.dark) {
-  --theme-bg: #f9fafb;
-  --theme-fg: #111827;
-  --theme-muted: #6b7280;
-  --theme-border: rgba(0,0,0,0.1);
-  --theme-card: rgba(0,0,0,0.03);
-  --theme-card-hover: rgba(0,0,0,0.06);
-  --theme-code-bg: rgba(0,0,0,0.08);
-  --theme-pre-bg: rgba(0,0,0,0.03);
-  color-scheme: light;
 }
 
 /* Base styles */

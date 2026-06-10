@@ -11,7 +11,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <Link href="/" className="flex items-center gap-2 text-xl font-bold">
-          <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
             AH Digital
           </span>
           <span className="text-white/60">Blog</span>
@@ -28,7 +28,7 @@ export default function Header() {
             href="https://ah-digitalsolutions.vercel.app"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-1.5 text-sm font-medium text-white transition hover:opacity-90"
+            className="rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-1.5 text-sm font-medium text-white transition hover:opacity-90"
           >
             🚀 Site de Serviços
           </a>
@@ -58,7 +58,7 @@ export default function Header() {
             href="https://ah-digitalsolutions.vercel.app"
             target="_blank"
             rel="noreferrer"
-            className="mt-3 block rounded-full bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-2 text-center text-sm font-medium text-white"
+            className="mt-3 block rounded-full bg-gradient-to-r from-blue-500 to-blue-600 px-4 py-2 text-center text-sm font-medium text-white"
             onClick={() => setMenuOpen(false)}
           >
             🚀 Site de Serviços

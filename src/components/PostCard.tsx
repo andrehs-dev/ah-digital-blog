@@ -14,7 +14,7 @@ function formatDate(dateStr: string) {
 export default function PostCard({ post }: { post: PostMeta }) {
   return (
     <Link href={`/post/${post.slug}`} className="group block">
-      <article className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 transition-all duration-300 hover:border-blue-500/50 hover:bg-white/10">
+      <article className="relative overflow-hidden rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-6 transition-all duration-300 hover:border-[var(--theme-primary)]/50 hover:bg-[var(--theme-card-hover)]">
         {post.image && (
           <div className="mb-4 overflow-hidden rounded-xl">
             <img
@@ -29,14 +29,14 @@ export default function PostCard({ post }: { post: PostMeta }) {
           {post.tags?.map((tag) => (
             <span
               key={tag}
-              className="rounded-full bg-blue-500/10 px-3 py-1 text-xs text-blue-400"
+              className="rounded-full bg-[var(--theme-primary)]/10 px-3 py-1 text-xs text-[var(--theme-primary)]"
             >
               #{tag}
             </span>
           ))}
         </div>
 
-        <h2 className="mb-2 text-xl font-semibold text-white transition group-hover:text-blue-400">
+        <h2 className="mb-2 text-xl font-semibold text-[var(--theme-fg)] transition group-hover:text-[var(--theme-primary)]">
           {post.title}
         </h2>
 

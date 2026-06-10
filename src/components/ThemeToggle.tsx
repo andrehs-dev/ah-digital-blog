@@ -3,11 +3,11 @@
 import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
 
   useEffect(() => {
     const stored = localStorage.getItem("theme");
-    const isDark = stored ? stored === "dark" : true;
+    const isDark = stored ? stored === "dark" : false;
     setDark(isDark);
     document.documentElement.classList.toggle("dark", isDark);
   }, []);
@@ -22,7 +22,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggle}
-      className="rounded-full border border-white/10 bg-white/5 p-2 text-sm transition hover:bg-white/10"
+      className="rounded-full border border-[var(--theme-border)] bg-[var(--theme-card)] p-2 text-sm transition hover:bg-[var(--theme-card-hover)]"
       aria-label={dark ? "Modo claro" : "Modo escuro"}
     >
       {dark ? "☀️" : "🌙"}

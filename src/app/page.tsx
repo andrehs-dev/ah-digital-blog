@@ -12,11 +12,11 @@ export default function Home() {
       {/* Hero */}
       <section className="mb-16 text-center">
         <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-6xl">
-          <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
             AH Digital Blog
           </span>
         </h1>
-        <p className="mx-auto max-w-xl text-lg text-white/60">
+        <p className="mx-auto max-w-xl text-lg text-[var(--theme-muted)]">
           Artigos sobre tecnologia, finanças, produtividade, desenvolvimento pessoal e o que mais der na telha.
         </p>
       </section>
@@ -37,7 +37,7 @@ export default function Home() {
               <Link
                 key={tag}
                 href={`/tags/${tag}`}
-                className="rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-white/60 transition hover:border-blue-500/50 hover:text-white"
+                className="rounded-full border border-[var(--theme-border)] bg-[var(--theme-card)] px-4 py-1.5 text-sm text-[var(--theme-muted)] transition hover:border-[var(--theme-primary)]/50 hover:text-[var(--theme-fg)]"
               >
                 #{tag}
               </Link>
@@ -55,8 +55,8 @@ export default function Home() {
       {posts.length === 0 ? (
         <div className="text-center py-20">
           <div className="mb-4 text-6xl">📝</div>
-          <h2 className="mb-2 text-2xl font-semibold text-white">Nenhum artigo ainda</h2>
-          <p className="text-white/40">Em breve teremos conteúdo por aqui!</p>
+          <h2 className="mb-2 text-2xl font-semibold text-[var(--theme-fg)]">Nenhum artigo ainda</h2>
+          <p className="text-[var(--theme-muted)]">Em breve teremos conteúdo por aqui!</p>
         </div>
       ) : (
         <section className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
