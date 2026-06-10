@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0a1a"/>
+      <stop offset="40%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <clipPath id="gridClip">
+      <rect x="0" y="0" width="1200" height="630"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid lines -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="100" r="180" fill="none" stroke="#7c3aed" stroke-width="0.3" opacity="0.15"/>
+  <circle cx="1080" cy="130" r="120" fill="none" stroke="#22d3ee" stroke-width="0.3" opacity="0.1"/>
+  <circle cx="150" cy="500" r="100" fill="none" stroke="#a855f7" stroke-width="0.3" opacity="0.1"/>
+
+  <!-- Decorative line top right -->
+  <line x1="950" y1="40" x2="1160" y2="40" stroke="#7c3aed" stroke-width="1" opacity="0.4"/>
+  <line x1="980" y1="48" x2="1160" y2="48" stroke="#22d3ee" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Logo AH -->
+  <g filter="url(#glow)">
+    <text x="50" y="65" font-family="Courier New, monospace" font-size="28" font-weight="bold" fill="#22d3ee" letter-spacing="3">AH</text>
+  </g>
+  <text x="50" y="65" font-family="Courier New, monospace" font-size="28" font-weight="bold" fill="#22d3ee" letter-spacing="3" opacity="0.3">AH</text>
+
+  <!-- Category tag -->
+  <rect x="48" y="85" width="140" height="26" rx="4" fill="#7c3aed" opacity="0.25"/>
+  <text x="118" y="103" font-family="Arial, sans-serif" font-size="13" fill="#a78bfa" text-anchor="middle" font-weight="bold">SEGURANÇA / IA</text>
+
+  <!-- Divider line -->
+  <line x1="50" y1="130" x2="350" y2="130" stroke="#7c3aed" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Shield icon (simplified) -->
+  <g transform="translate(50, 150)" stroke="#22d3ee" fill="none" stroke-width="2.5" opacity="0.6">
+    <path d="M30,5 L55,18 L55,45 C55,68 30,82 30,82 C30,82 5,68 5,45 L5,18 Z"/>
+    <line x1="30" y1="30" x2="30" y2="55" stroke="#22d3ee" stroke-width="2"/>
+    <line x1="20" y1="42" x2="30" y2="55" stroke="#22d3ee" stroke-width="2"/>
+    <line x1="30" y1="55" x2="40" y2="42" stroke="#22d3ee" stroke-width="2"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="50" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" filter="url(#shadow)">
+    ChatGPT Lança Modo
+  </text>
+  <text x="50" y="270" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" filter="url(#shadow)">
+    de Bloqueio
+  </text>
+
+  <!-- Subtitle -->
+  <text x="50" y="315" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8" letter-spacing="1">
+    Privacidade extrema contra ataques de injeção de prompt
+  </text>
+
+  <!-- Mini chart / data viz -->
+  <g transform="translate(720, 140)">
+    <text x="160" y="0" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle" letter-spacing="1">
+      OWASP TOP 10 PARA LLM — 2025
+    </text>
+    <text x="160" y="18" font-family="Arial, sans-serif" font-size="10" fill="#64748b" text-anchor="middle">
+      (Nível de Risco)
+    </text>
+
+    <!-- Bar: Injeção de Prompt -->
+    <rect x="20" y="38" width="280" height="28" rx="3" fill="url(#bar1)"/>
+    <text x="30" y="56" font-family="Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">#1 Injeção de Prompt</text>
+    <text x="285" y="56" font-family="Arial, sans-serif" font-size="11" fill="#fff" text-anchor="end" font-weight="bold">CRÍTICO</text>
+
+    <!-- Bar: Vazamento de dados -->
+    <rect x="20" y="74" width="200" height="24" rx="3" fill="url(#bar2)"/>
+    <text x="30" y="89" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">#2 Vazamento de Dados</text>
+    <text x="205" y="89" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="end">ALTO</text>
+
+    <!-- Bar: Agentes inseguros -->
+    <rect x="20" y="106" width="160" height="22" rx="3" fill="url(#bar3)"/>
+    <text x="30" y="120" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">#3 Agentes Autônomos</text>
+    <text x="165" y="120" font-family="Arial, sans-serif" font-size="10" fill="#fff" text-anchor="end">MÉDIO</text>
+
+    <!-- Source -->
+    <text x="160" y="142" font-family="Arial, sans-serif" font-size="9" fill="#475569" text-anchor="middle">Fonte: OWASP Top 10 for LLM Applications 2025</text>
+  </g>
+
+  <!-- Bottom info bar -->
+  <rect x="0" y="560" width="1200" height="70" fill="#1a0a2e" opacity="0.6"/>
+  <line x1="0" y1="560" x2="1200" y2="560" stroke="#7c3aed" stroke-width="0.5" opacity="0.3"/>
+
+  <text x="50" y="595" font-family="Arial, sans-serif" font-size="16" fill="#64748b">
+    www.ahdigital.com.br
+    <tspan fill="#475569" dx="20">|</tspan>
+    <tspan fill="#64748b" dx="20">10 jun 2026</tspan>
+    <tspan fill="#475569" dx="20">|</tspan>
+    <tspan fill="#22d3ee" dx="20">OpenAI disponibiliza para usuários gratuitos e pagos</tspan>
+  </text>
+
+  <!-- Decorative bottom line -->
+  <line x1="50" y1="560" x2="350" y2="560" stroke="#22d3ee" stroke-width="1.5" opacity="0.3"/>
+</svg>
