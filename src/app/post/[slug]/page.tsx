@@ -93,28 +93,29 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             {post.meta.title}
           </h1>
 
-          {/* Autor + data (no cabeçalho, estilo Olhar Digital) */}
-          <div className="mb-6 flex items-center gap-3">
-            <div className="relative h-10 w-10 overflow-hidden rounded-full ring-2 ring-blue-500/20">
-              <Image
-                src="/images/author.jpg"
-                alt="André Henrique"
-                width={40}
-                height={40}
-                className="h-full w-full object-cover"
-              />
+          {/* Autor + data + compartilhar (inline) */}
+          <div className="mb-8 flex flex-wrap items-center gap-4 border-b border-white/5 pb-4">
+            <div className="flex items-center gap-3">
+              <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full ring-2 ring-blue-500/20">
+                <Image
+                  src="/images/author.jpg"
+                  alt="André Henrique"
+                  width={40}
+                  height={40}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-medium text-white">André Henrique</p>
+                <p className="text-xs text-white/40">
+                  {formatDate(post.meta.date)} · {post.meta.readingTime} min de leitura
+                </p>
+              </div>
             </div>
-            <div>
-              <p className="text-sm font-medium text-white">André Henrique</p>
-              <p className="text-xs text-white/40">
-                {formatDate(post.meta.date)} · {post.meta.readingTime} min de leitura
-              </p>
-            </div>
-          </div>
 
-          {/* Botões de compartilhamento */}
-          <div className="mb-8 border-b border-t border-white/5 py-3">
-            <ShareButtons title={post.meta.title} />
+            <div className="ml-auto">
+              <ShareButtons title={post.meta.title} />
+            </div>
           </div>
 
           {/* Featured Image */}
