@@ -66,4 +66,4 @@ E pra proteger o Kindle quando você levar na mochila (ele é pequeno e frágil)
 
 ---
 
-Se esse primeiro texto fez sentido pra você, talvez o próximo também faça. Vou escrever sobre como comecei a usar IA Generativa nos meus projetos — e, spoiler: não foi amor à primeira vista. Te vejo lá.
+Se esse primeiro texto fez sentido pra você, talvez o próximo também faça. Vou escrever sobre como comecei a usar [IA Generativa nos meus projetos](/post/o-que-e-ia-generativa) — e, spoiler: não foi amor à primeira vista. Te vejo lá.

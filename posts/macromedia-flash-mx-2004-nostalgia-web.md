@@ -96,3 +96,5 @@ E se você curte manter tudo anotado enquanto estuda, um **caderno inteligente**
 ---
 
 *Flash não morreu. Ele só foi substituído por coisas que ele mesmo inspirou.*
+
+👉 Quer entender como a **tecnologia web evoluiu** até chegar no que temos hoje? O [post de boas-vindas do blog](/post/bem-vindo) explica a proposta do AH Digital — tecnologia sem hype, do jeito que funciona de verdade.

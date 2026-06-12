@@ -96,6 +96,8 @@ Blockchain não é bala de prata:
 
 Blockchain não é o futuro. É o presente — ainda meio imaturo, meio bugado, mas já funcionando. Se você trabalha com tecnologia, vale a pena entender o básico. Não pra virar especialista, mas pra não ser enganado por quem joga o termo como se fosse mágica.
 
+Quer saber como **ganhar dinheiro com isso sem cair em golpe**? O guia prático de [criptomoedas em 2026](/post/como-ganhar-dinheiro-com-cripto-2026) mostra as formas legítimas — do DCA em Bitcoin até aceitar crypto nos seus serviços.
+
 ## 📚 Pra se aprofundar
 
 Se quiser entender blockchain de um jeito mais completo (mas ainda sem jargão técnico), o livro **"Blockchain Básico"** é o melhor que li sobre o assunto. Explica desde os fundamentos até casos de uso reais, tudo em linguagem acessível.

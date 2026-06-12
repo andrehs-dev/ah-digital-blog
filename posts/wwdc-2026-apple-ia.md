@@ -63,6 +63,8 @@ A WWDC 2026 não é apenas um evento de atualização de software — é um marc
 
 A transmissão começa às 14h — vale a pena assistir.
 
+Quer entender como a IA generativa está evoluindo? Dá uma olhada no post sobre a [nova memória do ChatGPT com "sonhos"](/post/openai-melhorou-a-memoria-do-chatgpt) — mostra como a IA está ficando mais inteligente sem intervenção humana.
+
 E se você quer aproveitar o ecossistema Apple ao máximo, os **AirPods 4** são o complemento perfeito pra Siri com IA — chamadas, comandos de voz e áudio espacial sem fio.
 
 👉 **[Ver preço dos AirPods 4 na Amazon](https://www.amazon.com.br/dp/B0DGM4T4H8?tag=ahdigitalblog-20)**

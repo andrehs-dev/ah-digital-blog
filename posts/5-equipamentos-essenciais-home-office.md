@@ -78,4 +78,6 @@ Construção em alumínio, não superaquece, e a marca Anker é referência ness
 
 Cada um desses equipamentos se paga com o tempo que você ganha. Não precisa comprar tudo de uma vez — mas se for comprar um, compra o que resolve seu problema mais urgente agora.
 
+📖 Se você tá montando seu setup e quer **dicas de produtividade pra render mais**, o guia de [10 dicas de produtividade para programadores](/post/dicas-produtividade) tem várias que funcionam no mundo real — deep work, Pomodoro, segundo cérebro e mais.
+
 📱 Siga **@andrehs.dev** no Instagram pra mais dicas de tecnologia e produtividade.

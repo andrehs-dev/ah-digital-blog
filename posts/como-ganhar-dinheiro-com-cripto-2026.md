@@ -132,6 +132,8 @@ Você já tem um blog de tecnologia, afiliados na Amazon e Shopee, e planos pra 
 
 Sem pressa. Sem medo de FOMO. Cripto não vai a lugar nenhum.
 
+Se você ainda não entende a tecnologia por trás disso, vale ler o guia completo: [Blockchain: o que é e por que isso importa](/post/blockchain-o-que-e-por-que-importa) — explica o fundamento de tudo sem jargão técnico.
+
 ---
 
 ## 📚 Pra se aprofundar

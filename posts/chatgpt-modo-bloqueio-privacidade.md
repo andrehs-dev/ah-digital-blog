@@ -108,6 +108,8 @@ Mesmo com o Modo de Bloqueio ativado, o ChatGPT continua vulnerável a injeçõe
 
 A injeção de prompt ainda não tem solução completa. Nenhuma empresa chegou lá. Mas o Modo de Bloqueio é um passo concreto. E, mais importante, **está disponível agora para qualquer usuário**.
 
+📖 Quer se aprofundar em segurança digital pro seu negócio? O [guia completo de segurança para PME](/post/seguranca-digital-pequenos-negocios) mostra as 5 coisas que você precisa fazer essa semana. E se a dúvida é sobre como a [memória do ChatGPT evoluiu](/post/openai-melhorou-a-memoria-do-chatgpt), tem post sobre isso também.
+
 ---
 
 ## 📦 Produto recomendado

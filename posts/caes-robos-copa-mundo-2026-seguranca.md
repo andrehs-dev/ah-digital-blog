@@ -114,6 +114,10 @@ Para o pequeno empresário, o recado é: fique de olho nessa tecnologia. O custo
 
 A Copa do Mundo de 2026 começa em 11 de junho. Quando você ver as imagens dos estádios na TV, repare: pode ser que aquele robô amarelo andando pelo gramado não seja apenas um brinquedo caro — seja o começo de uma nova era para a segurança empresarial.
 
+Se você quer proteger seu negócio hoje (sem precisar de um robô de US$ 75 mil), dá uma olhada no guia de [segurança digital para pequenos negócios](/post/seguranca-digital-pequenos-negocios) — senhas, backup, WhatsApp Business, tudo que você precisa fazer essa semana.
+
+E pra entender como a **automação** está mudando o jogo para pequenas empresas, o [guia prático de automação](/post/automacao-pequenas-empresas) mostra por onde começar sem gastar nada.
+
 **E você, confiaria a segurança do seu negócio a um robô?**
 
 ---

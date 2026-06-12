@@ -221,6 +221,6 @@ Não entendeu ainda o que é IA Generativa? Volta e lê o [guia completo](/post/
 
 Meu conselho? Escolha **um** dos métodos acima, comece hoje, erre rápido, aprenda e repita. Em 3 meses, você pode estar vivendo de IA.
 
-Quer se aprofundar em como usar **ferramentas específicas de IA** pra criar conteúdo e faturar online? Dá uma olhada no guia completo de [ferramentas de IA para conteúdo](/post/melhores-ferramentas-de-ia-para-conteudo).
+Quer se aprofundar em como usar **ferramentas específicas de IA** pra criar conteúdo e faturar online? Dá uma olhada no guia completo de [ferramentas de IA que realmente funcionam](/post/inteligencia-artificial-ferramentas).
 
 E se você já começou a usar IA pra ganhar dinheiro, conta aqui nos comentários: qual método funcionou melhor pra você?

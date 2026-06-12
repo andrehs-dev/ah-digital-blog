@@ -92,4 +92,6 @@ E pra manter o notebook na altura certa enquanto trabalha, um **suporte ajustáv
 
 ---
 
-*Este post é institucional. A AH Digital Solutions é o braço de serviços digitais do mesmo criador do AH Digital Blog.*
+*Este post é institucional. A AH Digital Solutions é o braço de serviços digitais do mesmo criador do AH Digital Blog.
+
+👉 Quer entender **como a automação pode transformar seu negócio**? O [guia prático de automação para PME](/post/automacao-pequenas-empresas) mostra o que dá pra fazer hoje — desde R$ 0. E se a preocupação é segurança, o guia de [segurança digital para pequenos negócios](/post/seguranca-digital-pequenos-negocios) cobre tudo que você precisa pra não ser mais um alvo fácil.*
