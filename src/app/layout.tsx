@@ -5,17 +5,22 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "AH Digital Blog",
+    default: "AH Digital Blog — IA, Automação e Tecnologia para PME",
     template: "%s — AH Digital Blog",
   },
-  description: "Artigos sobre tecnologia, finanças, produtividade e mais.",
+  description: "Guias práticos sobre IA, automação, segurança digital e crescimento para pequenas empresas. Sem jargão técnico, só conteúdo útil.",
   openGraph: {
-    title: "AH Digital Blog",
-    description: "Artigos sobre tecnologia, finanças, produtividade e mais.",
+    title: "AH Digital Blog — IA, Automação e Tecnologia para PME",
+    description: "Guias práticos sobre IA, automação, segurança digital e crescimento para pequenas empresas.",
     siteName: "AH Digital Blog",
     type: "website",
+    locale: "pt_BR",
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

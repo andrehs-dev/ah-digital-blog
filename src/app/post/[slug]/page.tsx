@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getPost, getAllPosts } from "@/lib/posts";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { BlogPostSchema } from "@/components/BlogPostSchema";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -42,6 +43,16 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-16">
+      <BlogPostSchema
+        title={post.meta.title}
+        description={post.meta.description}
+        image={post.meta.image}
+        datePublished={post.meta.date}
+        slug={slug}
+        wordCount={post.content.split(/\s+/).length}
+        tags={post.meta.tags}
+      />
+
       {/* Header */}
       <header className="mb-12">
         <div className="mb-4 flex flex-wrap gap-2">
