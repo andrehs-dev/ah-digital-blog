@@ -4,6 +4,17 @@ description: "Guia prático com 7 formas reais de ganhar dinheiro usando IA Gene
 date: "2026-06-05"
 tags: [ia, renda, empreendedorismo, ferramentas]
 image: "/images/ganhe-dinheiro-com-ia.svg"
+faq:
+  - q: "Preciso saber programar para ganhar dinheiro com IA?"
+    a: "Não necessariamente. Criação de conteúdo e marketing de afiliados não exigem programação. Mas programar amplia suas opções (e seu potencial de ganho)."
+  - q: "Quanto tempo leva para começar a ver resultados?"
+    a: "Depende do método. Freelancing pode gerar renda em semanas. Marketing de afiliados e infoprodutos levam de 3 a 6 meses para começar a trazer resultados consistentes."
+  - q: "Qual método é melhor para iniciante?"
+    a: "Criação de conteúdo como freelancer. O investimento inicial é zero (só o ChatGPT Plus, R$ 100/mês), e você já pode começar a oferecer serviços no mesmo dia."
+  - q: "A IA não vai substituir esses trabalhos?"
+    a: "IA substitui tarefas, não trabalhos. O profissional que entende de estratégia, curadoria e relacionamento com cliente sempre será necessário. A IA é sua ferramenta, não sua substituta."
+  - q: "Preciso investir dinheiro para começar?"
+    a: "A maioria dos métodos pode começar com menos de R$ 200/mês (ChatGPT Plus + Canva Pro). O maior investimento é tempo e consistência."
 ---
 
 # Como Ganhar Dinheiro com IA Generativa em 2026

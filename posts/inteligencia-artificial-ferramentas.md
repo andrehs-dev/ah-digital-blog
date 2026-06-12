@@ -4,6 +4,17 @@ description: "ChatGPT, Copilot, Midjourney, ElevenLabs — todo mês surge uma '
 date: "2026-06-03"
 tags: [ia, inteligencia-artificial, ferramentas, tecnologia]
 image: "/images/ia-ferramentas.svg"
+faq:
+  - q: "Qual ferramenta de IA devo usar primeiro?"
+    a: "Depende do seu trabalho. Se programa: Copilot ou Claude. Se cria conteúdo: ChatGPT ou DeepSeek. Se faz arte: Midjourney. Se automatiza processos: n8n ou Hermes."
+  - q: "IA vai substituir programador?"
+    a: "Não. Vai substituir programador que não usa IA. A diferença entre um dev que usa bem as ferramentas e um que ignora já é enorme e vai aumentar."
+  - q: "Preciso pagar por essas ferramentas?"
+    a: "A maioria tem plano gratuito funcional. ChatGPT free, DeepSeek free, Copilot free (com limite), Canva IA free. Pague quando o gratuito não der mais conta."
+  - q: "Qual o maior erro ao usar IA?"
+    a: "Confiar cegamente no output. Toda IA alucina — inventa coisa com a maior segurança do mundo. Trate tudo como rascunho. Revise, teste, verifique."
+  - q: "Vale a pena assinar o ChatGPT Plus?"
+    a: "Depende do uso. Se usa diariamente para trabalho: sim. Esporadicamente: o gratuito já resolve."
 ---
 
 ChatGPT, Copilot, Midjourney, ElevenLabs, Claude, Runway. Todo mês surge pelo menos uma "IA que vai mudar tudo". E todo mês a mesma pergunta: mas qual realmente presta?

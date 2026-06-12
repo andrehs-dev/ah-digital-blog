@@ -4,6 +4,17 @@ description: "Descubra o que é IA Generativa, como funciona, aplicações reais
 date: "2026-06-05"
 tags: [ia, inteligencia-artificial, tecnologia, tendencias]
 image: "/images/ia-generativa.svg"
+faq:
+  - q: "IA Generativa é a mesma coisa que ChatGPT?"
+    a: "Nem toda IA Generativa é ChatGPT, mas o ChatGPT é o exemplo mais famoso de IA Generativa para texto. A categoria inclui também geradores de imagem (Midjourney), música (Suno), código (Copilot) e vídeo (Sora)."
+  - q: "Preciso saber programar para usar IA Generativa?"
+    a: "Não. A maioria das ferramentas funciona com linguagem natural — você conversa, descreve o que quer e a IA faz. Saber programar ajuda a usar ferramentas mais avançadas, mas não é requisito."
+  - q: "IA Generativa vai substituir meu trabalho?"
+    a: "Dificilmente de forma completa. Mas profissionais que dominam IA Generativa estão substituindo profissionais que ignoram a tecnologia. O melhor caminho é aprender a usar as ferramentas como aliadas, não concorrentes."
+  - q: "Qual a melhor IA Generativa hoje?"
+    a: "Depende do que você precisa. Para texto, ChatGPT e Gemini lideram. Para imagens, Midjourney e DALL-E 3. Para código, GitHub Copilot. Para música, Suno. Cada ferramenta tem seus pontos fortes."
+  - q: "A IA Generativa é segura?"
+    a: "As grandes empresas investem pesado em segurança e alinhamento, mas nenhuma IA é 100% segura ou livre de vieses. Nunca compartilhe informações sensíveis com IAs públicas e sempre verifique informações críticas com fontes confiáveis."
 ---
 
 # O Que é IA Generativa e Como Está Mudando o Mundo em 2026

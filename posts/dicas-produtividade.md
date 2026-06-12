@@ -4,6 +4,15 @@ description: "Cansaço, distrações e dias que parecem curtos demais. Se você 
 date: "2026-06-04"
 tags: [produtividade, tecnologia, carreira, programacao]
 image: "/images/dicas-produtividade.svg"
+faq:
+  - q: "Qual dessas dicas é a mais importante?"
+    a: "Se tivesse que escolher uma: a número 2 (deep work). Tudo começa com foco. Sem ele, nenhuma ferramenta ou técnica resolve."
+  - q: "Preciso aplicar todas de uma vez?"
+    a: "Deus me livre. Escolhe uma, testa por uma semana. Depois adiciona outra. Se tentar virar monge da produtividade de um dia pro outro, desiste na terça."
+  - q: "Funciona pra quem tá começando na programação?"
+    a: "Funciona ainda mais. Iniciante tem tendência a se afogar em informação. Essas dicas são âncoras."
+  - q: "E se mesmo assim o dia não render?"
+    a: "Revisa o planejamento. Talvez você esteja colocando tarefas grandes demais pra um dia. Quebra em partes menores. E lembra: todo mundo tem dia ruim."
 ---
 
 Você sente que o dia voa e não conseguiu entregar nem metade do que planejou? Que passa horas na frente do código mas no fim parece que não avançou nada?

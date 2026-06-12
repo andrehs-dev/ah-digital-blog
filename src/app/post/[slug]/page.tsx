@@ -6,6 +6,8 @@ import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { BlogPostSchema } from "@/components/BlogPostSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import { AuthorBox } from "@/components/AuthorBox";
+import { FaqSchema } from "@/components/FaqSchema";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -46,6 +48,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   if (!post) notFound();
 
   const baseUrl = "https://ah-digital-blog.vercel.app";
+  const faq = (post.meta as any).faq;
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-16">
@@ -64,6 +67,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         wordCount={post.content.split(/\s+/).length}
         tags={post.meta.tags}
       />
+      {faq && faq.length > 0 && <FaqSchema items={faq} />}
 
       {/* Header */}
       <header className="mb-12">
@@ -106,8 +110,11 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         <Markdown remarkPlugins={[remarkGfm]}>{post.content}</Markdown>
       </div>
 
+      {/* Author Box */}
+      <AuthorBox />
+
       {/* Footer */}
-      <div className="mt-16 border-t border-white/10 pt-8">
+      <div className="border-t border-white/10 pt-8">
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-sm text-blue-400 transition hover:text-blue-300"

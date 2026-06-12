@@ -4,6 +4,15 @@ description: "Automação não é só pra grande corporação. Veja o que um peq
 date: "2026-06-08"
 tags: [automacao, pme, pequenas-empresas, produtividade]
 image: "/images/automacao-pequenas-empresas.svg"
+faq:
+  - q: "Preciso saber programar?"
+    a: "Não. A maioria das ferramentas modernas é no-code. Arrastar, soltar, configurar."
+  - q: "Quanto custa?"
+    a: "Depende. Tem ferramenta gratuita (Buffer free, HubSpot free, Google Sheets), tem ferramenta de R$ 50/mês e tem soluções mais caras. O segredo é começar pequeno."
+  - q: "Automação vai substituir meu emprego?"
+    a: "Dificilmente tarefas inteiras são substituídas — o que acontece é que tarefas repetitivas dentro de um cargo deixam de existir. A pessoa passa a fazer atividades mais estratégicas."
+  - q: "Quanto tempo leva pra configurar?"
+    a: "Uma automação simples (ex: responder lead no WhatsApp) leva algumas horas. Coisas mais complexas podem levar dias. Mas o retorno compensa."
 ---
 
 Você já deve ter ouvido alguém falar que "automação é coisa de empresa grande". Que só quem tem equipe de TI, orçamento de seis dígitos e um prédio inteiro de servidores consegue automatizar processos.
