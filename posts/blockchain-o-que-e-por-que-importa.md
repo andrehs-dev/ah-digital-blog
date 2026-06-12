@@ -96,4 +96,13 @@ Blockchain não é bala de prata:
 
 Blockchain não é o futuro. É o presente — ainda meio imaturo, meio bugado, mas já funcionando. Se você trabalha com tecnologia, vale a pena entender o básico. Não pra virar especialista, mas pra não ser enganado por quem joga o termo como se fosse mágica.
 
+## 📚 Pra se aprofundar
+
+Se quiser entender blockchain de um jeito mais completo (mas ainda sem jargão técnico), o livro **"Blockchain Básico"** é o melhor que li sobre o assunto. Explica desde os fundamentos até casos de uso reais, tudo em linguagem acessível.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/857522669X?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/Lko0ePhEp)**
+
+---
+
 *Quer se aprofundar? Depois posso fazer um guia prático de como criar sua primeira carteira e fazer uma transação na testnet.*

@@ -89,6 +89,18 @@ Uma automação simples (ex: responder lead no WhatsApp) leva algumas horas. Coi
 
 ---
 
+## 📚 Recomendação pra começar
+
+Antes de sair comprando equipamentos caros, dá pra começar a automatizar seu escritório com coisas simples. Uma **extensão elétrica inteligente** já resolve o básico: desligar tudo de uma vez, programar horários e economizar energia.
+
+👉 **[Ver preço da Extensão Elétrica Inteligente na Amazon](https://www.amazon.com.br/dp/B0H27JZGZV?tag=ahdigitalblog-20)**
+
+E pra quem quer ir além, uma **tomada WiFi** permite ligar e desligar cada equipamento individualmente pelo celular — ar condicionado, cafeteira, monitor — tudo automatizado.
+
+👉 **[Ver preço da Tomada WiFi na Shopee](https://s.shopee.com.br/2g8in987nE)**
+
+---
+
 📱 Gostou do conteúdo? Siga **@andrehs.dev** no Instagram para mais dicas de automação e tecnologia pra pequenos negócios.
 
 👉 Leia também: [7 ferramentas de automação que sua pequena empresa deveria testar em 2026](/post/ferramentas-automacao-pme)

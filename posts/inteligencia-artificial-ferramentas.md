@@ -121,6 +121,15 @@ Depende do uso. Se usa diariamente pra trabalho → sim. Esporadicamente → o g
 
 ---
 
+## 📚 Pra se aprofundar
+
+Se você quer ir além do básico e entender as implicações mais profundas da inteligência artificial, o livro **"Superinteligência: Caminhos, Perigos, Estratégias"** do Nick Bostrom é a leitura mais séria disponível. Não é um manual de ferramentas — é um mergulho no que a IA significa pro futuro da humanidade.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/8416511055?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/Lko0ePhEp)**
+
+---
+
 📱 Siga **@andrehs.dev** no Instagram pra mais conteúdo sobre IA e tecnologia.
 
 👉 Leia também: [O que é IA Generativa](/post/o-que-e-ia-generativa) e [Como ganhar dinheiro com IA Generativa](/post/como-ganhar-dinheiro-com-ia-generativa)

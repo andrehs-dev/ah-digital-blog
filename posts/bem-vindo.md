@@ -54,4 +54,16 @@ Mas se preferir, é só aparecer de vez em quando. O blog não vai a lugar nenhu
 
 ---
 
+## 📚 Recomendação de leitura
+
+Se você quer criar o hábito de leitura (e estudar tecnologia com mais profundidade), o **Kindle 11ª Geração** é o melhor investimento que você pode fazer. Leve, bateria que dura semanas, sem distração de notificações — é só o livro.
+
+👉 **[Ver preço do Kindle na Amazon](https://www.amazon.com.br/dp/B0CP31L73X?tag=ahdigitalblog-20)**
+
+E pra proteger o Kindle quando você levar na mochila (ele é pequeno e frágil), uma **capa com fecho** é essencial.
+
+👉 **[Ver preço da Capa para Kindle na Shopee](https://s.shopee.com.br/8pjM8YeR3w)**
+
+---
+
 Se esse primeiro texto fez sentido pra você, talvez o próximo também faça. Vou escrever sobre como comecei a usar IA Generativa nos meus projetos — e, spoiler: não foi amor à primeira vista. Te vejo lá.

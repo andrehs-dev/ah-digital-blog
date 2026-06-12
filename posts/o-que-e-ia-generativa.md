@@ -133,6 +133,17 @@ Modelos de IA ainda "alucinam" — inventam informações que parecem verdadeira
 
 Quem detém os direitos de uma imagem criada por IA? E de um texto? Essa discussão ainda está longe de um consenso, com processos judiciais acontecendo nos EUA, Europa e Brasil.
 
+---
+
+## 📚 Pra se aprofundar
+
+O livro **"IA do Zero ao Avançado"** é uma ótima continuação pra quem leu este post e quer se aprofundar. Explica machine learning, redes neurais e LLMs de um jeito que qualquer pessoa consegue acompanhar — mesmo sem base técnica.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/B0G4CWQXYQ?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/8fPvw4nuf5)**
+
+---
+
 ## Perguntas Frequentes (FAQ)
 
 ### IA Generativa é a mesma coisa que ChatGPT?

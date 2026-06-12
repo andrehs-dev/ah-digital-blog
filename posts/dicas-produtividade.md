@@ -59,6 +59,11 @@ O Pomodoro clássico é 25/5. Funciona. Mas nem todo mundo se encaixa no padrão
 
 O que importa é ter um **gatilho claro de início e fim**. Quando o timer toca, você PARA. Não dá "só mais 5 minutos". A pausa é parte do processo, não um luxo.
 
+Um **timer Pomodoro físico** ajuda a manter o compromisso — sem depender de app que você pode ignorar ou desligar. Esse modelo tem display grande e alerta sonoro, simples e funcional.
+
+👉 **[Ver preço do Timer Pomodoro na Amazon](https://www.amazon.com.br/dp/B0H29LQVXF?tag=ahdigitalblog-20)**
+👉 **[Ver preço do Timer na Shopee](https://s.shopee.com.br/30lZBjOv0j)**
+
 ## 5. Tenha um segundo cérebro
 
 Sua memória não é confiável. Você vai esquecer aquele snippet genial, aquele artigo importante, aquela configuração que levou 3 horas pra acertar.

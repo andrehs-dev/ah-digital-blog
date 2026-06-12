@@ -178,6 +178,17 @@ Essa é a forma mais escalável de todas. Você cria conteúdo com IA Generativa
 
 É exatamente a estratégia que este blog usa 🚀
 
+---
+
+## 📚 Pra se aprofundar
+
+Se você quer aprender IA de verdade — do básico até técnicas mais avançadas — o livro **"IA do Zero ao Avançado"** é um guia completo. Cobre machine learning, redes neurais, LLMs e aplicações práticas, tudo explicado de forma progressiva.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/B0G4CWQXYQ?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/8fPvw4nuf5)**
+
+---
+
 ## Perguntas Frequentes (FAQ)
 
 ### Preciso saber programar para ganhar dinheiro com IA?

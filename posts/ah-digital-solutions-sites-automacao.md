@@ -80,4 +80,16 @@ Ou me chama direto no WhatsApp: **(19) 9.9317-4538**
 
 ---
 
+## 📚 Recomendação de leitura e estudo
+
+Se você está montando seu negócio digital, uma coisa que faz diferença é **ter bons hábitos de leitura**. O Kindle 11ª Geração é leve, não cansa os olhos e você leva dezenas de livros técnicos no bolso. Uso o meu todo dia pra estudar programação e tecnologia.
+
+👉 **[Ver preço do Kindle na Amazon](https://www.amazon.com.br/dp/B0CP31L73X?tag=ahdigitalblog-20)**
+
+E pra manter o notebook na altura certa enquanto trabalha, um **suporte ajustável** salva sua postura (e suas costas).
+
+👉 **[Ver preço do Suporte para Notebook na Shopee](https://s.shopee.com.br/5Aq3lUVfuK)**
+
+---
+
 *Este post é institucional. A AH Digital Solutions é o braço de serviços digitais do mesmo criador do AH Digital Blog.*

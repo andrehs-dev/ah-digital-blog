@@ -76,4 +76,15 @@ A melhoria da memória do ChatGPT é um passo nessa direção — sistemas que a
 
 A nova arquitetura de memória do ChatGPT transforma o assistente de uma ferramenta que "esquece tudo entre conversas" para um sistema que realmente constrói conhecimento ao longo do tempo. Para quem usa IA no dia a dia profissional, é uma daquelas mudanças que parecem pequenas no anúncio, mas fazem diferença enorme no uso real.
 
+---
+
+## 📚 Pra se aprofundar
+
+Se você quer entender IA de forma mais ampla — desde os fundamentos até aplicações práticas — o livro **"IA do Zero ao Avançado"** é um bom guia. Explica conceitos como machine learning, redes neurais e LLMs sem assumir que você já é da área.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/B0G4CWQXYQ?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/8fPvw4nuf5)**
+
+---
+
 **Fonte:** [Tecnoblog](https://tecnoblog.net/noticias/openai-melhorou-a-memoria-do-chatgpt-e-o-que-isso-quer-dizer/)

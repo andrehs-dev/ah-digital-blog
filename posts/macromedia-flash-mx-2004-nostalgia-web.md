@@ -83,4 +83,16 @@ Se você é da época ou quer conhecer de perto essa ferramenta que marcou a int
 
 ---
 
+## 📚 Pra se aprofundar
+
+Se o Flash MX despertou sua curiosidade sobre desenvolvimento web, o livro **"PHP e MySQL: Desenvolvimento Web"** é um ótimo próximo passo. Ensina a criar sites dinâmicos com banco de dados — a evolução natural do que o Flash começou.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/6555205911?tag=ahdigitalblog-20)**
+
+E se você curte manter tudo anotado enquanto estuda, um **caderno inteligente** faz diferença. Escreve à mão, digitaliza e organiza no celular.
+
+👉 **[Ver preço do Caderno Inteligente na Shopee](https://s.shopee.com.br/4ftnAVYe0M)**
+
+---
+
 *Flash não morreu. Ele só foi substituído por coisas que ele mesmo inspirou.*

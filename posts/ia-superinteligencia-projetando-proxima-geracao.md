@@ -121,4 +121,15 @@ A superinteligência está chegando. E ela não vai pedir licença.
 
 **Fonte:** [Superinteligência? IA estaria projetando a próxima IA da OpenAI — Olhar Digital](https://olhardigital.com.br/2026/06/07/inteligencia-artificial/superinteligencia-ia-estaria-projetando-a-proxima-ia-da-openai/)
 
+---
+
+## 📚 Pra se aprofundar
+
+O livro **"Superinteligência: Caminhos, Perigos, Estratégias"**, do Nick Bostrom, é a referência mais séria sobre o tema. Ele analisa os cenários possíveis — desde os otimistas até os mais preocupantes — com base em pesquisa acadêmica de verdade. Não é leitura de hype, é o livro que os próprios pesquisadores de IA citam.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/8416511055?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/Lko0ePhEp)**
+
+---
+
 *Gostou deste conteúdo? Assine a newsletter do AH Digital e receba análises como esta direto no seu e-mail. Sem spam, só tecnologia que realmente importa para seu negócio.*

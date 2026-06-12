@@ -95,6 +95,18 @@ Automação não é overengineering. É sobre ganhar tempo pro que realmente imp
 
 ---
 
+## 📚 Recomendação pra começar
+
+Automação começa em casa (ou no escritório). Um **Echo Dot com Alexa** é uma das formas mais baratas de começar a automatizar tarefas do dia a dia — temporizadores, lembretes, listas de compras, controle de iluminação e até integração com outras ferramentas.
+
+👉 **[Ver preço do Echo Dot 5G na Amazon](https://www.amazon.com.br/dp/B09B8VGCR8?tag=ahdigitalblog-20)**
+
+E pra dar o próximo passo na automação residencial ou do escritório, uma **tomada WiFi inteligente** permite ligar e desligar equipamentos remotamente pelo celular ou por comando de voz.
+
+👉 **[Ver preço da Tomada WiFi na Shopee](https://s.shopee.com.br/2g8in987nE)**
+
+---
+
 👉 Comece com uma ferramenta gratuita hoje mesmo. Meia hora de configuração pode te poupar horas por semana.
 
 📱 Siga **@andrehs.dev** no Instagram pra mais conteúdo sobre automação e tecnologia pra pequenos negócios.

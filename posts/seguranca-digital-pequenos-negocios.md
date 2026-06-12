@@ -121,4 +121,19 @@ Pequenas empresas não quebram porque um hacker "muito bom" invadiu. Quebram por
 
 ---
 
+## 📚 Pra se aprofundar
+
+Se você quer levar segurança digital a sério, recomendo dois materiais que usei como referência:
+
+O livro **"Descomplicando Segurança Digital"** cobre exatamente esses tópicos — senhas, backups, LGPD — tudo explicado pra quem não é especialista. Direto ao ponto, sem firula.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/B08XN3H51V?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/8fPvw4nuf5)**
+
+E, falando em proteção física, um **cadeado digital** pra gaveta ou armário onde você guarda documentos e equipamentos também faz diferença. Segurança começa no mundo físico.
+
+👉 **[Ver preço do Cadeado na Shopee](https://s.shopee.com.br/4LGwlm3Xk6)**
+
+---
+
 *Este post faz parte de uma série. Veja também o [guia de ferramentas de automação para PME](/post/ferramentas-automacao-pme).*

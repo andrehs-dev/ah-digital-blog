@@ -82,6 +82,13 @@ Para o pequeno empresário brasileiro, as aplicações práticas incluem:
 - **Monitoramento de obras:** Canteiros de obras são alvos frequentes de furto. Um robô com câmera térmica pode detectar invasores e alertar a central.
 - **Recepção e orientação:** Robôs com capacidade de interação por voz podem receber visitantes e fornecer informações básicas.
 
+Se você está pensando em reforçar a segurança do seu negócio, uma **câmera de segurança inteligente** é o primeiro passo. Esse modelo da Intelbras tem visão noturna, detecção de movimento e acesso pelo celular — tudo que um pequeno negócio precisa pra começar.
+
+👉 **[Ver preço da Câmera de Segurança na Amazon](https://www.amazon.com.br/dp/B0CYPPS4VG?tag=ahdigitalblog-20)**
+👉 **[Ver preço da Câmera WiFi na Shopee](https://s.shopee.com.br/qh4bXozye)**
+
+Enquanto os cães-robôs ainda são caros pra realidade brasileira, uma câmera WiFi já resolve 80% dos problemas de segurança por uma fração do preço.
+
 ## Desafios e Limitações
 
 Claro, a tecnologia ainda enfrenta obstáculos significativos:

@@ -134,4 +134,13 @@ Sem pressa. Sem medo de FOMO. Cripto não vai a lugar nenhum.
 
 ---
 
+## 📚 Pra se aprofundar
+
+Pra quem quer entender os ciclos do mercado cripto e não cair em armadilhas, o livro **"Ciclos de Mercado"** é uma referência. Explica os padrões históricos, as fases de alta e baixa, e ajuda a tomar decisão mais racional — em vez de emocional.
+
+👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/B0GNJ1XVCT?tag=ahdigitalblog-20)**
+👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/3qKgAwYZK0)**
+
+---
+
 *Gostou do post? Depois faço um guia passo a passo de como criar sua primeira carteira e comprar Bitcoin sem pagar taxas abusivas.*
