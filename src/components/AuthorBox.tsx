@@ -1,11 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function AuthorBox() {
   return (
     <div className="my-12 flex items-start gap-4 rounded-2xl border border-white/10 bg-white/5 p-6">
-      {/* Avatar/Monograma */}
-      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-blue-700 text-lg font-bold text-white">
-        AH
+      {/* Foto do autor */}
+      <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full ring-2 ring-blue-500/30">
+        <Image
+          src="/images/author.jpg"
+          alt="André Henrique"
+          width={56}
+          height={56}
+          className="h-full w-full object-cover"
+        />
       </div>
 
       {/* Info */}
