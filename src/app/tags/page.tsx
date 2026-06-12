@@ -6,6 +6,9 @@ import PostCard from "@/components/PostCard";
 export const metadata: Metadata = {
   title: "Tags",
   description: "Navegue por categorias no AH Digital Blog.",
+  alternates: {
+    canonical: "/tags",
+  },
 };
 
 export default function TagsPage() {

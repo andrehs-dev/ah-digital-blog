@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Política de Afiliados",
   description: "Transparência sobre links de afiliado no AH Digital Blog.",
+  alternates: {
+    canonical: "/politica-de-afiliados",
+  },
 };
 
 export default function PoliticaAfiliados() {

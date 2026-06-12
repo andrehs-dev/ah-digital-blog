@@ -9,6 +9,10 @@ export const metadata: Metadata = {
     template: "%s — AH Digital Blog",
   },
   description: "Guias práticos sobre IA, automação, segurança digital e crescimento para pequenas empresas. Sem jargão técnico, só conteúdo útil.",
+  metadataBase: new URL("https://ah-digital-blog.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "AH Digital Blog — IA, Automação e Tecnologia para PME",
     description: "Guias práticos sobre IA, automação, segurança digital e crescimento para pequenas empresas.",

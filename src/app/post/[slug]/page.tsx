@@ -5,6 +5,7 @@ import { getPost, getAllPosts } from "@/lib/posts";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { BlogPostSchema } from "@/components/BlogPostSchema";
+import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -17,6 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: post.meta.title,
     description: post.meta.description,
+    alternates: {
+      canonical: `/post/${slug}`,
+    },
     openGraph: {
       title: post.meta.title,
       description: post.meta.description,
@@ -41,8 +45,16 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const post = getPost(slug);
   if (!post) notFound();
 
+  const baseUrl = "https://ah-digital-blog.vercel.app";
+
   return (
     <article className="mx-auto max-w-3xl px-4 py-16">
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: baseUrl },
+          { name: post.meta.title, url: `${baseUrl}/post/${slug}` },
+        ]}
+      />
       <BlogPostSchema
         title={post.meta.title}
         description={post.meta.description}
@@ -83,7 +95,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         <div className="mb-8 overflow-hidden rounded-2xl">
           <img
             src={post.meta.image}
-            alt={post.meta.title}
+            alt={`Ilustração do post: ${post.meta.title}`}
             className="w-full object-cover"
           />
         </div>

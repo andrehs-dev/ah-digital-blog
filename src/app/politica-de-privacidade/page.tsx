@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Política de Privacidade",
   description: "Como o AH Digital Blog coleta, usa e protege seus dados pessoais.",
+  alternates: {
+    canonical: "/politica-de-privacidade",
+  },
 };
 
 export default function PoliticaPrivacidade() {

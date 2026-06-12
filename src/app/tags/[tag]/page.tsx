@@ -14,6 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ tag: stri
   return {
     title: `#${tag}`,
     description: `Artigos sobre ${tag} no AH Digital Blog.`,
+    alternates: {
+      canonical: `/tags/${tag}`,
+    },
   };
 }
 

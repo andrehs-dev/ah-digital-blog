@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Termos de Uso",
   description: "Termos e condições de uso do AH Digital Blog.",
+  alternates: {
+    canonical: "/termos-de-uso",
+  },
 };
 
 export default function TermosDeUso() {
