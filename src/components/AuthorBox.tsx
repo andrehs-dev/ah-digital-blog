@@ -10,17 +10,18 @@ export function AuthorBox() {
 
       {/* Info */}
       <div className="min-w-0">
-        <p className="font-semibold text-white">André H. Silva</p>
+        <p className="font-semibold text-white">André Henrique</p>
         <p className="mt-1 text-sm leading-relaxed text-white/60">
-          Estudante de Engenharia de Software e criador da{" "}
+          Engenheiro de Software em formação e criador da{" "}
           <Link
             href="https://ah-digitalsolutions.vercel.app"
             className="text-blue-400 hover:text-blue-300"
           >
             AH Digital Solutions
           </Link>
-          . Escrevo sobre tecnologia, IA, automação e empreendedorismo digital
-          — sem hype, só o que funciona de verdade.
+          . Obsessivo por automatizar processos, explorar IA e construir negócios
+          digitais que façam sentido. Escrevo sobre o que aprendo no caminho —
+          tecnologia real, sem marketing fake.
         </p>
         <div className="mt-3 flex gap-3 text-sm">
           <Link
