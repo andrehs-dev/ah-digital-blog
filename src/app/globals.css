@@ -6,6 +6,12 @@
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
+@keyframes sweep {
+  to {
+    transform: translateX(100%);
+  }
+}
+
 /* Light theme (default) — cinza + azul (igual ao site) */
 :root:not(.dark) {
   --theme-bg: oklch(0.97 0 0);
