@@ -101,32 +101,13 @@ A tecnologia que permite automatizar processos e aumentar a produtividade é a m
 
 Em um mundo onde provas digitais podem ser falsificadas, ter câmeras de segurança com armazenamento em nuvem é uma das melhores defesas para o seu negócio. A **Câmera Wi-Fi Intelbras ou similar com gravação contínua** oferece registro auditável e imagens que servem como evidência confiável.
 
-👉 **[Ver preço de Câmera de Segurança na Amazon](https://www.amazon.com.br/dp/B0CLRZ2BL9?tag=ahdigitalblog-20)**
-👉 **[Ver preço de Câmera de Segurança na Shopee](https://s.shopee.com.br/8zXTNXlY5b)**
+👉 **[Ver preço de Câmera de Segurança na Amazon]([https://www.amazon.com.br/dp/B0CLRZ2BL9?tag=ahdigitalblog-20](https://www.amazon.com.br/Seguran%C3%A7a-Girat%C3%B3ria-Infravermelha-Resistente-bidirecional/dp/B0GT1T855Y?c=ts&dib=eyJ2IjoiMSJ9.CZ0ZZLHgZiGd1OWgOueQ40vSC9DdT8GAcBArT3Tarq1VU1eW_IR3H4thPCQMGEQqrF451HD-zn65IaTwETUboP_LhTXFRqHW4E3krFRe3vhyBFJSQyErjztyYTXWyqDdmUZLxCYPixGswqEHdF02r11oN5TU1DHLBEPhD9xaR1RDYCpFMGaaDPYbgH7zx7HhtSH3hyDuV9X4_0SOMG4vkeozjy_LtukaoWCNUSX-pVbXDCfAzRmQH6AhxGiorBOz_FBm9Mnb36X-GzriTILHsaowVDFdH_z8aA9tF3J7OFw.Bbz4B_dy5Mwchm3g6-s7QYrgPe0qSxMFOwROXYl-BtE&dib_tag=se&keywords=C%C3%A2meras+de+Vigil%C3%A2ncia+e+Seguran%C3%A7a&qid=1781468505&s=electronics&sr=1-2-spons&ts_id=16243834011&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=ahdigitalblog-20&linkId=2747189261e0c43e0d714dab5f630942&ref_=as_li_ss_tl))**
+👉 **[Ver preço de Câmera de Segurança na Shopee]([https://s.shopee.com.br/8zXTNXlY5b](https://s.shopee.com.br/6AiekVfA96))**
 
 ---
 
 **Fonte:** [Olhar Digital](https://olhardigital.com.br/2026/06/13/inteligencia-artificial/policial-do-reino-unido-e-afastado-por-fabricar-provas-criminais-com-ajuda-de-ia/) | [The Guardian](https://www.theguardian.com/technology/2026/jun/12/police-officer-under-criminal-investigation-over-alleged-use-of-ai) | [Stateline](https://stateline.org/2026/01/26/as-ai-generated-fake-content-mars-legal-cases-states-want-guardrails/)
 
----
-
-📸 **Instagram Caption**
-
-Você sabia que nos últimos 18 meses, mais de 500 casos em tribunais americanos envolveram provas criadas por IA, e muitas delas eram completamente falsas?
-
-Agora imagina isso nas mãos de um policial. Não é ficção: um agente de Derbyshire, na Inglaterra, foi afastado depois que uma investigação criminal descobriu que ele usava inteligência artificial para fabricar provas em múltiplos processos judiciais.
-
-É a primeira vez que um caso como esse vem a público no Reino Unido. Mas, com a popularização de ferramentas de IA generativa, duvido que seja a última.
-
-O problema não é a tecnologia em si. A IA não é boa nem má. O problema é o que as pessoas escolhem fazer com ela. E, no caso, um profissional treinado para proteger a lei decidiu usá-la para enganar o sistema.
-
-O mais assustador? Os alertas já existiam. O órgão que coordena as polícias britânicas já havia orientado as forças a pararem de usar IA em documentos judiciais por dúvidas sobre confiabilidade. Mesmo assim, o policial continuou usando, e não para redigir relatórios, mas para criar evidências falsas.
-
-Isso não é só um problema de tribunais britânicos. Se você tem um negócio (restaurante, clínica, loja), lida com provas digitais o tempo todo: prints de WhatsApp, comprovantes, contratos assinados. Tudo isso pode ser falsificado com IA em segundos.
-
-A pergunta que fica: num mundo onde qualquer um pode criar uma prova falsa convincente, como você confia no que vê?
-
-A resposta envolve tecnologia (câmeras com armazenamento em nuvem, sistemas auditáveis, backups criptografados), mas também envolve uma mudança de mentalidade. Desconfiar do que parece perfeito demais, verificar antes de aceitar, e nunca tratar uma imagem ou print como verdade absoluta.
 
 No blog de hoje eu conto a história completa do caso, mostro os dados dos EUA sobre falsificação de provas com IA e dou dicas práticas de como proteger seu negócio contra esse tipo de fraude digital.
 
