@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="50%" stop-color="#151530"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="purple-cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="#fff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="980" cy="520" r="180" fill="#7c3aed" opacity="0.08"/>
+  <circle cx="200" cy="100" r="120" fill="#22d3ee" opacity="0.06"/>
+
+  <!-- Corner bracket decorations -->
+  <path d="M30 30 L200 30" stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M30 30 L30 80" stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M1170 30 L1000 30" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M1170 30 L1170 80" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.3"/>
+
+  <!-- Category tag -->
+  <text x="60" y="80" font-family="'Courier New', monospace" font-size="14" fill="#22d3ee" opacity="0.7" letter-spacing="4">
+    SEGURANÇA DIGITAL
+  </text>
+
+  <!-- Title -->
+  <text x="60" y="155" font-family="'Impact', 'Arial Black', sans-serif" font-size="48" fill="#ffffff" letter-spacing="-0.5">
+    POLICIAL USA IA PARA
+  </text>
+  <text x="60" y="215" font-family="'Impact', 'Arial Black', sans-serif" font-size="48" fill="url(#purple-cyan)" letter-spacing="-0.5">
+    FABRICAR PROVAS FALSAS
+  </text>
+
+  <!-- Subtitle -->
+  <text x="60" y="270" font-family="'Courier New', monospace" font-size="18" fill="#94a3b8" letter-spacing="1">
+    Caso inédito no Reino Unido expõe fragilidade das evidências digitais
+  </text>
+
+  <!-- Separator line -->
+  <line x1="60" y1="295" x2="500" y2="295" stroke="#7c3aed" stroke-width="1" opacity="0.5"/>
+
+  <!-- Data visualization: Mini bar chart -->
+  <text x="60" y="340" font-family="'Impact', 'Arial Black', sans-serif" font-size="20" fill="#e2e8f0">
+    PROVAS FALSAS COM IA NOS TRIBUNAIS (EUA)
+  </text>
+  <text x="60" y="360" font-family="'Courier New', monospace" font-size="11" fill="#64748b">
+    Fonte: Damien Charlotin (HEC Paris) · Stateline · Jan 2025 – Jun 2026
+  </text>
+
+  <!-- Bar 1: 518 cases -->
+  <rect x="60" y="395" width="180" height="24" rx="3" fill="url(#bar1)"/>
+  <text x="250" y="413" font-family="'Courier New', monospace" font-size="16" fill="#a855f7" font-weight="bold">
+    518
+  </text>
+  <text x="285" y="413" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8">
+    casos com alucinações de IA
+  </text>
+
+  <!-- Bar 2: 51% law firms -->
+  <rect x="60" y="435" width="120" height="24" rx="3" fill="url(#bar2)"/>
+  <text x="190" y="453" font-family="'Courier New', monospace" font-size="16" fill="#67e8f9" font-weight="bold">
+    51%
+  </text>
+  <text x="225" y="453" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8">
+    dos escritórios investiram em IA
+  </text>
+
+  <!-- Bar 3: 11 states -->
+  <rect x="60" y="475" width="80" height="24" rx="3" fill="url(#bar3)"/>
+  <text x="150" y="493" font-family="'Courier New', monospace" font-size="16" fill="#a855f7" font-weight="bold">
+    11
+  </text>
+  <text x="175" y="493" font-family="'Courier New', monospace" font-size="12" fill="#94a3b8">
+    estados dos EUA com novas regras
+  </text>
+
+  <!-- Logo AH -->
+  <text x="1120" y="590" font-family="'Impact', 'Arial Black', sans-serif" font-size="22" fill="#22d3ee" opacity="0.6" text-anchor="end">
+    AH
+  </text>
+  <text x="1140" y="608" font-family="'Courier New', monospace" font-size="10" fill="#64748b" text-anchor="end">
+    DIGITAL BLOG
+  </text>
+
+  <!-- Date -->
+  <text x="60" y="590" font-family="'Courier New', monospace" font-size="12" fill="#64748b">
+    14 JUN 2026
+  </text>
+</svg>
