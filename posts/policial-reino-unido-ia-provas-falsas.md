@@ -107,10 +107,3 @@ Em um mundo onde provas digitais podem ser falsificadas, ter câmeras de seguran
 ---
 
 **Fonte:** [Olhar Digital](https://olhardigital.com.br/2026/06/13/inteligencia-artificial/policial-do-reino-unido-e-afastado-por-fabricar-provas-criminais-com-ajuda-de-ia/) | [The Guardian](https://www.theguardian.com/technology/2026/jun/12/police-officer-under-criminal-investigation-over-alleged-use-of-ai) | [Stateline](https://stateline.org/2026/01/26/as-ai-generated-fake-content-mars-legal-cases-states-want-guardrails/)
-
-
-No blog de hoje eu conto a história completa do caso, mostro os dados dos EUA sobre falsificação de provas com IA e dou dicas práticas de como proteger seu negócio contra esse tipo de fraude digital.
-
-Leia o post completo no blog → https://ah-digital-blog.vercel.app/post/policial-reino-unido-ia-provas-falsas
-
-#IA #SegurançaDigital #ProvasFalsas #Tecnologia #Justiça
