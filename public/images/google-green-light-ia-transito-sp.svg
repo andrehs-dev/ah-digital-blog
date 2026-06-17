@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a0a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:0.7" />
+    </linearGradient>
+    <linearGradient id="gridline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.03" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.06" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.03" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Grid pattern -->
+  <g opacity="0.08">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="url(#gridline)" stroke-width="1"/>
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="url(#gridline)" stroke-width="0.5"/>
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="url(#gridline)" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="url(#gridline)" stroke-width="0.5"/>
+    <line x1="0" y1="320" x2="1200" y2="320" stroke="url(#gridline)" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="url(#gridline)" stroke-width="0.5"/>
+    <line x1="0" y1="480" x2="1200" y2="480" stroke="url(#gridline)" stroke-width="0.5"/>
+    <line x1="0" y1="560" x2="1200" y2="560" stroke="url(#gridline)" stroke-width="0.5"/>
+    <line x1="0" y1="630" x2="1200" y2="630" stroke="url(#gridline)" stroke-width="1"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="550" r="200" fill="#7c3aed" opacity="0.04" />
+  <circle cx="1100" cy="100" r="150" fill="#22d3ee" opacity="0.04" />
+
+  <!-- Decorative line top -->
+  <line x1="60" y1="80" x2="1140" y2="80" stroke="url(#accent1)" stroke-width="2" opacity="0.5" />
+
+  <!-- Logo AH -->
+  <text x="60" y="55" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="22" fill="url(#accent2)">AH</text>
+  <text x="92" y="55" font-family="Inter, system-ui, sans-serif" font-weight="300" font-size="22" fill="#ffffff" opacity="0.6">Digital</text>
+
+  <!-- Tag -->
+  <rect x="60" y="100" width="140" height="28" rx="14" fill="#7c3aed" opacity="0.25" />
+  <text x="130" y="119" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="12" fill="#a78bfa" text-anchor="middle">INTELIGÊNCIA ARTIFICIAL</text>
+
+  <!-- Main title -->
+  <text x="60" y="175" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="36" fill="#ffffff">Google Green Light em SP</text>
+  <text x="60" y="220" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="26" fill="#22d3ee">IA está redesenhando o</text>
+  <text x="60" y="258" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="26" fill="#22d3ee">trânsito de São Paulo</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="295" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">Projeto usa machine learning para otimizar semáforos</text>
+  <text x="60" y="320" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="16" fill="#94a3b8">em parceria com CET e Prodam.</text>
+
+  <!-- Mini chart section -->
+  <rect x="680" y="120" width="460" height="250" rx="12" fill="#ffffff" opacity="0.04" />
+  <rect x="680" y="120" width="460" height="250" rx="12" stroke="#7c3aed" stroke-width="1" fill="none" opacity="0.3" />
+
+  <!-- Chart title -->
+  <text x="700" y="150" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="14" fill="#ffffff" opacity="0.7">Impacto do Green Light</text>
+
+  <!-- Bars -->
+  <!-- Bar 1: 30% reduction in stops -->
+  <rect x="720" y="210" width="110" height="80" rx="4" fill="url(#bar1)" opacity="0.9" />
+  <text x="775" y="202" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="20" fill="#a78bfa" text-anchor="middle">30%</text>
+  <text x="775" y="300" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="11" fill="#94a3b8" text-anchor="middle">MENOS PARADAS</text>
+
+  <!-- Bar 2: 10% emissions reduction -->
+  <rect x="855" y="240" width="110" height="50" rx="4" fill="url(#bar2)" opacity="0.9" />
+  <text x="910" y="232" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="20" fill="#22d3ee" text-anchor="middle">10%</text>
+  <text x="910" y="300" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="11" fill="#94a3b8" text-anchor="middle">MENOS EMISSÕES</text>
+
+  <!-- Bar 3: 20 cities -->
+  <rect x="990" y="220" width="110" height="70" rx="4" fill="url(#bar3)" opacity="0.9" />
+  <text x="1045" y="212" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="20" fill="#fbbf24" text-anchor="middle">20</text>
+  <text x="1045" y="300" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="11" fill="#94a3b8" text-anchor="middle">CIDADES</text>
+
+  <!-- Chart source -->
+  <text x="700" y="358" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="10" fill="#64748b">Fonte: Google Research, CET</text>
+
+  <!-- Bottom section -->
+  <line x1="60" y1="560" x2="1140" y2="560" stroke="#7c3aed" stroke-width="1" opacity="0.3" />
+
+  <!-- Stats line -->
+  <circle cx="75" cy="583" r="3" fill="#22d3ee" />
+  <text x="88" y="588" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="12" fill="#94a3b8">20 cidades em 4 continentes</text>
+
+  <circle cx="310" cy="583" r="3" fill="#7c3aed" />
+  <text x="323" y="588" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="12" fill="#94a3b8">CET + Prodam</text>
+
+  <circle cx="510" cy="583" r="3" fill="#22d3ee" />
+  <text x="523" y="588" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="12" fill="#94a3b8">São Paulo, 17/06/2026</text>
+
+  <!-- Date -->
+  <text x="1140" y="610" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="11" fill="#64748b" text-anchor="end">ahdigital.com.br</text>
+</svg>
