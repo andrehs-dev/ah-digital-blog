@@ -1,0 +1,121 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0720"/>
+      <stop offset="35%" stop-color="#1a0a3e"/>
+      <stop offset="70%" stop-color="#2d1b69"/>
+      <stop offset="100%" stop-color="#1e0f40"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(124,58,237,0.08)" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="rgba(34,211,238,0.15)"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+
+  <!-- Decorative lines -->
+  <line x1="60" y1="0" x2="60" y2="630" stroke="rgba(124,58,237,0.06)" stroke-width="1"/>
+  <line x1="1140" y1="0" x2="1140" y2="630" stroke="rgba(124,58,237,0.06)" stroke-width="1"/>
+  <line x1="0" y1="480" x2="1200" y2="480" stroke="rgba(124,58,237,0.1)" stroke-width="1"/>
+
+  <!-- Glowing orb -->
+  <circle cx="1000" cy="150" r="120" fill="rgba(124,58,237,0.06)" filter="url(#glow)"/>
+  <circle cx="1000" cy="150" r="80" fill="rgba(34,211,238,0.04)" filter="url(#glow)"/>
+
+  <!-- Top bar with gradient -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- Logo AH -->
+  <text x="60" y="55" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="#7c3aed">AH</text>
+  <text x="92" y="55" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="#22d3ee">DIGITAL</text>
+
+  <!-- Category badge -->
+  <rect x="60" y="80" width="160" height="28" rx="14" fill="rgba(124,58,237,0.2)" stroke="rgba(124,58,237,0.4)" stroke-width="1"/>
+  <text x="140" y="98" font-family="Arial, sans-serif" font-size="11" fill="#a855f7" text-anchor="middle" font-weight="bold" letter-spacing="2">SEGURANÇA DIGITAL</text>
+
+  <!-- Date -->
+  <text x="1140" y="98" font-family="'Courier New', monospace" font-size="12" fill="rgba(255,255,255,0.35)" text-anchor="end">15 JUN 2026</text>
+
+  <!-- Main title -->
+  <text x="60" y="170" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#ffffff">
+    <tspan x="60" dy="0">Governo Trump bloqueia</tspan>
+    <tspan x="60" dy="48">Anthropic: Mythos e Fable 5</tspan>
+    <tspan x="60" dy="48">banidos globalmente</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="60" y="300" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.6)" font-weight="300">
+    <tspan x="60" dy="0">Amazon alertou Casa Branca. Suspeita de acesso chinês.</tspan>
+    <tspan x="60" dy="28">Anthropic remove modelos do ar. IPO ameaçado.</tspan>
+  </text>
+
+  <!-- Mini timeline visualization -->
+  <g transform="translate(60, 370)">
+    <!-- Title -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="rgba(255,255,255,0.4)" letter-spacing="1">LINHA DO TEMPO</text>
+
+    <!-- Timeline base -->
+    <line x1="0" y1="40" x2="1080" y2="40" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+    <!-- Timeline nodes -->
+    <!-- Amazon alert -->
+    <circle cx="0" cy="40" r="5" fill="#7c3aed"/>
+    <text x="0" y="62" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle">12 Jun</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#a855f7" text-anchor="middle">Amazon alerta</text>
+
+    <!-- White House -->
+    <circle cx="270" cy="40" r="5" fill="#7c3aed"/>
+    <text x="270" y="62" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle">12 Jun</text>
+    <text x="270" y="20" font-family="Arial, sans-serif" font-size="12" fill="#a855f7" text-anchor="middle">Reunião emergência</text>
+
+    <!-- Export order -->
+    <circle cx="540" cy="40" r="6" fill="#22d3ee"/>
+    <text x="540" y="62" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle">13 Jun</text>
+    <text x="540" y="20" font-family="Arial, sans-serif" font-size="12" fill="#22d3ee" text-anchor="middle" font-weight="bold">Controle exportação</text>
+
+    <!-- Global suspension -->
+    <circle cx="810" cy="40" r="5" fill="#7c3aed"/>
+    <text x="810" y="62" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle">13 Jun</text>
+    <text x="810" y="20" font-family="Arial, sans-serif" font-size="12" fill="#a855f7" text-anchor="middle">Anthropic suspende</text>
+
+    <!-- Suspeita China -->
+    <circle cx="1080" cy="40" r="5" fill="#7c3aed"/>
+    <text x="1080" y="62" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)" text-anchor="middle">14 Jun</text>
+    <text x="1080" y="20" font-family="Arial, sans-serif" font-size="12" fill="#a855f7" text-anchor="middle">Suspeita China vaza</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="626" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- Footer -->
+  <text x="60" y="610" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.2)">ahdigital.com.br</text>
+</svg>

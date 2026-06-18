@@ -138,6 +138,6 @@ O risco é tentar automatizar tudo de uma vez. Empresa que faz isso geralmente c
 
 Escrevi um post completo no AH Digital explicando o que a Microsoft lançou, por que isso muda o custo da IA para empresas e como devs e pequenos negócios podem usar essa mudança a favor.
 
-Leia o post completo no blog → https://ahdigital.com.br/blog/microsoft-mai-modelos-ia-empresas
+Leia o post completo no blog → https://ahdigital.com.br/post/microsoft-mai-modelos-ia-empresas
 
 **Fonte:** [CNBC](https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html) | [Microsoft Blog](https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/) | [Microsoft AI](https://microsoft.ai/news/introducingmai-code-1-flash/) | [GitHub Changelog](https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot/) | [Microsoft Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization) | [Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-agents-market-report)
