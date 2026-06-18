@@ -106,7 +106,7 @@ Para pequenas empresas, isso é um sinal claro de que a IA está saindo do campo
 
 A novidade ainda tem limites: é restrita a assinantes pagos, com limite de uma tarefa por hora, e não substitui um sistema completo de automação. Mas é um passo importante. A tendência é que assistentes de IA fiquem cada vez mais próximos de um funcionário digital.
 
-Se você quer entender como isso funciona na prática e onde pode aplicar no seu negócio, leia o post completo no blog → [ChatGPT agora agenda tarefas e muda sua rotina com IA](https://ahdigital.com.br/blog/chatgpt-tarefas-agendadas-ia)
+Se você quer entender como isso funciona na prática e onde pode aplicar no seu negócio, leia o post completo no blog → [ChatGPT agora agenda tarefas e muda sua rotina com IA](https://ahdigital.com.br/post/chatgpt-tarefas-agendadas-ia)
 
 #chatgpt #ia #produtividade #automacao #openai
 
