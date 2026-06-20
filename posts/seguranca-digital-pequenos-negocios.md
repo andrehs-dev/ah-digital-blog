@@ -136,4 +136,4 @@ E, falando em proteção física, um **cadeado digital** pra gaveta ou armário 
 
 ---
 
-*Este post faz parte de uma série. Veja também o [guia de ferramentas de automação para PME](/post/ferramentas-automacao-pme).*
+*Este post faz parte de uma série. Veja também o [guia de ferramentas de automação para PME](/post/ferramentas-automacao-pme) e o post sobre [Shadow AI: o risco escondido nas empresas](/post/shadow-ai-risco-escondido-empresas).*
