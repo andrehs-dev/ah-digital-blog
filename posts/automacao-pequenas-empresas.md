@@ -112,4 +112,6 @@ E pra quem quer ir além, uma **tomada WiFi** permite ligar e desligar cada equi
 
 📱 Gostou do conteúdo? Siga **@andrehs.dev** no Instagram para mais dicas de automação e tecnologia pra pequenos negócios.
 
+👉 Leia também: [Alter-Ego: o robô humanoide que está ajudando pacientes em hospitais na Itália](/post/alter-ego-robo-humanoide-hospitalar-italia)
+
 👉 Leia também: [7 ferramentas de automação que sua pequena empresa deveria testar em 2026](/post/ferramentas-automacao-pme)
