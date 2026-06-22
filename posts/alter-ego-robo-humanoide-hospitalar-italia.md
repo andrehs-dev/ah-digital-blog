@@ -101,16 +101,6 @@ Monitoramento de frequência cardíaca, oxigênio no sangue, sono e mais de 100 
 
 ---
 
-📸 Instagram Caption
-
-Você sabia que já existe um robô com músculos artificiais sendo testado em hospitais na Itália? O Alter-Ego tem 1,2 metro de altura, mãos que imitam a maleabilidade humana e consegue registrar o nível de dor de um paciente, levar água, acompanhar até a sala de tratamento e até representar o médico em atendimentos remotos. Ele foi criado pelo Instituto Italiano de Tecnologia (IIT) junto com a Universidade de Pisa.
-
-Diferente dos robôs industriais, o Alter-Ego foi construído pensando no contato humano seguro desde o início, com braços de rigidez variável que ajustam a força automaticamente e sobrancelhas expressivas que tornam a interação mais natural. As mãos SoftHand são um trabalho de uma década de pesquisa: usam um motor só mas cada dedo se adapta ao formato do que está segurando, como uma mão de verdade.
-
-O robô está sendo testado no hospital Maugeri, em Milão, com pacientes que têm doenças neurodegenerativas como ELA. Ele pode operar de forma remota ou autônoma, e os primeiros resultados indicam que reduz em até 30% o tempo que a equipe gasta em tarefas logísticas. Isso significa mais horas de cuidado humano direto por dia.
-
-O mundo enfrenta uma crise de profissionais de saúde. A OMS estima que serão necessários mais 10 milhões de trabalhadores da área até 2030. Robôs como o Alter-Ego não vieram substituir enfermeiros e médicos, mas liberar eles para o que realmente importa, enquanto as máquinas cuidam das tarefas repetitivas. Para quem tem clínica ou pequeno negócio na área da saúde, a lição é clara: automação não precisa começar com robôs caros. Chatbots de triagem, prontuário eletrônico com IA e sistemas de agendamento inteligente já fazem diferença real no dia a dia.
-
 Leia o post completo no blog → https://ah-digital-blog.vercel.app/post/alter-ego-robo-humanoide-hospitalar-italia
 
 #robótica #saúde #inteligênciaartificial #automação #tecnologia

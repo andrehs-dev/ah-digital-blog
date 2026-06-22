@@ -122,20 +122,4 @@ No hardware, um **SSD externo criptografado** é uma boa pedida pra manter backu
 
 ---
 
-## 📸 Instagram Caption
-
-Você sabia que o maior risco de segurança do ChatGPT não é ele "se tornar consciente", é um terceiro colocar instruções escondidas num documento que você mesmo manda ele ler? Isso se chama injeção de prompt, e foi classificado como a vulnerabilidade número 1 em sistemas de IA pelo OWASP em 2025.
-
-Na terça-feira, a OpenAI começou a liberar o Modo de Bloqueio para todos os usuários do ChatGPT, gratuitos e pagos. O recurso corta o acesso do modelo à internet, bloqueia navegação ao vivo, pesquisa aprofundada, modo agente e downloads automáticos. O objetivo: impedir que dados das suas conversas vazem mesmo que alguém tente sequestrar o modelo com instruções maliciosas.
-
-O funcionamento é simples: com o Modo de Bloqueio ativado, o ChatGPT simplesmente não consegue fazer conexões com servidores externos. A navegação fica restrita a cache. Pesquisas profundas param. Downloads externos são barrados. O que continua funcionando é o básico: conversas, upload manual de arquivos e geração de imagens.
-
-Pra ativar é rápido: Configurações → Segurança → Segurança Avançada → ativar Modo de Bloqueio. Dá pra desativar pra conversas específicas também. Ele é incompatível com o Modo Desenvolvedor (faz sentido, um é o oposto do outro).
-
-O lance mais relevante pra quem tem pequeno negócio: o recurso tá disponível até na conta gratuita. Sua empresa pode ter proteção de nível empresarial contra vazamento de dados no ChatGPT sem gastar nada extra. A OpenAI deu um passo raro em transparência colocando rótulos de "Risco Elevado" nas funções mais perigosas, em vez de esconder o problema.
-
-A segurança em IA ainda não tá resolvida. O Modo de Bloqueio não impede ataques se você mesmo enviar um arquivo infectado. Mas fecha as portas que o modelo abriu sozinho. Já é alguma coisa.
-
-Leia o post completo no blog → https://ahdigital.com.br/blog/chatgpt-modo-bloqueio-privacidade
-
 **Fonte:** [Canaltech](https://canaltech.com.br/inteligencia-artificial/privacidade-extrema-chatgpt-libera-modo-de-bloqueio-para-todos-os-usuarios/) | [OpenAI Blog](https://openai.com/pt-BR/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/) | [Época Negócios](https://epocanegocios.globo.com/inteligencia-artificial/noticia/2026/06/chatgpt-lanca-modo-lockdown-que-bloqueia-acesso-do-sistema-a-internet-para-reduzir-risco-de-ataques-de-hackers.ghtml)

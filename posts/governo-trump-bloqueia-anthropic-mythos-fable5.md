@@ -106,19 +106,5 @@ Para quem quer entender melhor os riscos de segurança na era da IA e como se pr
 
 ---
 
-📸 Instagram Caption
-
-Você sabia que o governo americano acabou de proibir que estrangeiros, inclusive brasileiros, usem os modelos de IA mais avançados da Anthropic, dona do Claude? E que o estopim foi uma ligação do CEO da Amazon para o secretário do Tesouro americano?
-
-Na última sexta-feira, 13 de junho, a Casa Branca determinou que a Anthropic bloqueasse o acesso aos modelos Mythos e Fable 5 para qualquer pessoa que não fosse cidadã americana. A empresa preferiu tirar os dois modelos do ar globalmente, afetando usuários no mundo inteiro.
-
-A história tem várias camadas. Começou com pesquisadores da Amazon descobrindo que dava para extrair informações sobre vulnerabilidades de software do Fable 5 usando apenas prompts bem elaborados, num processo que chamaram de "jailbreak". Em vez de corrigir a falha, a Anthropic teria minimizado o problema, segundo o governo. Depois veio a revelação de que a Casa Branca suspeitava que um grupo ligado à China já havia acessado o Mythos através de um processo chamado destilação: basicamente copiar as capacidades do modelo para treinar um concorrente.
-
-O mais preocupante para quem mora no Brasil é que isso pode afetar qualquer um que usa IA no dia a dia. Se você usa Claude, ChatGPT ou qualquer serviço americano de IA, seu acesso pode ser restrito por decisões que não têm nada a ver com você, seus negócios ou seus dados. A história mostra também que mesmo as proteções mais avançadas dos modelos de IA podem ser quebradas com engenharia de prompt bem feita. Nada é 100% seguro.
-
-Para o empreendedor brasileiro, a lição é clara: dependência total de tecnologia americana é um risco real. Quem investir em soberania digital agora, seja usando alternativas locais ou diversificando suas ferramentas, pode sair na frente. Quem ignorar o sinal pode ficar sem acesso a ferramentas que hoje parecem básicas.
-
-Mercado de IA nunca mais será o mesmo depois dessa sexta-feira. Leia a análise completa no blog.
-
 Leia o post completo no blog → [link do post]
 #InteligenciaArtificial #SegurancaDigital #Anthropic #Claude #GeopoliticaTech

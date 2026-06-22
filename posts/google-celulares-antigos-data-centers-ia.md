@@ -93,8 +93,6 @@ Se você se interessa por tecnologia sustentável e quer montar seu próprio min
 
 ---
 
-## 📸 Instagram Caption
-
 Você sabia que o Pixel que você aposentou em 2023 pode ser mais potente que um servidor de data center? Pois é. O Google descobriu uma forma de transformar celulares velhos em mini-servidores de inteligência artificial.
 
 Em parceria com a UCSD, eles pegaram 2.000 Pixels descartados, arrancaram as telas e baterias, e montaram um cluster de processamento que vai atender mais de 100 turmas de computação na universidade. E o mais impressionante: em testes de benchmark, o processador de um Pixel Fold de 2023 conseguiu superar servidores tradicionais da AMD e Intel em tarefas de núcleo único.

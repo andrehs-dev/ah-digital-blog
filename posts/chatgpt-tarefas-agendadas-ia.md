@@ -94,22 +94,6 @@ Se você está testando automação no dia a dia, o Echo Dot pode ser uma porta 
 
 ---
 
-## 📸 Instagram Caption
-
-Você sabia que o ChatGPT agora pode agir no horário que você escolher, sem você precisar abrir o app toda vez?
-
-A OpenAI começou a liberar nesta quarta-feira, 17 de junho, um recurso chamado tarefas agendadas. Ele permite criar lembretes, acompanhar atividades recorrentes e pedir resumos automáticos em horários definidos. Na prática, o ChatGPT deixa de ser só uma ferramenta de resposta instantânea e passa a funcionar como um assistente de rotina.
-
-Isso muda bastante para quem trabalha com conteúdo, vendas ou atendimento. Em vez de depender da memória para lembrar de revisar uma planilha, checar leads ou preparar um resumo do dia, você pode deixar tudo programado. O ChatGPT executa e te avisa quando terminar.
-
-Para pequenas empresas, isso é um sinal claro de que a IA está saindo do campo da curiosidade e entrando no campo da operação. Não é sobre substituir pessoas. É sobre tirar da sua cabeça aquelas tarefas repetitivas que consomem atenção e tempo.
-
-A novidade ainda tem limites: é restrita a assinantes pagos, com limite de uma tarefa por hora, e não substitui um sistema completo de automação. Mas é um passo importante. A tendência é que assistentes de IA fiquem cada vez mais próximos de um funcionário digital.
-
-Se você quer entender como isso funciona na prática e onde pode aplicar no seu negócio, leia o post completo no blog → [ChatGPT agora agenda tarefas e muda sua rotina com IA](https://ahdigital.com.br/post/chatgpt-tarefas-agendadas-ia)
-
-#chatgpt #ia #produtividade #automacao #openai
-
 ---
 
 **Fonte:** [Canaltech](https://canaltech.com.br/apps/chatgpt-muda-e-agora-ajuda-voce-a-se-lembrar-de-tudo/)

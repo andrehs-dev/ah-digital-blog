@@ -94,21 +94,5 @@ Se você quer entender melhor como pequenas otimizações diárias geram grandes
 
 ---
 
-📸 Instagram Caption
-
-Você sabia que o Google está usando inteligência artificial para mudar o tempo dos semáforos em São Paulo? Pois é. O projeto Green Light já está operando em parceria com a CET e a Prodam, e os primeiros resultados mostram até 30% menos paradas desnecessárias nos cruzamentos monitorados.
-
-O sistema funciona assim: o Google Maps e o Waze já sabem onde tem trânsito, em que horário e por quanto tempo. O Green Light pega esses dados e usa machine learning para encontrar o melhor ajuste para cada semáforo. Não é a IA que controla os sinais diretamente, ela sugere ajustes, e a equipe da CET avalia, aprova e implementa. Humano no loop, como tem que ser.
-
-São Paulo é um caso especialmente desafiador. São mais de 8 milhões de carros, uma malha viária caótica e padrões de trânsito que mudam o tempo todo. Mesmo assim, os primeiros meses de operação já mostraram melhora. Em outras cidades brasileiras que adotaram o sistema, como Rio de Janeiro e Campinas, os resultados foram ainda mais expressivos.
-
-O mais interessante é que o Google não instalou sensores novos. Ele usou dados que milhões de motoristas já geram todo dia com os aplicativos de navegação. Isso é inteligente: resolveu um problema complexo com informação que já existia.
-
-Para quem tem negócio em São Paulo, o impacto é direto. Menos tempo parado no trânsito significa entregas mais rápidas, funcionários menos estressados e mais produtividade. Para quem só quer chegar em casa mais cedo, também.
-
-Óbvio que IA em semáforo não vai resolver o trânsito de São Paulo sozinha. Mas uma redução de 30% nas paradas é relevante. É combustível economizado, menos emissão e mais tempo de volta pro seu dia. Se cada cruzamento fizer um pouquinho, o impacto acumulado é grande.
-
-É um exemplo raro de tecnologia que aparece e melhora a vida sem você precisar baixar aplicativo novo nem entender como funciona.
-
 Leia o post completo no blog → [link do post]
 #InteligenciaArtificial #TransitoSP #Google #Inovacao #Produtividade

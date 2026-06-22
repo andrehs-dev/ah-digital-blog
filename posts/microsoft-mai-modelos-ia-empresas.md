@@ -124,20 +124,4 @@ Não é leitura mágica. É útil se você já programa ou está tentando levar 
 
 ---
 
-## 📸 Instagram Caption
-
-Você sabia que o mercado de agentes de IA pode sair de US$ 7,6 bilhões em 2025 para US$ 10,9 bilhões em 2026? Esse número da Grand View Research mostra uma coisa bem simples: IA deixou de ser só ferramenta de curiosidade e virou infraestrutura de trabalho.
-
-A Microsoft anunciou na Build 2026 novos modelos próprios da família MAI, incluindo o MAI-Code-1-Flash para programação e o MAI-Thinking-1 para raciocínio e tarefas mais longas. O MAI-Code-1-Flash já aparece no GitHub Copilot e no Visual Studio Code. A proposta é entregar ajuda em tarefas leves com menos custo por token, sem depender sempre de modelos externos.
-
-A CNBC destacou que a Microsoft quer reduzir a dependência de OpenAI e Anthropic, mesmo depois de investir bilhões nessas empresas. A lógica é clara: quando IA entra em código, atendimento, vendas, relatórios e automações internas, o custo vira variável. Cada consulta pesa. Cada agente consome capacidade. Cada erro também escala.
-
-Para desenvolvedores, isso pode significar modelos mais baratos dentro das ferramentas que já usamos. Para pequenas empresas, o impacto é mais prático: automações de WhatsApp, classificação de leads, resumo de atendimento e relatórios simples podem ficar mais acessíveis. O ponto é que IA boa para negócio não precisa ser a mais famosa. Precisa resolver uma tarefa clara, com custo entendido e validação humana.
-
-O risco é tentar automatizar tudo de uma vez. Empresa que faz isso geralmente culpa a IA quando o processo já estava confuso antes. O melhor começo é pequeno: escolha uma tarefa repetida, defina o que é uma resposta aceitável, guarde exemplos e só depois coloque o agente para trabalhar.
-
-Escrevi um post completo no AH Digital explicando o que a Microsoft lançou, por que isso muda o custo da IA para empresas e como devs e pequenos negócios podem usar essa mudança a favor.
-
-Leia o post completo no blog → https://ahdigital.com.br/post/microsoft-mai-modelos-ia-empresas
-
 **Fonte:** [CNBC](https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html) | [Microsoft Blog](https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/) | [Microsoft AI](https://microsoft.ai/news/introducingmai-code-1-flash/) | [GitHub Changelog](https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot/) | [Microsoft Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization) | [Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-agents-market-report)

@@ -145,22 +145,7 @@ Pesquisa complementar: Gartner, Microsoft Work Trend Index 2025, Cisco Cybersecu
 
 ---
 
-📸 Instagram Caption
-
-Você sabia que oito em cada dez funcionários usam inteligência artificial no trabalho sem que a empresa saiba? E que mais da metade deles cola dados confidenciais de clientes nessas ferramentas como se fosse a coisa mais normal do mundo?
-
-Isso tem nome: Shadow AI (ou IA Sombra). E é provavelmente o maior risco de segurança que sua empresa desconhece.
-
-O problema começa inocente: o vendedor quer escrever uma proposta mais rápido, então cola informações reais de clientes no ChatGPT. O estagiário precisa traduzir um contrato, então joga no Google Tradutor turbinado por IA. O gerente quer organizar uma planilha, então insere nomes, CPFs e endereços num chatbot qualquer.
-
-A intenção de todos é boa. Mas o resultado é sempre o mesmo: dados da sua empresa indo parar em servidores que você não controla, sem nenhuma garantia de proteção.
-
-O mais perigoso da Shadow AI é que ela é invisível. Não existe alerta, não existe log, não existe "alguém invadiu o sistema". O dado simplesmente sai, pelo teclado do funcionário que só queria fazer o trabalho mais rápido.
-
-E, ao contrário do que muita gente pensa, isso não afeta só grandes empresas. A LGPD multa qualquer empresa, do pequeno comércio à multinacional. E 2% do faturamento pode ser o suficiente para inviabilizar um negócio pequeno.
-
-Empresas que criam regras claras e oferecem ferramentas seguras reduzem o uso não autorizado em 89%. O caminho é liberar com responsabilidade, não bloquear por medo.
-
-No post completo do blog, explico os números reais, os riscos para pequenas empresas, três passos práticos para lidar com Shadow AI e como a LGPD se aplica. Vale a leitura, são 5 minutos que podem poupar uma dor de cabeça de meses.
+Leia o post completo no blog → [link do post]
+#ShadowAI #SegurancaDigital #LGPD #IA #PequenasEmpresas
 
 Leia o post completo no blog → https://ahdigital.com.br/post/shadow-ai-risco-escondido-empresas
