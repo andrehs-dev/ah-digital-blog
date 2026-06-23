@@ -36,7 +36,7 @@ export default function Home() {
               Quero anunciar 📩
             </a>
             <p className="mt-3 text-xs text-[var(--theme-muted)]">
-              Planos a partir de <strong className="text-[var(--theme-fg)]">R$ 49/mês</strong>
+              Planos a partir de <strong className="text-[var(--theme-fg)]">R$ 49</strong>
             </p>
           </div>
         </aside>
@@ -55,14 +55,14 @@ export default function Home() {
               .sort((a, b) => b.count - a.count)
               .slice(0, 8)
               .map(({ tag }) => (
-              <Link
-                key={tag}
-                href={`/tags/${tag}`}
-                className="rounded-full border border-[var(--theme-border)] bg-[var(--theme-card)] px-4 py-1.5 text-sm text-[var(--theme-muted)] transition hover:border-[var(--theme-primary)]/50 hover:text-[var(--theme-fg)]"
-              >
-                #{tag}
-              </Link>
-            ))}
+                <Link
+                  key={tag}
+                  href={`/tags/${tag}`}
+                  className="rounded-full border border-[var(--theme-border)] bg-[var(--theme-card)] px-4 py-1.5 text-sm text-[var(--theme-muted)] transition hover:border-[var(--theme-primary)]/50 hover:text-[var(--theme-fg)]"
+                >
+                  #{tag}
+                </Link>
+              ))}
           </div>
         </section>
       )}
