@@ -43,7 +43,7 @@ export default function ServicesBanner() {
 
       {/* CTA */}
       <Link
-        href="wa.me/5519993174538"
+        href="https://wa.me/5519993174538"
         target="_blank"
         className="block w-full rounded-xl bg-gradient-to-r from-blue-600 to-blue-500 px-4 py-3 text-center text-sm font-semibold text-white transition hover:from-blue-500 hover:to-blue-400"
       >
