@@ -140,5 +140,3 @@ Este livro aborda exatamente o cenário que discutimos aqui: como proteger dados
 ---
 
 **Fonte:** [Olhar Digital: Shadow AI, você já usou IA 'escondido' no trabalho?](https://olhardigital.com.br/2026/06/19/inteligencia-artificial/shadow-ai-voce-ja-usou-ia-escondido-no-trabalho-o-risco-pode-ser-maior-do-que-voce-pensa/)
-
-Pesquisa complementar: Gartner, Microsoft Work Trend Index 2025, Cisco Cybersecurity Readiness Index 2025, Mimecast State of Human Risk Report 2026, UpGuard State of Shadow AI 2025, Technology Radius Shadow AI Statistics 2024-2026, SAP/Oxford Economics (Forbes Brasil), ISACA 2025, IBM Data Breach Report 2025.
