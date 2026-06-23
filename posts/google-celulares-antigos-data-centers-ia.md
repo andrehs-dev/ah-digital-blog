@@ -90,19 +90,3 @@ Se você se interessa por tecnologia sustentável e quer montar seu próprio min
 ---
 
 **Fonte:** [Canaltech - Google começou a usar celulares antigos para criar data centers do Gemini](https://canaltech.com.br/hardware/google-comecou-a-usar-celulares-antigos-para-criar-data-centers-do-gemini/)
-
----
-
-Você sabia que o Pixel que você aposentou em 2023 pode ser mais potente que um servidor de data center? Pois é. O Google descobriu uma forma de transformar celulares velhos em mini-servidores de inteligência artificial.
-
-Em parceria com a UCSD, eles pegaram 2.000 Pixels descartados, arrancaram as telas e baterias, e montaram um cluster de processamento que vai atender mais de 100 turmas de computação na universidade. E o mais impressionante: em testes de benchmark, o processador de um Pixel Fold de 2023 conseguiu superar servidores tradicionais da AMD e Intel em tarefas de núcleo único.
-
-O processo é simples no conceito: extrair a placa-mãe do celular, remover o Android, instalar Linux, agrupar 25 a 50 unidades e gerenciar tudo com Kubernetes. Cada cluster desses equivale a um servidor novo, gastando uma fração da energia e com emissão de carbono quase zero de fabricação.
-
-Isso importa porque o mundo gerou 62 milhões de toneladas de lixo eletrônico em 2022, e esse número só cresce. Se a computação conseguir reaproveitar parte desse hardware, o custo da IA pode cair e o impacto ambiental pode diminuir. Não é só marketing verde, é engenharia inteligente aplicada a um problema real.
-
-A pergunta que fica: será que outras empresas vão seguir o mesmo caminho? Se a Apple fizesse o mesmo com iPhones descartados, o impacto seria imenso.
-
-Leia o post completo no blog → https://ahdigital.com.br/blog/google-celulares-antigos-data-centers-ia
-
-#Google #InteligenciaArtificial #Sustentabilidade #Inovacao #Tecnologia
