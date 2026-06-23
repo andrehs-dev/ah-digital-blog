@@ -91,8 +91,3 @@ Se você quer entender melhor como pequenas otimizações diárias geram grandes
 ---
 
 **Fonte:** [GKPB — Google For Brasil 2026](https://gkpb.com.br/192495/google-for-brasil-2026/), [iMasters — São Paulo e o Google Green Light](https://imasters.com.br/noticia/sao-paulo-e-o-google-green-light-ia-no-transito-urbano), [Google Blog — Project Green Light](https://blog.google/company-news/outreach-and-initiatives/sustainability/google-ai-reduce-greenhouse-emissions-project-greenlight/), [ANTP — Custos dos congestionamentos](https://www.antp.org.br/noticias/destaques/congestionamentos-nas-grandes-cidades-causam-prejuizos-de-ate-2-do-pib-brasileiro-saiba-por-que.html)
-
----
-
-Leia o post completo no blog → [link do post]
-#InteligenciaArtificial #TransitoSP #Google #Inovacao #Produtividade
