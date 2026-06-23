@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1035;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d0a20;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#22d3ee;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Decorative circles (top right) -->
+  <circle cx="1050" cy="80" r="120" fill="none" stroke="#7c3aed" stroke-opacity="0.08" stroke-width="1" />
+  <circle cx="1050" cy="80" r="80" fill="none" stroke="#22d3ee" stroke-opacity="0.06" stroke-width="1" />
+
+  <!-- Arrow down icon (simplified) -->
+  <g transform="translate(580, 75)" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8">
+    <line x1="0" y1="0" x2="0" y2="50" />
+    <polyline points="-15,35 0,50 15,35" />
+  </g>
+
+  <!-- Logo AH -->
+  <g transform="translate(40, 35)">
+    <rect x="0" y="0" width="48" height="48" rx="12" fill="#7c3aed" />
+    <text x="24" y="33" font-family="Arial Black, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">AH</text>
+  </g>
+  <text x="100" y="62" font-family="Arial, sans-serif" font-size="14" fill="#22d3ee" font-weight="bold" letter-spacing="3">AH DIGITAL</text>
+  <text x="100" y="78" font-family="Arial, sans-serif" font-size="10" fill="#a78bfa" letter-spacing="1">BLOG</text>
+
+  <!-- Category tag -->
+  <rect x="40" y="100" width="100" height="26" rx="13" fill="#7c3aed" fill-opacity="0.2" stroke="#7c3aed" stroke-opacity="0.4" stroke-width="1" />
+  <text x="90" y="117" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle" font-weight="bold">MERCADO TECH</text>
+
+  <!-- Main title -->
+  <text x="40" y="175" font-family="Arial Black, Arial, sans-serif" font-size="38" font-weight="900" fill="#ffffff">
+    <tspan x="40" dy="0">Alphabet perde</tspan>
+    <tspan x="40" dy="48" fill="#22d3ee">US$ 225 bilhões</tspan>
+  </text>
+
+  <text x="40" y="260" font-family="Arial, sans-serif" font-size="20" fill="#a78bfa" font-weight="400">
+    <tspan x="40" dy="0">Maior tombo diário da história da empresa</tspan>
+    <tspan x="40" dy="30">após debandada de talentos em IA</tspan>
+  </text>
+
+  <!-- Mini chart: Market cap loss comparison -->
+  <g transform="translate(40, 340)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="13" fill="#a78bfa" font-weight="bold">Stocks performance (daily %)</text>
+
+    <!-- Bar: Alphabet -->
+    <rect x="0" y="20" width="260" height="30" rx="4" fill="#ef4444" fill-opacity="0.8" />
+    <text x="270" y="40" font-family="Arial, sans-serif" font-size="14" fill="#ef4444" font-weight="bold">Alphabet</text>
+    <text x="270" y="55" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af">-5,0% | −US$ 225B</text>
+
+    <!-- Bar: Nasdaq (for reference) -->
+    <rect x="0" y="80" width="40" height="30" rx="4" fill="#22d3ee" fill-opacity="0.5" />
+    <text x="270" y="100" font-family="Arial, sans-serif" font-size="14" fill="#22d3ee" font-weight="bold">Nasdaq</text>
+    <text x="270" y="115" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af">+0,3%</text>
+
+    <!-- Bar: S&P 500 -->
+    <rect x="0" y="140" width="20" height="30" rx="4" fill="#7c3aed" fill-opacity="0.5" />
+    <text x="270" y="160" font-family="Arial, sans-serif" font-size="14" fill="#7c3aed" font-weight="bold">S&P 500</text>
+    <text x="270" y="175" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af">−0,1%</text>
+
+    <!-- Source -->
+    <text x="0" y="210" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Fonte: Dow Jones Market Data — 22/06/2026</text>
+  </g>
+
+  <!-- Right side: Key departures -->
+  <g transform="translate(650, 340)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="13" fill="#a78bfa" font-weight="bold">Saídas na semana</text>
+
+    <!-- Shazeer card -->
+    <rect x="0" y="16" width="280" height="80" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    <text x="15" y="38" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">Noam Shazeer</text>
+    <text x="15" y="54" font-family="Arial, sans-serif" font-size="11" fill="#22d3ee">Gemini → OpenAI</text>
+    <text x="15" y="70" font-family="Arial, sans-serif" font-size="10" fill="#9ca3af">Coautor do Transformer (2017)</text>
+    <text x="15" y="84" font-family="Arial, sans-serif" font-size="10" fill="#9ca3af">Google pagou US$ 2,7B em 2024</text>
+
+    <!-- Jumper card -->
+    <rect x="0" y="108" width="280" height="80" rx="8" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    <text x="15" y="130" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">John Jumper</text>
+    <text x="15" y="146" font-family="Arial, sans-serif" font-size="11" fill="#7c3aed">DeepMind → Anthropic</text>
+    <text x="15" y="162" font-family="Arial, sans-serif" font-size="10" fill="#9ca3af">Nobel de Química 2024 (AlphaFold)</text>
+    <text x="15" y="176" font-family="Arial, sans-serif" font-size="10" fill="#9ca3af">9 anos no Google DeepMind</text>
+  </g>
+
+  <!-- Infrastructure spending callout -->
+  <g transform="translate(40, 440)">
+    <rect x="0" y="0" width="350" height="40" rx="6" fill="#7c3aed" fill-opacity="0.12" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1" />
+    <text x="15" y="18" font-family="Arial, sans-serif" font-size="11" fill="#a78bfa">Infraestrutura de IA desde out/2025</text>
+    <text x="15" y="33" font-family="Arial Black, Arial, sans-serif" font-size="18" font-weight="bold" fill="#22d3ee">US$ 141 bilhões</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="40" y="580" font-family="Arial, sans-serif" font-size="11" fill="#4b5563">23 de junho de 2026</text>
+  <text x="1160" y="580" font-family="Arial, sans-serif" font-size="11" fill="#4b5563" text-anchor="end">ahdigital.com.br</text>
+</svg>

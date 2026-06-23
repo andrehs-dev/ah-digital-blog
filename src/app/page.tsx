@@ -11,8 +11,36 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-16">
-      {/* Rotating News — substitui o hero antigo */}
-      <RotatingNews posts={posts} />
+      {/* Hero Grid — Rotating News (esquerda) + Quadrado (direita) */}
+      <div className="mb-16 grid gap-6 lg:grid-cols-[2fr_1fr]">
+        {/* Notícias rotativas — puxada pra esquerda */}
+        <RotatingNews posts={posts} />
+
+        {/* Quadrado — Anuncie Aqui */}
+        <aside className="hidden rounded-2xl border border-[var(--theme-border)] bg-gradient-to-br from-amber-600/10 via-yellow-500/10 to-orange-600/10 p-6 lg:block">
+          <div className="flex h-full flex-col items-center justify-center text-center">
+            <span className="mb-3 inline-block rounded-full bg-amber-500/20 px-3 py-1 text-xs font-medium text-amber-400">
+              📢 PUBLICIDADE
+            </span>
+            <h3 className="mb-2 text-lg font-bold text-[var(--theme-fg)]">
+              Seu anúncio aqui!
+            </h3>
+            <p className="mb-4 text-sm leading-relaxed text-[var(--theme-muted)]">
+              Alcance milhares de leitores apaixonados por tecnologia, inovação e negócios digitais.
+            </p>
+            <a
+              href="https://ah-digitalsolutions.vercel.app"
+              target="_blank"
+              className="inline-block rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:from-amber-400 hover:to-orange-400"
+            >
+              Quero anunciar 📩
+            </a>
+            <p className="mt-3 text-xs text-[var(--theme-muted)]">
+              Planos a partir de <strong className="text-[var(--theme-fg)]">R$ 49/mês</strong>
+            </p>
+          </div>
+        </aside>
+      </div>
 
       {/* Tags */}
       {tags.length > 0 && (

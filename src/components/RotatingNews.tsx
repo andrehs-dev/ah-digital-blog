@@ -13,19 +13,21 @@ function formatDate(dateStr: string) {
 export default function RotatingNews({ posts }: { posts: PostMeta[] }) {
   const [index, setIndex] = useState(0);
 
-  // Pick posts
+  // Pick posts — 8 slides no total
   const today = posts[0] ?? null;
-  const threeDaysAgo = posts.length > 3 ? posts[3] : posts[posts.length - 1] ?? null;
-  // Random post different from the other two
-  let randomPost = null;
-  const filtered = posts.filter(p => p.slug !== today?.slug && p.slug !== threeDaysAgo?.slug);
-  if (filtered.length > 0) {
-    randomPost = filtered[Math.floor(Math.random() * filtered.length)];
-  } else {
-    randomPost = posts[1] ?? null;
+  const destaque = posts.length > 3 ? posts[3] : posts[posts.length - 1] ?? null;
+
+  // 6 aleatórios, todos diferentes entre si e dos dois primeiros
+  const usedSlugs = new Set([today?.slug, destaque?.slug].filter(Boolean));
+  const available = posts.filter(p => !usedSlugs.has(p.slug));
+  const randomSlides: (PostMeta | null)[] = [];
+  for (let i = 0; i < 6 && available.length > 0; i++) {
+    const idx = Math.floor(Math.random() * available.length);
+    randomSlides.push(available[idx]);
+    available.splice(idx, 1);
   }
 
-  const slides = [today, threeDaysAgo, randomPost].filter(Boolean);
+  const slides: PostMeta[] = [today, destaque, ...randomSlides].filter((s): s is PostMeta => s !== null);
 
   // Rotate every 3s
   useEffect(() => {
@@ -39,17 +41,18 @@ export default function RotatingNews({ posts }: { posts: PostMeta[] }) {
   if (slides.length === 0) return null;
 
   const current = slides[index];
+  if (!current) return null;
 
   return (
-    <section className="mb-16">
-      <div className="relative mx-auto max-w-2xl overflow-hidden rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-8 text-center transition-all duration-500">
+    <section className="h-full">
+      <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-8 text-left transition-all duration-500">
         {/* Label */}
-        <span className="mb-3 inline-block rounded-full bg-[var(--theme-primary)]/10 px-3 py-1 text-xs font-medium text-[var(--theme-primary)]">
+        <span className="mb-3 inline-block w-fit rounded-full bg-[var(--theme-primary)]/10 px-3 py-1 text-xs font-medium text-[var(--theme-primary)]">
           {index === 0 ? "📰 Última notícia" : index === 1 ? "📅 Destaque" : "🎲 Aleatória"}
         </span>
 
         {/* Content */}
-        <Link href={`/post/${current.slug}`} className="group">
+        <Link href={`/post/${current.slug}`} className="group flex-1">
           <h2 className="mb-3 text-2xl font-bold text-[var(--theme-fg)] transition group-hover:text-[var(--theme-primary)] md:text-3xl">
             {current.title}
           </h2>
@@ -61,7 +64,7 @@ export default function RotatingNews({ posts }: { posts: PostMeta[] }) {
         </Link>
 
         {/* Meta */}
-        <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-[var(--theme-muted)]">
+        <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--theme-muted)]">
           <time>{formatDate(current.date)}</time>
           <span>·</span>
           <span>{current.readingTime} min de leitura</span>
@@ -78,7 +81,7 @@ export default function RotatingNews({ posts }: { posts: PostMeta[] }) {
 
         {/* Dots */}
         {slides.length > 1 && (
-          <div className="mt-6 flex justify-center gap-2">
+          <div className="mt-6 flex gap-2">
             {slides.map((_, i) => (
               <button
                 key={i}
