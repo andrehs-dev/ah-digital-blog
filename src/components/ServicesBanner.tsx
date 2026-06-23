@@ -39,13 +39,6 @@ export default function ServicesBanner() {
             <p className="text-xs text-[var(--theme-muted)]">Chatbots, agendamento, CRM</p>
           </div>
         </li>
-        <li className="flex items-start gap-3">
-          <span className="mt-0.5 text-lg">🎓</span>
-          <div>
-            <p className="text-sm font-medium text-[var(--theme-fg)]">Área de Membros</p>
-            <p className="text-xs text-[var(--theme-muted)]">Venda cursos com acesso liberado</p>
-          </div>
-        </li>
       </ul>
 
       {/* CTA */}
