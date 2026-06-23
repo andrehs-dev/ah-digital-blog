@@ -143,4 +143,4 @@ Se você quer ir além do básico e entender as implicações mais profundas da 
 
 📱 Siga **@andrehs.dev** no Instagram pra mais conteúdo sobre IA e tecnologia.
 
-👉 Leia também: [O que é IA Generativa](/post/o-que-e-ia-generativa) e [Como ganhar dinheiro com IA Generativa](/post/como-ganhar-dinheiro-com-ia-generativa)
+👉 Leia também: [O que é IA Generativa](/post/o-que-e-ia-generativa), [Como ganhar dinheiro com IA Generativa](/post/como-ganhar-dinheiro-com-ia-generativa) e [Alphabet perde US$ 225 bi com debandada de talentos de IA](/post/alphabet-perde-225-bilhoes-ia-talentos)
