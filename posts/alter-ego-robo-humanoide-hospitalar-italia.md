@@ -98,9 +98,3 @@ Monitoramento de frequência cardíaca, oxigênio no sangue, sono e mais de 100 
 ---
 
 **Fonte:** [Olhar Digital, Conheça o Alter-Ego, robô humanoide feito para ajudar em hospitais](https://olhardigital.com.br/2026/06/20/carros-e-tecnologia/conheca-o-alter-ego-robo-humanoide-feito-para-ajudar-em-hospitais/)
-
----
-
-Leia o post completo no blog → https://ah-digital-blog.vercel.app/post/alter-ego-robo-humanoide-hospitalar-italia
-
-#robótica #saúde #inteligênciaartificial #automação #tecnologia
