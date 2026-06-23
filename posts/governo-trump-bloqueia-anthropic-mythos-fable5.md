@@ -104,7 +104,3 @@ Para quem quer entender melhor os riscos de segurança na era da IA e como se pr
 
 **Fonte:** [Olhar Digital](https://olhardigital.com.br/2026/06/14/pro/suspeita-de-acesso-chines-ao-mythos-motivou-bloqueio-da-casa-branca-diz-fonte/), [Olhar Digital (complementar)](https://olhardigital.com.br/2026/06/14/pro/apos-alerta-da-amazon-ao-governo-trump-anthropic-suspendeu-o-fable-5-globalmente/), [Al Jazeera](https://www.aljazeera.com/news/2026/6/13/us-orders-anthropic-to-disable-ai-models-for-all-foreign-nationals)
 
----
-
-Leia o post completo no blog → [link do post]
-#InteligenciaArtificial #SegurancaDigital #Anthropic #Claude #GeopoliticaTech
