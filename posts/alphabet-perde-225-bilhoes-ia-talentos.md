@@ -3,7 +3,7 @@ title: "Alphabet perde US$ 225 bilhões após debandada de talentos de IA"
 description: "Google tem o pior dia na bolsa em mais de um ano. Noam Shazeer vai para OpenAI, John Jumper para a Anthropic. Mercado questiona os US$ 141 bilhões em IA."
 date: "2026-06-23"
 tags: [IA, Google, Mercado Tech, Alphabet]
-image: "/images/alphabet-perde-225-bilhoes-ia-talentos.jpg"
+image: "/images/alphabet-perde-225-bilhoes-ia-talentos.png"
 ---
 
 ## O que aconteceu com a Alphabet na segunda-feira?
