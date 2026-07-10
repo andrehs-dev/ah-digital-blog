@@ -136,4 +136,4 @@ E, falando em proteção física, um **cadeado digital** pra gaveta ou armário 
 
 ---
 
-*Este post faz parte de uma série. Veja também o [guia de ferramentas de automação para PME](/post/ferramentas-automacao-pme) e o post sobre [Shadow AI: o risco escondido nas empresas](/post/shadow-ai-risco-escondido-empresas).*
+*Este post faz parte de uma série. Veja também o [guia de ferramentas de automação para PME](/post/ferramentas-automacao-pme), o post sobre [Shadow AI: o risco escondido nas empresas](/post/shadow-ai-risco-escondido-empresas) e a análise do [ataque ransomware que expôs dados de 500 mil pacientes](/post/ataque-ransomware-500-mil-pacientes-anpd).*

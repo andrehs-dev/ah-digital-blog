@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="728" height="250" viewBox="0 0 728 250">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="728" height="250" fill="url(#bg)" rx="6"/>
+
+  <!-- Subtle border -->
+  <rect x="1" y="1" width="726" height="248" fill="none" stroke="#334155" stroke-width="1" rx="6"/>
+
+  <!-- PUBLIDADE label -->
+  <rect x="16" y="10" width="80" height="18" rx="9" fill="#dc2626" opacity="0.85"/>
+  <text x="56" y="23" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="1.5">PUBLICIDADE</text>
+
+  <!-- Logo AH -->
+  <text x="32" y="72" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="url(#accent)">AH</text>
+  <text x="58" y="72" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Digital Solutions</text>
+
+  <!-- Main headline -->
+  <text x="32" y="118" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#f1f5f9">
+    Sua empresa merece as ferramentas
+  </text>
+  <text x="32" y="150" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#a78bfa">
+    certas para crescer.
+  </text>
+
+  <!-- Subtext -->
+  <text x="32" y="180" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">
+    Sites profissionais e automação inteligente para pequenos negócios.
+  </text>
+
+  <!-- CTA Button -->
+  <rect x="32" y="198" width="180" height="38" rx="19" fill="url(#accent)"/>
+  <text x="122" y="223" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">
+    QUERO SABER MAIS →
+  </text>
+
+  <!-- Decorative dots -->
+  <circle cx="700" cy="50" r="3" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="680" cy="80" r="2" fill="#6366f1" opacity="0.2"/>
+  <circle cx="710" cy="100" r="4" fill="#8b5cf6" opacity="0.15"/>
+  <circle cx="690" cy="130" r="2" fill="#6366f1" opacity="0.25"/>
+  <circle cx="705" cy="160" r="3" fill="#8b5cf6" opacity="0.15"/>
+  <circle cx="685" cy="190" r="2" fill="#6366f1" opacity="0.2"/>
+
+  <!-- Icons representation -->
+  <text x="680" y="225" font-family="Arial, sans-serif" font-size="10" fill="#475569">IA | Automação | Sites</text>
+</svg>

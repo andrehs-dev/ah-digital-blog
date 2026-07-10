@@ -24,6 +24,9 @@ export default function Header() {
           <Link href="/tags" className="text-sm text-white/60 transition hover:text-white">
             Tags
           </Link>
+          <Link href="/ferramentas" className="text-sm text-white/60 transition hover:text-white">
+            🛠️ Ferramentas
+          </Link>
           <a
             href="https://ah-digitalsolutions.vercel.app"
             target="_blank"
@@ -53,6 +56,9 @@ export default function Header() {
           </Link>
           <Link href="/tags" className="block py-2 text-white/60" onClick={() => setMenuOpen(false)}>
             Tags
+          </Link>
+          <Link href="/ferramentas" className="block py-2 text-white/60" onClick={() => setMenuOpen(false)}>
+            🛠️ Ferramentas
           </Link>
           <a
             href="https://ah-digitalsolutions.vercel.app"

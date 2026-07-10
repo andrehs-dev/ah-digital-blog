@@ -85,6 +85,8 @@ Se você quer entender IA de forma mais ampla — desde os fundamentos até apli
 👉 **[Ver preço do livro na Amazon](https://www.amazon.com.br/dp/B0G4CWQXYQ?tag=ahdigitalblog-20)**
 👉 **[Ver preço do livro na Shopee](https://s.shopee.com.br/8fPvw4nuf5)**
 
+📖 Leia também: [GPT-5.6 Sol, Terra e Luna: OpenAI anuncia lançamento público](/post/gpt-56-sol-terra-luna-lancamento-publico) com três versões de IA e preços que vão de US$ 1 a US$ 30 por milhão de tokens.
+
 ---
 
 **Fonte:** [Tecnoblog](https://tecnoblog.net/noticias/openai-melhorou-a-memoria-do-chatgpt-e-o-que-isso-quer-dizer/)

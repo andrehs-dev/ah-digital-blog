@@ -112,3 +112,6 @@ E pra dar o próximo passo na automação residencial ou do escritório, uma **t
 📱 Siga **@andrehs.dev** no Instagram pra mais conteúdo sobre automação e tecnologia pra pequenos negócios.
 
 📖 Leia também: [Automação para pequenas empresas: o que dá pra fazer](/post/automacao-pequenas-empresas)
+
+📖 Leia também: [Notion enterra o app de e-mail e aposta tudo em agentes de IA](/post/notion-fecha-email-agentes-ia)
+📖 Leia também: [Alexa+ Chega ao Brasil - Como Participar do Acesso Antecipado](/post/alexa-mais-brasil-acesso-antecipado)

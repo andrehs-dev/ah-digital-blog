@@ -127,7 +127,9 @@ Empresas que criarem políticas claras, oferecerem alternativas seguras e educar
 
 Shadow AI não é um problema de TI. É um problema de gestão. Ele aparece onde a tecnologia avança mais rápido que as regras da empresa.
 
-Se você quer entender melhor como proteger seu negócio sem travar a equipe, vale a pena ler o guia completo de [segurança digital para pequenos negócios](/post/seguranca-digital-pequenos-negocios) que publicamos aqui no blog. Ele cobre desde senhas e backups até os riscos mais modernos como a Shadow AI.
+Se voce quer entender melhor como proteger seu negocio sem travar a equipe, vale a pena ler o guia completo de [seguranca digital para pequenos negocios](/post/seguranca-digital-pequenos-negocios) que publicamos aqui no blog. Ele cobre desde senhas e backups ate os riscos mais modernos como a Shadow AI.
+
+Outro caso que ilustra bem os desafios legais da IA e o [processo da Disney, Universal e Warner contra a Midjourney](/post/midjourney-hollywood-processo-fair-use). A briga mostra que a regulacao da IA esta sendo decidida nos tribunais, e que ate grandes empresas de tecnologia estao tendo que se adaptar as novas regras do jogo.
 
 ---
 

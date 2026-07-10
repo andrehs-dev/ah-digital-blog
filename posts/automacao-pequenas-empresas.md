@@ -115,3 +115,7 @@ E pra quem quer ir além, uma **tomada WiFi** permite ligar e desligar cada equi
 👉 Leia também: [Alter-Ego: o robô humanoide que está ajudando pacientes em hospitais na Itália](/post/alter-ego-robo-humanoide-hospitalar-italia)
 
 👉 Leia também: [7 ferramentas de automação que sua pequena empresa deveria testar em 2026](/post/ferramentas-automacao-pme)
+
+👉 Leia também: [Google libera IA que controla o computador sozinha](/post/google-ia-computer-use)
+
+👉 Leia também: [Google e Amazon emitem mais CO2 que nunca por causa da IA](/post/google-amazon-emissoes-ia)

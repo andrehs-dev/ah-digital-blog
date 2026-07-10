@@ -95,7 +95,7 @@ O NotebookLM que mal saía dos Estados Unidos em 2024 agora roda análise de dad
 
 ## Post Relacionado
 
-Se você quer entender como a IA generativa funciona na prática, vale ler [O Que É IA Generativa e Como Ela Pode Ajudar Seu Negócio](./o-que-e-ia-generativa). Ou, se prefere ferramentas práticas, veja [Ferramentas de Automação para PME](./ferramentas-automacao-pme).
+Se você quer entender como a IA generativa funciona na prática, vale ler [O Que É IA Generativa e Como Ela Pode Ajudar Seu Negócio](./o-que-e-ia-generativa). Ou, se prefere ferramentas práticas, veja [Ferramentas de Automação para PME](./ferramentas-automacao-pme). Também publicamos sobre o [Gemini Spark: o novo agente de IA pessoal do Google](./gemini-spark-agente-ia-pessoal-google).
 
 📚 **Recomendação:** Quer se aprofundar em IA? O livro *Inteligência Artificial — uma abordagem moderna* (Russell & Norvig) é a referência mais completa. 👉 [Ver na Amazon](https://www.amazon.com.br/dp/8595158078?tag=ahdigitalblog-20)
 

@@ -92,6 +92,8 @@ Algumas consequências possíveis:
 
 Se você é empreendedor, desenvolvedor ou só usa IA no dia a dia, presta atenção. O que aconteceu com a Anthropic pode se repetir com OpenAI, Google, Meta ou qualquer empresa de tecnologia americana. E a diferença entre quem está preparado e quem não está pode ser o acesso a ferramentas que todo mundo já considera normais.
 
+📖 Leia também sobre o outro lado dessa história: [Alibaba baniu Claude da Anthropic](/post/alibaba-proibe-anthropic-claude-ia), mostrando como a China está reagindo às restrições americanas banindo internamente as ferramentas de IA dos EUA. E o [GPT-5.6 Sol, Terra e Luna](/post/gpt-56-sol-terra-luna-lancamento-publico) é o exemplo mais recente de como o governo Trump está moldando o lançamento de novos modelos de IA.
+
 ---
 
 ## Produto recomendado

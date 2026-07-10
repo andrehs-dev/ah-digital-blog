@@ -13,9 +13,9 @@ export function getAllPosts(): PostMeta[] {
     .filter((f) => f.endsWith(".md"))
     .map((f) => {
       const slug = f.replace(".md", "");
-      const { data } = matter(fs.readFileSync(path.join(postsDir, f), "utf-8"));
+      const { data, content } = matter(fs.readFileSync(path.join(postsDir, f), "utf-8"));
       const wordsPerMinute = 200;
-      const wordCount = (data.content || "").split(/\s+/).length;
+      const wordCount = content.split(/\s+/).length;
       return {
         slug,
         title: data.title || slug,
