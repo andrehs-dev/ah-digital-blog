@@ -165,4 +165,4 @@ Revisa o planejamento. Talvez você esteja colocando tarefas grandes demais pra 
 
 📱 Siga **@andrehs.dev** no Instagram pra mais dicas de produtividade e tecnologia.
 
-👉 Leia também: [Automação para pequenas empresas — guia prático](/post/automacao-pequenas-empresas) | [5 equipamentos tech que valem cada centavo](/post/5-equipamentos-essenciais-home-office)
+👉 Leia também: [Automação para pequenas empresas — guia prático](/post/automacao-pequenas-empresas) | [5 equipamentos tech que valem cada centavo](/post/5-equipamentos-essenciais-home-office) | [10 Ferramentas de IA Gratuitas para Aumentar a Produtividade](/post/10-ferramentas-ia-gratuitas-produtividade)
