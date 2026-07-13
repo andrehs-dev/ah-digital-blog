@@ -1,0 +1,43 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="250" cy="250" r="300" fill="url(#glow1)"/>
+  <g opacity="0.03" stroke="#ffffff">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+  </g>
+  <!-- Ícone: home / escritório -->
+  <g transform="translate(600, 200)">
+    <rect x="-45" y="-35" width="90" height="70" rx="8" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.5"/>
+    <polygon points="-50,-35 0,-60 50,-35" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.5"/>
+    <rect x="-15" y="-5" width="30" height="40" rx="3" fill="url(#accent)" opacity="0.2"/>
+    <rect x="-15" y="-5" width="30" height="40" rx="3" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <text x="80" y="380" font-family="Montserrat, system-ui, sans-serif" font-size="52" font-weight="700" fill="#ffffff">
+    Home Office
+  </text>
+  <text x="80" y="445" font-family="Montserrat, system-ui, sans-serif" font-size="52" font-weight="700" fill="#ffffff">
+    Produtivo
+  </text>
+  <text x="80" y="500" font-family="Montserrat, system-ui, sans-serif" font-size="22" font-weight="400" fill="#a0a0c0">
+    Ferramentas e rotina que funcionam de verdade
+  </text>
+  <rect x="80" y="530" width="60" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="80" y="575" font-family="Montserrat, system-ui, sans-serif" font-size="12" fill="#404070" letter-spacing="3">AH DIGITAL BLOG</text>
+</svg>

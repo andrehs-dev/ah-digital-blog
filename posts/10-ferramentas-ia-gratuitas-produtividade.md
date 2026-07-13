@@ -193,4 +193,4 @@ Pegue uma ferramenta da lista, use por uma semana, e veja o que muda. Depois me 
 
 📱 Siga **@andrehs.dev** no Instagram pra mais conteúdo sobre IA e produtividade pra pequenos negócios.
 
-📖 Leia também: [10 Dicas de Produtividade para Programadores](/post/dicas-produtividade)
+📖 Leia também: [10 Dicas de Produtividade para Programadores](/post/dicas-produtividade) • [Como a IA Está Mudando a Rotina de Freelancers e MEIs](/post/como-a-ia-esta-mudando-a-rotina-de-quem-trabalha-sozinho-freelancer-mei)
