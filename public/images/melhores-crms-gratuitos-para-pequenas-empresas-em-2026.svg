@@ -1,0 +1,47 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="200" cy="250" r="300" fill="url(#glow1)"/>
+  <g opacity="0.03" stroke="#ffffff">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+  </g>
+  <!-- Ícone central: CRM -->
+  <g transform="translate(600, 170)">
+    <rect x="-80" y="-60" width="160" height="120" rx="16" stroke="url(#accent)" stroke-width="3" fill="none"/>
+    <text x="0" y="10" font-family="Montserrat, system-ui, sans-serif" font-size="40" font-weight="800" text-anchor="middle" fill="#ffffff">CRM</text>
+    <text x="0" y="40" font-family="Montserrat, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#00d4ff" letter-spacing="4">GRÁTIS</text>
+  </g>
+  <text x="80" y="360" font-family="Montserrat, system-ui, sans-serif" font-size="46" font-weight="700" fill="#ffffff">
+    Melhores CRMs Gratuitos
+  </text>
+  <text x="80" y="410" font-family="Montserrat, system-ui, sans-serif" font-size="36" font-weight="400" fill="#a0a0b8">
+    para Pequenas Empresas em 2026
+  </text>
+  <text x="80" y="470" font-family="Montserrat, system-ui, sans-serif" font-size="18" fill="#606080">
+    HubSpot · Bitrix24 · Zoho · Pipedrive · Freshsales · e mais
+  </text>
+  <!-- Badge -->
+  <g transform="translate(880, 480)">
+    <rect x="0" y="0" width="200" height="40" rx="20" fill="url(#accent)" opacity="0.3"/>
+    <text x="100" y="25" font-family="Montserrat, system-ui, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#ffffff">
+      Guia Completo 2026 →
+    </text>
+  </g>
+</svg>

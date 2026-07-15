@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Grid pattern -->
+  <g opacity="0.05">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="1200" y2="400" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="500" x2="1200" y2="500" stroke="#fff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#fff" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#fff" stroke-width="0.5"/>
+  </g>
+  <!-- Decorative circles -->
+  <circle cx="150" cy="150" r="60" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.3"/>
+  <circle cx="1050" cy="480" r="80" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.2"/>
+  <circle cx="1100" cy="120" r="40" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.25"/>
+  <!-- Icons representing AI image generation -->
+  <g transform="translate(90, 200)" opacity="0.15">
+    <rect x="0" y="0" width="80" height="80" rx="12" fill="none" stroke="#818cf8" stroke-width="1.5"/>
+    <circle cx="28" cy="30" r="8" fill="#818cf8" opacity="0.5"/>
+    <path d="M15 55 L30 38 L45 55 L60 42 L72 58" stroke="#818cf8" stroke-width="1.5" fill="none"/>
+  </g>
+  <g transform="translate(1030, 200)" opacity="0.12">
+    <rect x="0" y="0" width="80" height="80" rx="12" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+    <circle cx="40" cy="35" r="10" fill="#a78bfa" opacity="0.4"/>
+    <path d="M20 50 L35 38 L50 50 L60 42" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- Main title -->
+  <text x="600" y="240" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#f1f5f9" letter-spacing="-0.5">
+    Melhores IAs para
+  </text>
+  <text x="600" y="310" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="url(#accent)" letter-spacing="-0.5">
+    Criar Imagens
+  </text>
+  <!-- Subtitle -->
+  <rect x="380" y="340" width="440" height="3" rx="1.5" fill="#6366f1" opacity="0.5"/>
+  <text x="600" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#94a3b8" letter-spacing="0.5">
+    2026 — Grátis e Pagas
+  </text>
+  <!-- Bottom bar with tools -->
+  <rect x="150" y="440" width="900" height="1" fill="#1e293b"/>
+  <g transform="translate(600, 490)" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">
+    <text x="-380" y="0">DALL·E 4</text>
+    <text x="-260" y="0">Midjourney</text>
+    <text x="-130" y="0">Leonardo</text>
+    <text x="0" y="0">Canva</text>
+    <text x="110" y="0">Firefly</text>
+    <text x="230" y="0">Stable Diffusion</text>
+    <text x="380" y="0">+ mais</text>
+  </g>
+</svg>
