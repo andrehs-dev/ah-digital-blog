@@ -1,0 +1,72 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#151530"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#7b2ff7"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0" y1="0.5" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="280" fill="url(#glow1)"/>
+  <rect x="800" y="0" width="400" height="630" fill="url(#glow2)"/>
+  <g opacity="0.04" stroke="#ffffff">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+  </g>
+  <!-- Monitor/Tela -->
+  <g transform="translate(320, 180)">
+    <rect x="-90" y="-65" width="180" height="130" rx="12" stroke="url(#accent)" stroke-width="2.5" fill="none"/>
+    <rect x="-75" y="-50" width="150" height="100" rx="4" fill="#0d0d2b"/>
+    <!-- Navbar simulada -->
+    <rect x="-60" y="-40" width="120" height="8" rx="2" fill="#7b2ff7" opacity="0.5"/>
+    <!-- Boxes simulando layout de site -->
+    <rect x="-60" y="-22" width="55" height="30" rx="3" fill="#00d4ff" opacity="0.15"/>
+    <rect x="5" y="-22" width="55" height="30" rx="3" fill="#7b2ff7" opacity="0.15"/>
+    <rect x="-60" y="18" width="120" height="6" rx="2" fill="#ffffff" opacity="0.12"/>
+    <rect x="-60" y="30" width="80" height="6" rx="2" fill="#ffffff" opacity="0.08"/>
+    <rect x="-60" y="42" width="100" height="4" rx="2" fill="#ffffff" opacity="0.06"/>
+    <!-- Dollar signs -->
+    <text x="60" y="10" font-family="monospace" font-size="20" fill="#00ff88" opacity="0.4">R$</text>
+  </g>
+  <!-- Texto principal -->
+  <text x="630" y="380" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="white" letter-spacing="-1">
+    Site Profissional
+  </text>
+  <text x="630" y="430" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="url(#accent)" letter-spacing="-1">
+    Gastando Pouco
+  </text>
+  <text x="630" y="470" font-family="system-ui, sans-serif" font-size="18" fill="#9ca3af" letter-spacing="0.5">
+    Guia 2026 com custos, ferramentas e passo a passo
+  </text>
+  <!-- Tag "R$ Baixo Custo" -->
+  <g transform="translate(630, 510)">
+    <rect x="0" y="0" width="100" height="28" rx="14" fill="#00d4ff" opacity="0.15"/>
+    <rect x="0" y="0" width="100" height="28" rx="14" stroke="#00d4ff" stroke-width="1" fill="none" opacity="0.4"/>
+    <text x="50" y="19" font-family="system-ui, sans-serif" font-size="12" fill="#00d4ff" text-anchor="middle">Guia Prático</text>
+  </g>
+  <!-- Logo cantos -->
+  <text x="50" y="580" font-family="system-ui, sans-serif" font-size="14" fill="#ffffff" opacity="0.15">AH Digital Blog</text>
+  <text x="1150" y="580" font-family="system-ui, sans-serif" font-size="14" fill="#ffffff" opacity="0.15" text-anchor="end">ah-digital.com.br</text>
+</svg>
