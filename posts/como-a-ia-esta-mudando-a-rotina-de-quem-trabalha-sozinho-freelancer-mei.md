@@ -134,6 +134,6 @@ No fim das contas, a pergunta não é "IA vai substituir meu trabalho?" É "o qu
 
 ---
 
-📖 Leia também: [10 Ferramentas de IA Gratuitas para Aumentar a Produtividade](/post/10-ferramentas-ia-gratuitas-produtividade)
+📖 Leia também: [MEI Pode Usar IA? O Que Muda na Prática](/post/mei-pode-usar-ia-o-que-muda-na-pratica) • [10 Ferramentas de IA Gratuitas para Aumentar a Produtividade](/post/10-ferramentas-ia-gratuitas-produtividade)
 
 *Este post faz parte da série de produtividade do AH Digital Blog. Siga **@andrehs.dev** no Instagram pra mais conteúdo sobre IA, ferramentas digitais e como pequenos negócios podem usar tecnologia pra crescer.*
