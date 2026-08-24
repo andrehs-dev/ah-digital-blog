@@ -174,4 +174,4 @@ Criar a landing page é só o primeiro passo. Configurar o formulário certo, in
 
 ---
 
-👉 Leia também: [Melhores CRMs Gratuitos para Pequenas Empresas em 2026](/post/melhores-crms-gratuitos-para-pequenas-empresas-em-2026) • [Como Automatizar o WhatsApp da Sua Empresa](/post/como-automatizar-whatsapp-empresa) • [Chatbot para Pequena Empresa: Vale a Pena?](/post/chatbot-para-pequena-empresa-vale-a-pena)
+👉 Leia também: [Melhores CRMs Gratuitos para Pequenas Empresas em 2026](/post/melhores-crms-gratuitos-para-pequenas-empresas-em-2026) • [Como Automatizar o WhatsApp da Sua Empresa](/post/como-automatizar-whatsapp-empresa) • [Chatbot para Pequena Empresa: Vale a Pena?](/post/chatbot-para-pequena-empresa-vale-a-pena) • [Melhor Site para Criar Landing Page Grátis (2026)](/post/melhor-site-para-criar-landing-page-gratis)
