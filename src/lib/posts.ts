@@ -24,6 +24,7 @@ export function getAllPosts(): PostMeta[] {
         tags: data.tags || [],
         image: data.image || null,
         readingTime: Math.max(1, Math.ceil(wordCount / wordsPerMinute)),
+        faq: data.faq || [],
       } as PostMeta;
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -50,6 +51,7 @@ export function getPost(slug: string): Post | null {
       tags: data.tags || [],
       image: data.image || null,
       readingTime: Math.max(1, Math.ceil(wordCount / wordsPerMinute)),
+      faq: data.faq || [],
     },
     content,
   };

@@ -6,6 +6,7 @@ export interface PostMeta {
   tags: string[];
   image?: string;
   readingTime: number;
+  faq?: { question: string; answer: string }[];
 }
 
 export interface Post {
