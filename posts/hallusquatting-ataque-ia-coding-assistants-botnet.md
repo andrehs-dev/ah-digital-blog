@@ -149,7 +149,7 @@ O paper completo está disponível no site dos pesquisadores: [agentic-botnets r
 
 ---
 
-📖 **Leia também:** [Como usar IA para organizar sua rotina de trabalho](./como-usar-ia-para-organizar-sua-rotina-de-trabalho) | [Ferramentas de IA gratuitas para produtividade](./10-ferramentas-ia-gratuitas-produtividade) | [Anthropic Claude Sonnet 5: IA mais barata e capaz de agir sozinha](./anthropic-claude-sonnet-5-agentes-ia-baratos)
+📖 **Leia também:** [Como usar IA para organizar sua rotina de trabalho](./como-usar-ia-para-organizar-sua-rotina-de-trabalho) | [Ferramentas de IA gratuitas para produtividade](./10-ferramentas-ia-gratuitas-produtividade) | [Anthropic Claude Sonnet 5: IA mais barata e capaz de agir sozinha](./anthropic-claude-sonnet-5-agentes-ia-baratos) | [OpenAI alerta para ciberataques contínuos gerados por IA](/post/openai-alerta-ciberataques-gerados-por-ia)
 
 ---
 
