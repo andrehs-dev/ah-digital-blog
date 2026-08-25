@@ -66,7 +66,7 @@ Guerra entre Hollywood e o Vale do Silicio esta so comecando. E, como toda guerr
 
 ---
 
-📖 Leia tambem: [Shadow AI, o risco escondido da sua empresa](/post/shadow-ai-risco-escondido-empresas)
+📖 Leia também: [Shadow AI, o risco escondido da sua empresa](/post/shadow-ai-risco-escondido-empresas) | [Amazon e Twitch são processadas por usar lives para treinar IA](/post/amazon-twitch-lives-treinamento-ia)
 
 ---
 

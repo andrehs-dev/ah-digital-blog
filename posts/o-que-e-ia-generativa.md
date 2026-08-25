@@ -185,4 +185,6 @@ A diferença entre quem vai se beneficiar dessa revolução e quem vai ficar par
 
 Quer saber como transformar esse conhecimento em renda? Dá uma olhada no post [**Como ganhar dinheiro com IA Generativa em 2026**](/post/como-ganhar-dinheiro-com-ia-generativa) — tem um guia prático com ferramentas, estratégias e cases reais.
 
+E se você quer ver na prática como a origem dos dados de treinamento virou polêmica judicial, leia sobre o processo contra a [**Amazon e Twitch por usar lives para treinar IA**](/post/amazon-twitch-lives-treinamento-ia).
+
 E se você já usa IA no dia a dia, me conta nos comentários: qual ferramenta mais te surpreendeu até hoje?
