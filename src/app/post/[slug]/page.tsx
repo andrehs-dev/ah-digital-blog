@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
+  const baseUrl = "https://ah-digital-blog.vercel.app";
   return {
     title: post.meta.title,
     description: post.meta.description,
@@ -32,6 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       publishedTime: post.meta.date,
       tags: post.meta.tags,
+      images: [{ url: `${baseUrl}${post.meta.image}` }],
     },
   };
 }
