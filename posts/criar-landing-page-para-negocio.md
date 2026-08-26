@@ -51,6 +51,8 @@ Toda landing page que converte segue a mesma anatomia. Não é segredo e não é
 
 **Botão de ação visível.** O botão precisa aparecer sem o visitante rolar a tela e precisa repetir no final da página. Texto do botão diz a ação: "Agendar agora", "Fazer orçamento", "Chamar no WhatsApp".
 
+Essa estrutura não é invenção minha. Guias de referência em marketing digital, como o [passo a passo de landing page da RD Station](https://www.rdstation.com/blog/marketing/como-criar-uma-landing-page/), seguem exatamente essa lógica: título direto, benefício claro, formulário curto e um único CTA. Se o seu negócio atende pelo WhatsApp, o botão de ação pode ser o próprio link de conversa, e isso encurta ainda mais o caminho até o cliente.
+
 ## Como criar landing page para o seu negócio em 6 passos
 
 O processo é o mesmo em qualquer ferramenta. Siga esta ordem e você economiza horas de retrabalho.
