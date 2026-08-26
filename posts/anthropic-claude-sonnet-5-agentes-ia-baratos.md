@@ -73,4 +73,8 @@ O Sonnet 5 já está disponível em **claude.ai** (gratuito e Pro), na **API da 
 
 ---
 
-**Fonte:** [TechCrunch — Anthropic launches Claude Sonnet 5](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/) | [Anthropic Blog](https://www.anthropic.com/)
+📖 Leia também: [Claude unifica a memória do chat com o Cowork](/post/claude-memoria-unificada-cowork-chat), a atualização que transforma o Claude em um agente com contexto de longo prazo.
+
+---
+
+**Fonte:** [TechCrunch: Anthropic launches Claude Sonnet 5](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/) | [Anthropic Blog](https://www.anthropic.com/)

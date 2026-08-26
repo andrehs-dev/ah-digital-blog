@@ -87,6 +87,8 @@ Se você quer entender IA de forma mais ampla — desde os fundamentos até apli
 
 📖 Leia também: [GPT-5.6 Sol, Terra e Luna: OpenAI anuncia lançamento público](/post/gpt-56-sol-terra-luna-lancamento-publico) com três versões de IA e preços que vão de US$ 1 a US$ 30 por milhão de tokens.
 
+📖 Leia também: [Claude unifica a memória do chat com o Cowork](/post/claude-memoria-unificada-cowork-chat), a resposta da Anthropic na corrida das IAs por memória persistente.
+
 ---
 
 **Fonte:** [Tecnoblog](https://tecnoblog.net/noticias/openai-melhorou-a-memoria-do-chatgpt-e-o-que-isso-quer-dizer/)
