@@ -190,4 +190,4 @@ Escolher a ferramenta é só o começo. Configurar o formulário certo, integrar
 
 📬 Gostou do conteúdo? Assine a newsletter e receba os próximos posts no email, sem spam e sem notificação enchendo o saco.
 
-👉 Leia também: [5 Sites Grátis para Criar Landing Page Sem Programar](/post/5-sites-gratis-para-criar-landing-page-sem-programar) • [Como Criar um Site Profissional Gastando Pouco](/post/criar-site-profissional-gastando-pouco) • [Melhores CRMs Gratuitos para Pequenas Empresas](/post/melhores-crms-gratuitos-para-pequenas-empresas-em-2026) • [Como Criar Landing Page no Celular](/post/como-criar-landing-page-no-celular)
+👉 Leia também: [Criar Landing Page para o Meu Negócio: Guia Completo](/post/criar-landing-page-para-negocio) • [5 Sites Grátis para Criar Landing Page Sem Programar](/post/5-sites-gratis-para-criar-landing-page-sem-programar) • [Como Criar um Site Profissional Gastando Pouco](/post/criar-site-profissional-gastando-pouco) • [Melhores CRMs Gratuitos para Pequenas Empresas](/post/melhores-crms-gratuitos-para-pequenas-empresas-em-2026) • [Como Criar Landing Page no Celular](/post/como-criar-landing-page-no-celular)
