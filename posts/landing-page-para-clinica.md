@@ -162,4 +162,4 @@ Criar a página é uma coisa. Fazer ela trazer paciente é outra. A **AH Digital
 
 📬 Gostou do conteúdo? Assine a newsletter e receba os próximos posts no email, sem spam e sem notificação enchendo o saco.
 
-👉 Leia também: [Criar Landing Page para o Meu Negócio](/post/criar-landing-page-para-negocio) • [Melhor Site para Criar Landing Page Grátis](/post/melhor-site-para-criar-landing-page-gratis) • [Como Criar Landing Page no Celular](/post/como-criar-landing-page-no-celular) • [Como Automatizar o WhatsApp da Sua Empresa](/post/como-automatizar-whatsapp-empresa)
+👉 Leia também: [Criar Landing Page para o Meu Negócio](/post/criar-landing-page-para-negocio) • [Melhor Site para Criar Landing Page Grátis](/post/melhor-site-para-criar-landing-page-gratis) • [Landing Page para Restaurante](/post/landing-page-para-restaurante) • [Como Criar Landing Page no Celular](/post/como-criar-landing-page-no-celular) • [Como Automatizar o WhatsApp da Sua Empresa](/post/como-automatizar-whatsapp-empresa)
