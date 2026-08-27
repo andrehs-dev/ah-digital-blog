@@ -129,3 +129,5 @@ Quer se aprofundar em como aplicar IA no dia a dia do seu negócio? O livro **"I
 ---
 
 **Fonte:** [Canaltech: O que é Gemini Spark?](https://canaltech.com.br/inteligencia-artificial/o-que-e-gemini-spark-conheca-o-agente-de-ia-pessoal-do-google/)
+
+📖 Leia também: [ChatGPT Work faz login em sites e conclui tarefas por você](/post/chatgpt-work-login-sites-tarefas-automaticas).

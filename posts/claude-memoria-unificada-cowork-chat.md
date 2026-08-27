@@ -127,4 +127,4 @@ A notícia é desta semana, e a tendência é que a corrida de memória entre as
 
 **Fonte:** [Canaltech: Chega de se reexplicar, Claude finalmente unifica memória do chat com Cowork](https://canaltech.com.br/inteligencia-artificial/chega-de-se-reexplicar-claude-finalmente-unifica-memoria-do-chat-com-cowork/) e [Anthropic: Claude's memory works everywhere](https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it)
 
-📖 Leia também: [OpenAI melhorou a memória do ChatGPT: entenda a nova arquitetura](/post/openai-melhorou-a-memoria-do-chatgpt) e [Anthropic lança Claude Sonnet 5, a IA mais barata capaz de agir sozinha](/post/anthropic-claude-sonnet-5-agentes-ia-baratos).
+📖 Leia também: [OpenAI melhorou a memória do ChatGPT: entenda a nova arquitetura](/post/openai-melhorou-a-memoria-do-chatgpt), [Anthropic lança Claude Sonnet 5, a IA mais barata capaz de agir sozinha](/post/anthropic-claude-sonnet-5-agentes-ia-baratos) e [ChatGPT Work faz login em sites e conclui tarefas por você](/post/chatgpt-work-login-sites-tarefas-automaticas).
