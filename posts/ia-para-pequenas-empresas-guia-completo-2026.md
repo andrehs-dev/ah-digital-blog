@@ -171,4 +171,4 @@ Se você quer se aprofundar no tema, o Kindle 11ª Geração é leve, tem bateri
 
 ---
 
-📖 Leia também: [MEI Pode Usar IA? O Que Muda na Prática pro Pequeno Empreendedor](/post/mei-pode-usar-ia-o-que-muda-na-pratica) • [Como a IA Está Mudando a Rotina de Quem Trabalha Sozinho (Freelancer/MEI)](/post/como-a-ia-esta-mudando-a-rotina-de-quem-trabalha-sozinho-freelancer-mei)
+📖 Leia também: [MEI Pode Usar IA? O Que Muda na Prática pro Pequeno Empreendedor](/post/mei-pode-usar-ia-o-que-muda-na-pratica) • [Como a IA Está Mudando a Rotina de Quem Trabalha Sozinho (Freelancer/MEI)](/post/como-a-ia-esta-mudando-a-rotina-de-quem-trabalha-sozinho-freelancer-mei) • [Alibaba abre 2 data centers no Brasil e mira mercado de IA](/post/alibaba-data-centers-brasil-ia)
